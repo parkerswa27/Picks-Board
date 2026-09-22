@@ -1,0 +1,56 @@
+{
+  "updated_at": "2026-09-22T14:00:00Z",
+  "betting_model": [
+    { "tier": "top", "matchup": "NYY @ BOS", "market": "Moneyline", "pick": "NYY -135", "confidence": 0.71, "edge": 5.2 },
+    { "tier": "top", "matchup": "KC @ BUF", "market": "Spread -2.5", "pick": "BUF -2.5", "confidence": 0.66, "edge": 4.8 },
+    { "tier": "medium", "matchup": "LAD @ SF", "market": "Run Line -1.5", "pick": "LAD -1.5", "confidence": 0.58, "edge": 1.9 },
+    { "tier": "medium", "matchup": "DAL @ PHI", "market": "Total", "pick": "Over 47.5", "confidence": 0.56, "edge": 1.2 },
+    { "tier": "lean", "matchup": "MIA @ ATL", "market": "Total", "pick": "Under 8.5", "confidence": 0.52, "edge": 0.4 },
+    { "tier": "lean", "matchup": "SEA @ LAR", "market": "Moneyline", "pick": "SEA +120", "confidence": 0.51, "edge": 0.6 }
+  ],
+  "player_props": {
+    "picks": [
+      { "sport": "MLB", "player": "A. Judge", "market": "Total Bases O/U 1.5", "pick": "Over", "confidence": 0.61, "edge": 3.1 },
+      { "sport": "MLB", "player": "M. Betts", "market": "Hits O/U 0.5", "pick": "Over", "confidence": 0.72, "edge": 5.4 },
+      { "sport": "MLB", "player": "S. Ohtani", "market": "Strikeouts O/U 6.5", "pick": "Under", "confidence": 0.55, "edge": 0.8 },
+      { "sport": "MLB", "player": "F. Freeman", "market": "Hits O/U 0.5", "pick": "Over", "confidence": 0.59, "edge": 2.0 },
+      { "sport": "MLB", "player": "R. Devers", "market": "Total Bases O/U 1.5", "pick": "Over", "confidence": 0.57, "edge": 1.6 },
+      { "sport": "MLB", "player": "J. Alvarez", "market": "RBI O/U 0.5", "pick": "Over", "confidence": 0.60, "edge": 2.4 },
+      { "sport": "MLB", "player": "C. Bellinger", "market": "Hits O/U 0.5", "pick": "Over", "confidence": 0.54, "edge": 0.9 },
+      { "sport": "MLB", "player": "T. Turner", "market": "Total Bases O/U 1.5", "pick": "Over", "confidence": 0.58, "edge": 1.8 },
+      { "sport": "MLB", "player": "P. Alonso", "market": "Home Runs O/U 0.5", "pick": "Under", "confidence": 0.63, "edge": 3.5 },
+      { "sport": "MLB", "player": "K. Tucker", "market": "Hits O/U 0.5", "pick": "Over", "confidence": 0.56, "edge": 1.3 },
+      { "sport": "NFL", "player": "P. Mahomes", "market": "Pass Yards O/U 275.5", "pick": "Over", "confidence": 0.60, "edge": 2.7 },
+      { "sport": "NFL", "player": "J. Jefferson", "market": "Receiving Yards O/U 84.5", "pick": "Over", "confidence": 0.58, "edge": 2.1 },
+      { "sport": "NFL", "player": "C. McCaffrey", "market": "Rush + Rec Yards O/U 110.5", "pick": "Over", "confidence": 0.61, "edge": 3.0 },
+      { "sport": "NFL", "player": "T. Kelce", "market": "Receptions O/U 5.5", "pick": "Over", "confidence": 0.57, "edge": 1.7 },
+      { "sport": "NFL", "player": "A. St. Brown", "market": "Receiving Yards O/U 76.5", "pick": "Under", "confidence": 0.55, "edge": 1.0 },
+      { "sport": "NFL", "player": "J. Allen", "market": "Pass TDs O/U 1.5", "pick": "Over", "confidence": 0.62, "edge": 3.2 },
+      { "sport": "NFL", "player": "S. Barkley", "market": "Rush Yards O/U 68.5", "pick": "Over", "confidence": 0.59, "edge": 2.2 },
+      { "sport": "NFL", "player": "D. Adams", "market": "Receptions O/U 6.5", "pick": "Under", "confidence": 0.54, "edge": 0.7 },
+      { "sport": "NFL", "player": "T. Hill", "market": "Receiving Yards O/U 89.5", "pick": "Over", "confidence": 0.60, "edge": 2.6 },
+      { "sport": "NFL", "player": "L. Jackson", "market": "Rush Yards O/U 55.5", "pick": "Over", "confidence": 0.63, "edge": 3.4 }
+    ],
+    "parlays": [
+      {
+        "legs": 3,
+        "odds": "+450",
+        "selections": [
+          "A. Judge — Total Bases Over 1.5",
+          "M. Betts — Hits Over 0.5",
+          "P. Alonso — Home Runs Under 0.5"
+        ]
+      },
+      {
+        "legs": 4,
+        "odds": "+900",
+        "selections": [
+          "P. Mahomes — Pass Yards Over 275.5",
+          "C. McCaffrey — Rush + Rec Yards Over 110.5",
+          "J. Allen — Pass TDs Over 1.5",
+          "L. Jackson — Rush Yards Over 55.5"
+        ]
+      }
+    ]
+  }
+}

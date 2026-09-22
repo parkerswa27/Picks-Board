@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Board</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="masthead__title">
+      <span class="masthead__mark">◆</span>
+      <h1>The Board</h1>
+    </div>
+    <div class="masthead__meta">
+      <span class="updated-label">Last run</span>
+      <span id="updated-at" class="updated-value">—</span>
+    </div>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button class="tabs__btn is-active" data-target="betting_model">Betting Model</button>
+    <button class="tabs__btn" data-target="player_props">Player Props</button>
+  </nav>
+
+  <main>
+    <section class="panel is-active" id="panel-betting_model">
+      <table class="ledger">
+        <thead>
+          <tr>
+            <th>Matchup</th>
+            <th>Market</th>
+            <th>Pick</th>
+            <th class="num">Conf.</th>
+            <th class="num">Edge</th>
+          </tr>
+        </thead>
+        <tbody id="rows-betting_model"></tbody>
+      </table>
+    </section>
+
+    <section class="panel" id="panel-player_props">
+      <table class="ledger">
+        <thead>
+          <tr>
+            <th>Player</th>
+            <th>Market</th>
+            <th>Pick</th>
+            <th class="num">Conf.</th>
+            <th class="num">Edge</th>
+          </tr>
+        </thead>
+        <tbody id="rows-player_props"></tbody>
+      </table>
+
+      <div id="parlays" class="parlays" hidden></div>
+    </section>
+
+    <p id="empty-state" class="empty-state" hidden>
+      No picks loaded. Check that <code>data.json</code> exists next to this page.
+    </p>
+  </main>
+
+  <footer class="footer">
+    <span>Model output only. Not betting advice.</span>
+  </footer>
+
+<script src="app.js"></script>
+</body>
+</html>
