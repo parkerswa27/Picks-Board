@@ -1,0 +1,168 @@
+# Model output spec
+
+Paste the relevant section below into your model's instructions (or into the
+Claude Code scheduled-task prompt) so its output matches what the site
+expects in `data.json`.
+
+## Betting model
+
+**Selection is by edge, not a hard confidence floor.** Pull straight from
+`bets.db` — never re-price. A pick can be under 50% confidence and still be
+the card's best play if the edge is real; don't drop it and don't flip the
+card to the other side just to clear a floor.
+
+**`confidence` is always the model's honest win probability.** Never adjust
+it to make a pick look more presentable. Sub-50% picks still get published —
+they tier as Lean, not dropped.
+
+**Tiers:**
+- Top Play — confidence ≥ 65%
+- Medium — confidence 55–65%
+- Lean — everything else that clears the edge bar, including sub-50% picks
+
+**SUPPRESS set.** If a market gets cut from core (per the ledger), add it to
+SUPPRESS the same day — it can't be published, let alone as a Top Play, while
+excluded. Revisit the SUPPRESS set periodically against fresh results; a cut
+market isn't necessarily cut forever.
+
+**Data hygiene:** exclude games already in progress at generation time —
+picks on in-progress games aren't picks. Screen out known data artifacts
+(missing/unconfirmed starters, pitchers with too few starts to trust, etc.)
+even when they'd otherwise carry the biggest raw edge on the board.
+
+Output each pick as:
+```json
+{ "tier": "top", "matchup": "NYY @ BOS", "market": "Moneyline", "pick": "NYY -135", "confidence": 0.68, "edge": 4.2 }
+```
+`tier` is one of `"top"`, `"medium"`, `"lean"`. `edge` is a plain signed number (points), never a string.
+
+## Player prop model
+
+**Quality over quantity.** Aim for 10+ individual picks per sport, but if
+fewer than 10 legs actually qualify (e.g. games already started, or only a
+weaker confidence tier remains), publish what qualifies and don't pad with
+excluded-tier legs just to hit the count. Fewer clean picks beats a padded
+card.
+
+**Calibration correction is standing behavior, not a per-day ask.** If your
+own graded history shows a systematic gap between a confidence tier's stated
+number and its actual hit rate, apply that correction by default before
+`confidence` goes into the file — a number that's known to run hot isn't
+honest just because it's the model's raw output. Recompute the offset
+periodically as the graded sample grows; don't freeze it at whatever the
+first measurement was.
+
+**`confidence` and `edge` must be plain numbers** — `confidence` a 0–1
+probability, `edge` a signed number like `3.1`. If the underlying database
+stores something else (e.g. a 1–10 card score), convert it before writing
+the file. Put any extra reasoning or the raw market number in a separate
+field if you want to keep it — never in `edge` or `confidence` themselves,
+or the site's formatter will silently blank that row.
+
+**Exclude in-progress games** at generation time, same as the betting model.
+
+**Parlays:** single book only, so it's actually placeable as one ticket. No
+two legs from the same game. No leg reused between the 3-leg and 4-leg
+parlay.
+
+Output individual picks as:
+```json
+{ "sport": "MLB", "player": "A. Judge", "market": "Total Bases O/U 1.5", "pick": "Over", "tier": "medium", "confidence": 0.61, "edge": 3.1 }
+```
+`tier` is one of `"top"`, `"medium"`, `"lean"` — see Unit sizing below for what each is worth and how to set thresholds for this model.
+
+Output each parlay as:
+```json
+{
+  "legs": 3,
+  "odds": "+450",
+  "selections": [
+    "A. Judge — Total Bases Over 1.5",
+    "M. Betts — Hits Over 0.5",
+    "S. Ohtani — Strikeouts Under 6.5"
+  ]
+}
+```
+
+## Unit sizing
+
+Every published pick carries a `tier`, and stake follows tier directly:
+
+- Top / high confidence — **1.5u**
+- Medium — **1.0u**
+- Lean / low confidence — **0.75u**
+
+This now applies to **both** models — player props need a `tier` field too,
+not just the betting model. Don't force props into the betting model's
+65%/55% confidence cutoffs, though — prop confidence runs lower across the
+board (see the calibration note above), so those thresholds would leave
+almost everything in Lean. Set thresholds that make sense for the props
+model's own calibrated confidence range, and keep them consistent day to day
+so the units figure stays comparable across dates.
+
+When grading a day for `record.json`, each pick's contribution to that day's
+`units` total is its stake at its tier, resolved at its own odds — a win
+nets stake × implied payout, a loss costs the full stake, a push is 0. Sum
+those per section to get the day's `units` figure; don't set it by hand
+separately from the graded picks.
+
+## Track record (`record.json`)
+
+This file is **append-only history**, separate from `data.json`. Each daily
+run should:
+
+1. Grade the **previous** day's picks once their games have finished (win / loss / push), using final results from `bets.db` / `props.db`.
+2. Append one new entry to the `days` array for that date — never overwrite or edit a previous day's entry once it's written.
+3. `wins` / `losses` / `pushes` and `units` are per-day totals for that section; the site sums across all days itself, so don't maintain a running cumulative total in the file.
+4. Parlays are graded independently — a parlay's win/loss doesn't change the win/loss tally of its individual legs, even if a leg also appears as a standalone pick that same day.
+5. Only grade games that have actually finished. If a day isn't fully graded yet (postponements, late games), leave it out of `record.json` until it is — don't publish partial or estimated results.
+
+Schema:
+
+```json
+{
+  "start_date": "2026-09-22",
+  "days": [
+    {
+      "date": "2026-09-22",
+      "betting_model": {
+        "wins": 5, "losses": 3, "pushes": 0, "units": 2.4,
+        "picks": [
+          { "matchup": "NYY @ BOS", "market": "Moneyline", "pick": "NYY -135", "tier": "top", "stake": 1.5, "result": "win" }
+        ]
+      },
+      "player_props": {
+        "wins": 7, "losses": 3, "pushes": 0, "units": 1.8,
+        "picks": [
+          { "player": "A. Judge", "market": "Total Bases O/U 1.5", "pick": "Over", "tier": "medium", "stake": 1.0, "result": "win" }
+        ]
+      },
+      "parlays": [
+        { "legs": 3, "odds": "+568", "result": "loss" }
+      ]
+    }
+  ]
+}
+```
+
+`result` is one of `"win"`, `"loss"`, `"push"`. `stake` is optional but
+recommended on each pick — it makes the day's `units` figure auditable
+against the tier table above instead of just trusting a hand-computed total.
+
+```json
+{
+  "updated_at": "2026-09-22T14:00:00Z",
+  "betting_model": [
+    { "tier": "top", "matchup": "NYY @ BOS", "market": "Moneyline", "pick": "NYY -135", "confidence": 0.68, "edge": 4.2 }
+  ],
+  "player_props": {
+    "picks": [
+      { "sport": "MLB", "player": "A. Judge", "market": "Total Bases O/U 1.5", "pick": "Over", "tier": "medium", "confidence": 0.61, "edge": 3.1 }
+    ],
+    "parlays": [
+      { "legs": 3, "odds": "+450", "selections": ["...", "...", "..."] },
+      { "legs": 4, "odds": "+900", "selections": ["...", "...", "...", "..."] }
+    ]
+  }
+}
+```
