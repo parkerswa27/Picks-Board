@@ -240,6 +240,112 @@ main {
   gap: 0.3rem;
 }
 
+.stat-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  border-radius: 3px;
+  padding: 1rem 1.1rem;
+}
+
+.stat-card__label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.5rem;
+}
+
+.stat-card__record {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.stat-card__units {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 0.25rem;
+}
+
+.record-log {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.record-day {
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  background: var(--panel);
+}
+
+.record-day summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 0.85rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.record-day summary::-webkit-details-marker { display: none; }
+
+.record-day__date {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.record-day__summary {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--muted);
+  display: flex;
+  gap: 1rem;
+}
+
+.record-day__body {
+  padding: 0 1rem 1rem;
+  border-top: 1px solid var(--line-soft);
+}
+
+.record-day__group-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0.9rem 0 0.4rem;
+}
+
+.record-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.record-table td {
+  padding: 0.4rem 0.3rem;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.result-win  { color: var(--sage); font-family: 'IBM Plex Mono', monospace; font-weight: 600; }
+.result-loss { color: var(--clay); font-family: 'IBM Plex Mono', monospace; font-weight: 600; }
+.result-push { color: var(--muted); font-family: 'IBM Plex Mono', monospace; font-weight: 600; }
+
+@media (max-width: 520px) {
+  .stat-row { grid-template-columns: 1fr; }
+}
+
 .empty-state {
   color: var(--muted);
   font-size: 0.9rem;

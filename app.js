@@ -110,6 +110,106 @@ function renderParlays(parlays) {
   wrap.innerHTML = `<h2 class="section-label">Parlays</h2>` + parlays.map(parlayCard).join("");
 }
 
+function fmtUnits(u) {
+  if (u === null || u === undefined) return null;
+  const sign = u > 0 ? "+" : "";
+  return `${sign}${u.toFixed(1)}u`;
+}
+
+function resultClass(result) {
+  return result === "win" ? "result-win" : result === "loss" ? "result-loss" : "result-push";
+}
+
+function statCard(label, wl) {
+  const record = `${wl.wins}-${wl.losses}${wl.pushes ? "-" + wl.pushes : ""}`;
+  const units = fmtUnits(wl.units);
+  return `
+    <div class="stat-card">
+      <div class="stat-card__label">${label}</div>
+      <div class="stat-card__record">${record}</div>
+      ${units !== null ? `<div class="stat-card__units">${units}</div>` : ""}
+    </div>`;
+}
+
+function pickResultRow(label, market, pick, result) {
+  return `<tr><td>${label}</td><td>${market ?? "—"}</td><td>${pick ?? "—"}</td><td class="${resultClass(result)}">${(result || "—").toUpperCase()}</td></tr>`;
+}
+
+function dayCard(day, isFirst) {
+  const bm = day.betting_model || { wins: 0, losses: 0, pushes: 0, picks: [] };
+  const pp = day.player_props || { wins: 0, losses: 0, pushes: 0, picks: [] };
+  const parlays = day.parlays || [];
+
+  const bmRows = (bm.picks || []).map(p => pickResultRow(p.matchup, p.market, p.pick, p.result)).join("");
+  const ppRows = (pp.picks || []).map(p => pickResultRow(p.player, p.market, p.pick, p.result)).join("");
+  const parlayRows = parlays.map(p => pickResultRow(`${p.legs}-Leg Parlay`, "", p.odds, p.result)).join("");
+
+  return `
+    <details class="record-day" ${isFirst ? "open" : ""}>
+      <summary>
+        <span class="record-day__date">${day.date}</span>
+        <span class="record-day__summary">
+          <span>Betting ${bm.wins}-${bm.losses}${bm.pushes ? "-" + bm.pushes : ""}</span>
+          <span>Props ${pp.wins}-${pp.losses}${pp.pushes ? "-" + pp.pushes : ""}</span>
+        </span>
+      </summary>
+      <div class="record-day__body">
+        ${bmRows ? `<div class="record-day__group-label">Betting Model</div><table class="record-table">${bmRows}</table>` : ""}
+        ${ppRows ? `<div class="record-day__group-label">Player Props</div><table class="record-table">${ppRows}</table>` : ""}
+        ${parlayRows ? `<div class="record-day__group-label">Parlays</div><table class="record-table">${parlayRows}</table>` : ""}
+      </div>
+    </details>`;
+}
+
+function renderTrackRecord(record) {
+  const days = (record?.days || []).slice().sort((a, b) => b.date.localeCompare(a.date));
+  const statRow = document.getElementById("stat-row");
+  const log = document.getElementById("record-log");
+  const empty = document.getElementById("record-empty");
+
+  if (!days.length) {
+    statRow.innerHTML = "";
+    log.innerHTML = "";
+    empty.hidden = false;
+    return;
+  }
+  empty.hidden = true;
+
+  const totals = { betting_model: { wins: 0, losses: 0, pushes: 0, units: 0 }, player_props: { wins: 0, losses: 0, pushes: 0, units: 0 }, parlays: { wins: 0, losses: 0, pushes: 0 } };
+  days.forEach(d => {
+    ["betting_model", "player_props"].forEach(key => {
+      const src = d[key];
+      if (!src) return;
+      totals[key].wins += src.wins || 0;
+      totals[key].losses += src.losses || 0;
+      totals[key].pushes += src.pushes || 0;
+      totals[key].units += src.units || 0;
+    });
+    (d.parlays || []).forEach(p => {
+      if (p.result === "win") totals.parlays.wins++;
+      else if (p.result === "loss") totals.parlays.losses++;
+      else totals.parlays.pushes++;
+    });
+  });
+
+  statRow.innerHTML =
+    statCard("Betting Model", totals.betting_model) +
+    statCard("Player Props", totals.player_props) +
+    statCard("Parlays", totals.parlays);
+
+  log.innerHTML = days.map((d, i) => dayCard(d, i === 0)).join("");
+}
+
+async function loadRecord() {
+  try {
+    const res = await fetch("record.json", { cache: "no-store" });
+    if (!res.ok) throw new Error("no record.json");
+    renderTrackRecord(await res.json());
+  } catch (err) {
+    renderTrackRecord(null);
+  }
+}
+
 async function load() {
   const emptyState = document.getElementById("empty-state");
   try {
@@ -149,3 +249,4 @@ function setupTabs() {
 
 setupTabs();
 load();
+loadRecord();

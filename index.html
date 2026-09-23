@@ -22,6 +22,7 @@
   <nav class="tabs" id="tabs">
     <button class="tabs__btn is-active" data-target="betting_model">Betting Model</button>
     <button class="tabs__btn" data-target="player_props">Player Props</button>
+    <button class="tabs__btn" data-target="track_record">Track Record</button>
   </nav>
 
   <main>
@@ -60,6 +61,14 @@
     <p id="empty-state" class="empty-state" hidden>
       No picks loaded. Check that <code>data.json</code> exists next to this page.
     </p>
+
+    <section class="panel" id="panel-track_record">
+      <div class="stat-row" id="stat-row"></div>
+      <p id="record-empty" class="empty-state" hidden>
+        No results yet. The log fills in once <code>record.json</code> has graded days.
+      </p>
+      <div id="record-log" class="record-log"></div>
+    </section>
   </main>
 
   <footer class="footer">
