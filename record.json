@@ -1,4 +1,23 @@
 {
   "start_date": "2026-09-22",
-  "days": []
+  "days": [
+    {
+      "date": "2026-09-22",
+      "betting_model": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "units": 0,
+        "picks": []
+      },
+      "player_props": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "units": 0,
+        "picks": []
+      },
+      "parlays": []
+    }
+  ]
 }

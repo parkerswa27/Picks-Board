@@ -1,0 +1,10 @@
+{
+  "player_props": {
+    "wins": 0,
+    "losses": 0,
+    "pushes": 0,
+    "units": 0,
+    "picks": []
+  },
+  "parlays": []
+}
