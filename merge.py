@@ -3,8 +3,9 @@
 merge.py — the only script allowed to write data.json and record.json.
 
 Neither model touches those files directly (see "Avoiding write conflicts"
-in model-instructions.md). Each model writes its own scratch file; this
-script combines them.
+in model-instructions.md -- that section is real again as of 9/23/26: the repo
+had been carrying the v1 spec under that name, which never had it). Each model
+writes its own scratch file; this script combines them.
 
 Usage:
 

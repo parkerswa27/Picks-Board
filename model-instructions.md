@@ -106,10 +106,34 @@ nets stake × implied payout, a loss costs the full stake, a push is 0. Sum
 those per section to get the day's `units` figure; don't set it by hand
 separately from the graded picks.
 
+## Avoiding write conflicts
+
+**Neither model writes to `data.json` or `record.json` directly.** Two
+independent scripts each regenerating the full file will eventually race —
+whichever finishes last silently wins, and the other's work disappears with
+no error. Instead:
+
+- The betting model writes only to its own scratch file — `betting_output.json`, shaped as `{ "betting_model": [...] }`.
+- The player prop model writes only to its own scratch file — `props_output.json`, shaped as `{ "player_props": {...}, "parlays": [...] }`.
+- A single **merge step** — run once, after both scratch files are fresh for the day — reads both, adds a fresh `updated_at`, and writes the combined `data.json`. This merge step is the only process allowed to write `data.json`.
+- The same rule applies to grading: each model writes its own day's graded results to a scratch file (`betting_graded_<date>.json`, `props_graded_<date>.json`). The merge step combines them into one `record.json` day entry — and only appends that day once **both** scratch files exist and are fully graded (rule 5 above still applies: no partial days).
+
+When you wire up the scheduled task later, its prompt should run the betting
+model, the prop model, and the merge step in that fixed order, in one
+session — not two independent triggers.
+
 ## Track record (`record.json`)
 
-This file is **append-only history**, separate from `data.json`. Each daily
-run should:
+This file is **append-only history**, separate from `data.json`. `start_date`
+is fixed at the date the site actually went live — **2026-09-22** — and it
+never moves earlier, even if a model has fully graded data for a day before
+that. A day that existed only in a database before the site published
+anything to anyone doesn't belong in the public record; backfilling it would
+credit a track record for picks nobody could see. This applies to both
+models equally, even if one of them has gradable data and the other doesn't
+for the same date.
+
+Each daily run should:
 
 1. Grade the **previous** day's picks once their games have finished (win / loss / push), using final results from `bets.db` / `props.db`.
 2. Append one new entry to the `days` array for that date — never overwrite or edit a previous day's entry once it's written.
