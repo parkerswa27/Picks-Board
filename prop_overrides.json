@@ -1,0 +1,14 @@
+{
+  "2026-09-24": {
+    "note": "Parker, tonight only: pass TDs / rush yds in place of the two weakest longshot TDs. Not a market allow/block decision.",
+    "drop": [
+      {"player": "Austin Hooper", "market": "anytime_td"},
+      {"player": "Michael Penix Jr.", "market": "anytime_td"}
+    ],
+    "add": [
+      {"player": "Michael Penix Jr.", "market": "pass_tds", "side": "Under"},
+      {"player": "Jordan Love", "market": "pass_tds", "side": "Under"},
+      {"player": "Jordan Love", "market": "rush_yds", "side": "Over"}
+    ]
+  }
+}

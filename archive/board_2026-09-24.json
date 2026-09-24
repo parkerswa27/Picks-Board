@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T17:26:04Z",
+  "updated_at": "2026-09-24T17:32:14Z",
   "betting_model": [
     {
       "tier": "lean",
@@ -93,6 +93,32 @@
   ],
   "player_props": {
     "picks": [
+      {
+        "sport": "NFL",
+        "player": "M. Penix Jr.",
+        "market": "Passing TDs O/U 1.5",
+        "pick": "Under",
+        "tier": "lean",
+        "confidence": 0.778,
+        "edge": 8.8,
+        "stake": 0.75,
+        "market_prob": 0.689,
+        "calibration": 0.0,
+        "basis": "coverage floor",
+        "ref": {
+          "sport": "NFL",
+          "event_id": "32648",
+          "player": "Michael Penix Jr.",
+          "market": "pass_tds",
+          "side": "Under",
+          "line": 1.5,
+          "price": -267,
+          "book": "DraftKings",
+          "game": "ATL Falcons @ GB Packers",
+          "team": "ATL"
+        },
+        "requested": "dated override (prop_overrides.json)"
+      },
       {
         "sport": "MLB",
         "player": "E. De La Cruz",
@@ -411,13 +437,13 @@
       {
         "sport": "NFL",
         "player": "C. Brooks",
-        "market": "Receiving Yards O/U 6.5",
+        "market": "Receiving Yards O/U 7.5",
         "pick": "Under",
         "tier": "lean",
         "confidence": 0.6,
-        "edge": 9.2,
+        "edge": 8.0,
         "stake": 0.75,
-        "market_prob": 0.508,
+        "market_prob": 0.52,
         "calibration": 0.0,
         "basis": "coverage floor",
         "ref": {
@@ -426,10 +452,11 @@
           "player": "Chris Brooks",
           "market": "rec_yds",
           "side": "Under",
-          "line": 6.5,
-          "price": -116,
+          "line": 7.5,
+          "price": -122,
           "book": "DraftKings",
-          "game": "ATL Falcons @ GB Packers"
+          "game": "ATL Falcons @ GB Packers",
+          "team": "GB"
         }
       },
       {
@@ -453,7 +480,8 @@
           "line": 8.5,
           "price": -114,
           "book": "DraftKings",
-          "game": "ATL Falcons @ GB Packers"
+          "game": "ATL Falcons @ GB Packers",
+          "team": "GB"
         }
       },
       {
@@ -479,14 +507,39 @@
       },
       {
         "sport": "NFL",
+        "player": "J. Dotson",
+        "market": "Receiving Yards O/U 16.5",
+        "pick": "Under",
+        "tier": "lean",
+        "confidence": 0.571,
+        "edge": 8.2,
+        "stake": 0.75,
+        "market_prob": 0.489,
+        "calibration": 0.0,
+        "basis": "coverage floor",
+        "ref": {
+          "sport": "NFL",
+          "event_id": "32648",
+          "player": "Jahan Dotson",
+          "market": "rec_yds",
+          "side": "Under",
+          "line": 16.5,
+          "price": -107,
+          "book": "DraftKings",
+          "game": "ATL Falcons @ GB Packers",
+          "team": "ATL"
+        }
+      },
+      {
+        "sport": "NFL",
         "player": "S. Moore",
         "market": "Receiving Yards O/U 11.5",
         "pick": "Over",
         "tier": "lean",
         "confidence": 0.571,
-        "edge": 6.9,
+        "edge": 7.6,
         "stake": 0.75,
-        "market_prob": 0.502,
+        "market_prob": 0.496,
         "calibration": 0.0,
         "basis": "coverage floor",
         "ref": {
@@ -496,9 +549,10 @@
           "market": "rec_yds",
           "side": "Over",
           "line": 11.5,
-          "price": -113,
+          "price": -110,
           "book": "DraftKings",
-          "game": "ATL Falcons @ GB Packers"
+          "game": "ATL Falcons @ GB Packers",
+          "team": "GB"
         }
       },
       {
@@ -524,6 +578,58 @@
       },
       {
         "sport": "NFL",
+        "player": "J. Love",
+        "market": "Passing TDs O/U 1.5",
+        "pick": "Under",
+        "tier": "lean",
+        "confidence": 0.533,
+        "edge": 5.4,
+        "stake": 0.75,
+        "market_prob": 0.479,
+        "calibration": 0.0,
+        "basis": "coverage floor",
+        "ref": {
+          "sport": "NFL",
+          "event_id": "32648",
+          "player": "Jordan Love",
+          "market": "pass_tds",
+          "side": "Under",
+          "line": 1.5,
+          "price": -103,
+          "book": "DraftKings",
+          "game": "ATL Falcons @ GB Packers",
+          "team": "GB"
+        },
+        "requested": "dated override (prop_overrides.json)"
+      },
+      {
+        "sport": "NFL",
+        "player": "J. Love",
+        "market": "Rushing Yards O/U 7.5",
+        "pick": "Over",
+        "tier": "lean",
+        "confidence": 0.533,
+        "edge": 1.9,
+        "stake": 0.75,
+        "market_prob": 0.515,
+        "calibration": 0.0,
+        "basis": "coverage floor",
+        "ref": {
+          "sport": "NFL",
+          "event_id": "32648",
+          "player": "Jordan Love",
+          "market": "rush_yds",
+          "side": "Over",
+          "line": 7.5,
+          "price": -119,
+          "book": "DraftKings",
+          "game": "ATL Falcons @ GB Packers",
+          "team": "GB"
+        },
+        "requested": "dated override (prop_overrides.json)"
+      },
+      {
+        "sport": "NFL",
         "player": "J. Whyle",
         "market": "Anytime TD",
         "pick": "Yes",
@@ -543,55 +649,8 @@
           "line": null,
           "price": 1300,
           "book": "DraftKings",
-          "game": "ATL Falcons @ GB Packers"
-        }
-      },
-      {
-        "sport": "NFL",
-        "player": "M. Penix Jr.",
-        "market": "Anytime TD",
-        "pick": "Yes",
-        "tier": "lean",
-        "confidence": 0.111,
-        "edge": 2.8,
-        "stake": 0.75,
-        "market_prob": 0.083,
-        "calibration": 0.0,
-        "basis": "coverage floor",
-        "ref": {
-          "sport": "NFL",
-          "event_id": "32648",
-          "player": "Michael Penix Jr.",
-          "market": "anytime_td",
-          "side": "Yes",
-          "line": null,
-          "price": 1100,
-          "book": "DraftKings",
-          "game": "ATL Falcons @ GB Packers"
-        }
-      },
-      {
-        "sport": "NFL",
-        "player": "A. Hooper",
-        "market": "Anytime TD",
-        "pick": "Yes",
-        "tier": "lean",
-        "confidence": 0.092,
-        "edge": 3.3,
-        "stake": 0.75,
-        "market_prob": 0.059,
-        "calibration": 0.0,
-        "basis": "coverage floor",
-        "ref": {
-          "sport": "NFL",
-          "event_id": "32648",
-          "player": "Austin Hooper",
-          "market": "anytime_td",
-          "side": "Yes",
-          "line": null,
-          "price": 1600,
-          "book": "DraftKings",
-          "game": "ATL Falcons @ GB Packers"
+          "game": "ATL Falcons @ GB Packers",
+          "team": "GB"
         }
       }
     ],
@@ -679,49 +738,52 @@
       },
       {
         "legs": 3,
-        "odds": "~+559",
+        "odds": "~+384",
         "book": "DraftKings",
         "sgp": false,
         "odds_basis": "estimate: product of single-leg DK prices, not a DK SGP quote",
         "basis": "coverage floor",
         "selections": [
-          "C. Brooks \u2014 Receiving Yards Under 6.5",
-          "J. Smith \u2014 Receiving Yards Over 8.5",
-          "S. Moore \u2014 Receiving Yards Over 11.5"
+          "M. Penix Jr. \u2014 Passing TDs Under 1.5",
+          "C. Brooks \u2014 Receiving Yards Under 7.5",
+          "J. Dotson \u2014 Receiving Yards Under 16.5"
         ],
         "refs": [
+          {
+            "sport": "NFL",
+            "event_id": "32648",
+            "player": "Michael Penix Jr.",
+            "market": "pass_tds",
+            "side": "Under",
+            "line": 1.5,
+            "price": -267,
+            "book": "DraftKings",
+            "game": "ATL Falcons @ GB Packers",
+            "team": "ATL"
+          },
           {
             "sport": "NFL",
             "event_id": "32648",
             "player": "Chris Brooks",
             "market": "rec_yds",
             "side": "Under",
-            "line": 6.5,
-            "price": -116,
+            "line": 7.5,
+            "price": -122,
             "book": "DraftKings",
-            "game": "ATL Falcons @ GB Packers"
+            "game": "ATL Falcons @ GB Packers",
+            "team": "GB"
           },
           {
             "sport": "NFL",
             "event_id": "32648",
-            "player": "Jonnu Smith",
+            "player": "Jahan Dotson",
             "market": "rec_yds",
-            "side": "Over",
-            "line": 8.5,
-            "price": -114,
+            "side": "Under",
+            "line": 16.5,
+            "price": -107,
             "book": "DraftKings",
-            "game": "ATL Falcons @ GB Packers"
-          },
-          {
-            "sport": "NFL",
-            "event_id": "32648",
-            "player": "Skyy Moore",
-            "market": "rec_yds",
-            "side": "Over",
-            "line": 11.5,
-            "price": -113,
-            "book": "DraftKings",
-            "game": "ATL Falcons @ GB Packers"
+            "game": "ATL Falcons @ GB Packers",
+            "team": "ATL"
           }
         ]
       }
