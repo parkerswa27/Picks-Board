@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-09-24T15:38:50Z",
+  "updated_at": "2026-09-24T16:23:02Z",
   "betting_model": [
+    {
+      "tier": "lean",
+      "matchup": "TB @ NYY",
+      "market": "Moneyline",
+      "pick": "NYY -147",
+      "confidence": 0.582,
+      "edge": 0.5,
+      "stake": 0.75,
+      "book": "betrivers",
+      "market_prob": 0.577,
+      "basis": "coverage floor"
+    },
     {
       "tier": "lean",
       "matchup": "STL @ PIT",
@@ -10,7 +22,8 @@
       "edge": 2.7,
       "stake": 0.75,
       "book": "draftkings",
-      "market_prob": 0.407
+      "market_prob": 0.407,
+      "locked": "published before first pitch; game since started"
     }
   ],
   "player_props": {
@@ -55,6 +68,27 @@
           "price": -193,
           "book": "DraftKings",
           "game": "Milwaukee Brewers @ Philadelphia Phillies"
+        }
+      },
+      {
+        "sport": "MLB",
+        "player": "J. Sanoja",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "confidence": 0.67,
+        "edge": 5.9,
+        "stake": 1.0,
+        "market_prob": 0.611,
+        "calibration": 0.0,
+        "ref": {
+          "player": "Javier Sanoja",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -188,
+          "book": "DraftKings",
+          "game": "Miami Marlins @ Chicago Cubs"
         }
       },
       {
@@ -148,16 +182,16 @@
         "pick": "Over",
         "tier": "medium",
         "confidence": 0.643,
-        "edge": 9.8,
+        "edge": 9.0,
         "stake": 1.0,
-        "market_prob": 0.545,
+        "market_prob": 0.553,
         "calibration": 0.0,
         "ref": {
           "player": "Jake Bauers",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -140,
+          "price": -145,
           "book": "DraftKings",
           "game": "Milwaukee Brewers @ Philadelphia Phillies"
         }
@@ -169,16 +203,16 @@
         "pick": "Over",
         "tier": "medium",
         "confidence": 0.623,
-        "edge": 6.8,
+        "edge": 6.0,
         "stake": 1.0,
-        "market_prob": 0.555,
+        "market_prob": 0.563,
         "calibration": 0.0,
         "ref": {
           "player": "Christian Yelich",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -146,
+          "price": -151,
           "book": "DraftKings",
           "game": "Milwaukee Brewers @ Philadelphia Phillies"
         }
@@ -313,14 +347,22 @@
     "parlays": [
       {
         "legs": 3,
-        "odds": "+291",
+        "odds": "+256",
         "book": "DraftKings",
         "selections": [
+          "J. Sanoja \u2014 Hits Over 0.5",
           "W. Contreras \u2014 Hits Over 0.5",
-          "I. Happ \u2014 Hits Over 0.5",
           "A. Benintendi \u2014 Total Bases Under 1.5"
         ],
         "refs": [
+          {
+            "player": "Javier Sanoja",
+            "market": "hits",
+            "side": "Over",
+            "line": 0.5,
+            "price": -188,
+            "game": "Miami Marlins @ Chicago Cubs"
+          },
           {
             "player": "William Contreras",
             "market": "hits",
@@ -328,14 +370,6 @@
             "line": 0.5,
             "price": -193,
             "game": "Milwaukee Brewers @ Philadelphia Phillies"
-          },
-          {
-            "player": "Ian Happ",
-            "market": "hits",
-            "side": "Over",
-            "line": 0.5,
-            "price": -147,
-            "game": "Miami Marlins @ Chicago Cubs"
           },
           {
             "player": "Andrew Benintendi",
@@ -349,13 +383,13 @@
       },
       {
         "legs": 4,
-        "odds": "+556",
+        "odds": "+547",
         "book": "DraftKings",
         "selections": [
           "E. De La Cruz \u2014 Hits Over 0.5",
-          "J. Ortiz \u2014 Hits Over 0.5",
+          "C. Yelich \u2014 Hits Over 0.5",
           "V. Pasquantino \u2014 Hits Over 0.5",
-          "J. Duran \u2014 Hits Over 0.5"
+          "I. Happ \u2014 Hits Over 0.5"
         ],
         "refs": [
           {
@@ -367,11 +401,11 @@
             "game": "Cincinnati Reds @ Atlanta Braves"
           },
           {
-            "player": "Joey Ortiz",
+            "player": "Christian Yelich",
             "market": "hits",
             "side": "Over",
             "line": 0.5,
-            "price": -165,
+            "price": -151,
             "game": "Milwaukee Brewers @ Philadelphia Phillies"
           },
           {
@@ -383,12 +417,12 @@
             "game": "Chicago White Sox @ Kansas City Royals"
           },
           {
-            "player": "Jarren Duran",
+            "player": "Ian Happ",
             "market": "hits",
             "side": "Over",
             "line": 0.5,
-            "price": -131,
-            "game": "Cleveland Guardians @ Boston Red Sox"
+            "price": -147,
+            "game": "Miami Marlins @ Chicago Cubs"
           }
         ]
       }

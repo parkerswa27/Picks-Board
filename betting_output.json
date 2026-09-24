@@ -3,6 +3,18 @@
   "betting_model": [
     {
       "tier": "lean",
+      "matchup": "TB @ NYY",
+      "market": "Moneyline",
+      "pick": "NYY -147",
+      "confidence": 0.582,
+      "edge": 0.5,
+      "stake": 0.75,
+      "book": "betrivers",
+      "market_prob": 0.577,
+      "basis": "coverage floor"
+    },
+    {
+      "tier": "lean",
       "matchup": "STL @ PIT",
       "market": "Moneyline",
       "pick": "STL +137",
@@ -10,7 +22,8 @@
       "edge": 2.7,
       "stake": 0.75,
       "book": "draftkings",
-      "market_prob": 0.407
+      "market_prob": 0.407,
+      "locked": "published before first pitch; game since started"
     }
   ]
 }

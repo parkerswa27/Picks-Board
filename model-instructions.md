@@ -62,8 +62,9 @@ or the site's formatter will silently blank that row.
 **Exclude in-progress games** at generation time, same as the betting model.
 
 **Parlays:** single book only, so it's actually placeable as one ticket. No
-two legs from the same game. No leg reused between the 3-leg and 4-leg
-parlay.
+leg reused between the 3-leg and 4-leg parlay. Same-game legs are allowed —
+see "Parlay legs — same-game allowed" below, which supersedes the old
+different-games-only rule.
 
 Output individual picks as:
 ```json
@@ -83,6 +84,19 @@ Output each parlay as:
   ]
 }
 ```
+
+## Parlay legs — same-game allowed
+
+Parlay legs may come from the same game — this applies everywhere, not
+just single-game NFL days. There is no "different games" restriction.
+
+When legs share a game, price the parlay using the book's actual Same
+Game Parlay odds for that combination, not by multiplying the individual
+legs' standalone prices. Correlated legs are priced differently by the
+book than independent ones; computing a naive product overstates the
+payout and misrepresents what's actually placeable. If DraftKings
+doesn't offer that specific combination as an SGP, don't publish it as
+a parlay at all rather than approximate the price.
 
 ## Unit sizing
 
@@ -156,11 +170,19 @@ silently drop a Lean pick at any stage.
 
 ## Player prop data source
 
-Player props are priced from DraftKings only. Use the `bookmakers=draftkings`
-parameter on The Odds API request, not `regions=` — regions bundle 8-10+
-books into one priced call and cost credits accordingly; pinning to a single
-bookmaker prices only DK and cuts the credit cost close to proportionally.
-This applies to the props pipeline specifically.
+Player props are priced from DraftKings only, via **PropLine** (`pip install
+propline`), requesting `bookmakers="draftkings"` and the specific prop
+markets by name — a `get_odds` call with no `markets` returns only
+h2h/spreads/totals. The key comes from the `PROPLINE_API_KEY` environment
+variable only (exported in `~/.zshenv` so non-interactive scheduled runs see
+it) — never in a committed file.
+
+PropLine's response is the-odds-api-shaped (player in `description`, side in
+`name`, plus `price` / `point`), confirmed 9/24/26 against the Odds API cache
+with identical DK prices. Keep only `Over`/`Under` outcomes with a `point`;
+DK also lists "N+" ladder outcomes with no point under the same market key.
+The Odds API path (`bookmakers=draftkings`, never `regions=`) remains as a
+fallback: `props_card.py --source oddsapi`.
 
 ## Track record (`record.json`)
 
