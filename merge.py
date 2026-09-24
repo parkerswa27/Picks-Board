@@ -86,7 +86,7 @@ def publish(args):
 
 
 PICK_KEYS = {
-    "betting_model": ("matchup", "market", "pick", "tier", "stake", "odds", "result", "note", "basis", "locked"),
+    "betting_model": ("sport", "matchup", "market", "pick", "tier", "stake", "odds", "result", "note", "basis", "locked"),
     "player_props": ("player", "market", "pick", "tier", "stake", "odds", "result", "note", "basis"),
 }
 

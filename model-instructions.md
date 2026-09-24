@@ -161,6 +161,23 @@ gets published, never what its stated probability is.
   exactly one NFL game, publish at least 6 player props for that game and
   at least one 3-leg parlay built from it.
 
+## NFL / CFB betting: price reads
+
+There is no graded NFL/CFB betting history yet, so there is no calibrated edge
+model — and MLB's `EDGE_BAR` and the props tier thresholds only exist because
+of real graded samples. Until that history exists, football picks are **price
+reads**, published only where a coverage rule requires a pick (TNF/SNF/MNF,
+and the 40% Saturday/Sunday floors):
+
+- Side: the DraftKings moneyline favourite (the market's own better side).
+- `confidence` = DK no-vig probability of that side; `edge` = `0.0`;
+  `"basis": "price read — no model edge"`.
+- Tier Lean, 0.75u — a zero-edge pick is never sized up by its price.
+- Floor fill order: every candidate's edge is 0.0, so games are taken by
+  highest confidence.
+- Published, counted toward coverage, carried forward if started, and graded
+  into `record.json` (PropLine final scores) exactly like every other pick.
+
 ## Lean-tier picks
 
 Lean-tier picks are real picks, not a lower-priority afterthought. They get

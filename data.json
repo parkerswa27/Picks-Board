@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T16:42:41Z",
+  "updated_at": "2026-09-24T17:03:41Z",
   "betting_model": [
     {
       "tier": "lean",
@@ -57,6 +57,21 @@
       "book": "betrivers",
       "market_prob": 0.353,
       "basis": "coverage floor"
+    },
+    {
+      "tier": "lean",
+      "matchup": "ATL Falcons @ GB Packers",
+      "market": "Moneyline",
+      "pick": "GB Packers -245",
+      "confidence": 0.681,
+      "edge": 0.0,
+      "stake": 0.75,
+      "book": "draftkings",
+      "market_prob": 0.681,
+      "basis": "price read \u2014 no model edge",
+      "sport": "NFL",
+      "event_id": "32648",
+      "coverage": "primetime"
     }
   ],
   "player_props": {
