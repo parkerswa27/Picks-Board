@@ -1,0 +1,143 @@
+{
+  "date": "2026-09-23",
+  "fully_graded": true,
+  "player_props": {
+    "wins": 6,
+    "losses": 5,
+    "pushes": 2,
+    "units": -0.52,
+    "picks": [
+      {
+        "player": "C. Simpson",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "top",
+        "stake": 1.5,
+        "odds": -189,
+        "result": "push",
+        "note": "DNP (bench) \u2014 void"
+      },
+      {
+        "player": "D. Canzone",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "top",
+        "stake": 1.5,
+        "odds": -196,
+        "result": "win"
+      },
+      {
+        "player": "J. Sanoja",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "stake": 1.0,
+        "odds": -181,
+        "result": "win"
+      },
+      {
+        "player": "T. Hernandez",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "stake": 1.0,
+        "odds": -168,
+        "result": "win"
+      },
+      {
+        "player": "J. Bauers",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "stake": 1.0,
+        "odds": -150,
+        "result": "loss"
+      },
+      {
+        "player": "K. Stowers",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "stake": 1.0,
+        "odds": -135,
+        "result": "win"
+      },
+      {
+        "player": "A. Benintendi",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "stake": 1.0,
+        "odds": -175,
+        "result": "loss"
+      },
+      {
+        "player": "H. Hernandez",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "stake": 1.0,
+        "odds": -129,
+        "result": "loss"
+      },
+      {
+        "player": "I. Happ",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "stake": 1.0,
+        "odds": -134,
+        "result": "win"
+      },
+      {
+        "player": "J. Triolo",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "stake": 1.0,
+        "odds": -120,
+        "result": "win"
+      },
+      {
+        "player": "S. Torkelson",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "stake": 1.0,
+        "odds": -120,
+        "result": "loss"
+      },
+      {
+        "player": "J. Aranda",
+        "market": "Total Bases O/U 1.5",
+        "pick": "Over",
+        "tier": "lean",
+        "stake": 0.75,
+        "odds": 152,
+        "result": "loss"
+      },
+      {
+        "player": "C. Simpson",
+        "market": "Total Bases O/U 1.5",
+        "pick": "Over",
+        "tier": "lean",
+        "stake": 0.75,
+        "odds": 182,
+        "result": "push",
+        "note": "DNP (bench) \u2014 void"
+      }
+    ]
+  },
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "+398",
+      "result": "loss"
+    },
+    {
+      "legs": 4,
+      "odds": "+1037",
+      "result": "loss"
+    }
+  ]
+}

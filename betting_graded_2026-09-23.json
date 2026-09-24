@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-23",
+  "fully_graded": true,
+  "source": "MLB Stats API final scores",
+  "betting_model": {
+    "wins": 2,
+    "losses": 2,
+    "pushes": 0,
+    "units": -0.42,
+    "picks": [
+      {
+        "matchup": "MIL @ PHI",
+        "market": "Moneyline",
+        "pick": "MIL -130",
+        "tier": "medium",
+        "stake": 1.0,
+        "odds": -130,
+        "result": "win"
+      },
+      {
+        "matchup": "LAA @ ATH",
+        "market": "Moneyline",
+        "pick": "LAA -128",
+        "tier": "medium",
+        "stake": 1.0,
+        "odds": -128,
+        "result": "loss"
+      },
+      {
+        "matchup": "CLE @ BOS",
+        "market": "Moneyline",
+        "pick": "BOS -123",
+        "tier": "medium",
+        "stake": 1.0,
+        "odds": -123,
+        "result": "win"
+      },
+      {
+        "matchup": "STL @ PIT",
+        "market": "Moneyline",
+        "pick": "PIT -132",
+        "tier": "medium",
+        "stake": 1.0,
+        "odds": -132,
+        "result": "loss"
+      }
+    ]
+  }
+}

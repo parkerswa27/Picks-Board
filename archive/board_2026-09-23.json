@@ -1,0 +1,410 @@
+{
+  "date": "2026-09-23",
+  "updated_at": "2026-09-23T14:55:31Z",
+  "betting_model": [
+    {
+      "tier": "medium",
+      "matchup": "MIL @ PHI",
+      "market": "Moneyline",
+      "pick": "MIL -130",
+      "confidence": 0.603,
+      "edge": 5.5,
+      "stake": 1.0,
+      "book": "fanduel",
+      "market_prob": 0.549
+    },
+    {
+      "tier": "medium",
+      "matchup": "LAA @ ATH",
+      "market": "Moneyline",
+      "pick": "LAA -128",
+      "confidence": 0.592,
+      "edge": 3.9,
+      "stake": 1.0,
+      "book": "williamhill_us",
+      "market_prob": 0.553
+    },
+    {
+      "tier": "medium",
+      "matchup": "CLE @ BOS",
+      "market": "Moneyline",
+      "pick": "BOS -123",
+      "confidence": 0.573,
+      "edge": 3.1,
+      "stake": 1.0,
+      "book": "betrivers",
+      "market_prob": 0.541
+    },
+    {
+      "tier": "medium",
+      "matchup": "STL @ PIT",
+      "market": "Moneyline",
+      "pick": "PIT -132",
+      "confidence": 0.582,
+      "edge": 3.1,
+      "stake": 1.0,
+      "book": "betrivers",
+      "market_prob": 0.551
+    }
+  ],
+  "player_props": {
+    "picks": [
+      {
+        "sport": "MLB",
+        "player": "C. Simpson",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "top",
+        "confidence": 0.73,
+        "edge": 9.9,
+        "stake": 1.5,
+        "market_prob": 0.631,
+        "calibration": 0.0,
+        "ref": {
+          "player": "Chandler Simpson",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -189,
+          "book": "DraftKings",
+          "game": "Tampa Bay Rays @ New York Yankees"
+        }
+      },
+      {
+        "sport": "MLB",
+        "player": "D. Canzone",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "top",
+        "confidence": 0.723,
+        "edge": 9.9,
+        "stake": 1.5,
+        "market_prob": 0.624,
+        "calibration": 0.0,
+        "ref": {
+          "player": "Dominic Canzone",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -196,
+          "book": "BetOnline.ag",
+          "game": "Houston Astros @ Seattle Mariners"
+        }
+      },
+      {
+        "sport": "MLB",
+        "player": "J. Sanoja",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "confidence": 0.667,
+        "edge": 5.0,
+        "stake": 1.0,
+        "market_prob": 0.617,
+        "calibration": 0.0,
+        "ref": {
+          "player": "Javier Sanoja",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -181,
+          "book": "DraftKings",
+          "game": "Miami Marlins @ Chicago Cubs"
+        }
+      },
+      {
+        "sport": "MLB",
+        "player": "T. Hernandez",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "confidence": 0.661,
+        "edge": 6.9,
+        "stake": 1.0,
+        "market_prob": 0.592,
+        "calibration": 0.0,
+        "ref": {
+          "player": "Teoscar Hernandez",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -168,
+          "book": "DraftKings",
+          "game": "San Diego Padres @ Los Angeles Dodgers"
+        }
+      },
+      {
+        "sport": "MLB",
+        "player": "J. Bauers",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "confidence": 0.648,
+        "edge": 8.2,
+        "stake": 1.0,
+        "market_prob": 0.566,
+        "calibration": 0.0,
+        "ref": {
+          "player": "Jake Bauers",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -150,
+          "book": "BetRivers",
+          "game": "Milwaukee Brewers @ Philadelphia Phillies"
+        }
+      },
+      {
+        "sport": "MLB",
+        "player": "K. Stowers",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "confidence": 0.637,
+        "edge": 8.2,
+        "stake": 1.0,
+        "market_prob": 0.555,
+        "calibration": 0.0,
+        "ref": {
+          "player": "Kyle Stowers",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -135,
+          "book": "DraftKings",
+          "game": "Miami Marlins @ Chicago Cubs"
+        }
+      },
+      {
+        "sport": "MLB",
+        "player": "A. Benintendi",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "confidence": 0.636,
+        "edge": 3.5,
+        "stake": 1.0,
+        "market_prob": 0.601,
+        "calibration": 0.0,
+        "ref": {
+          "player": "Andrew Benintendi",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -175,
+          "book": "BetOnline.ag",
+          "game": "Chicago White Sox @ Kansas City Royals"
+        }
+      },
+      {
+        "sport": "MLB",
+        "player": "H. Hernandez",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "confidence": 0.629,
+        "edge": 7.8,
+        "stake": 1.0,
+        "market_prob": 0.551,
+        "calibration": 0.0,
+        "ref": {
+          "player": "Heriberto Hernandez",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -129,
+          "book": "DraftKings",
+          "game": "Miami Marlins @ Chicago Cubs"
+        }
+      },
+      {
+        "sport": "MLB",
+        "player": "I. Happ",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "confidence": 0.597,
+        "edge": 4.1,
+        "stake": 1.0,
+        "market_prob": 0.556,
+        "calibration": 0.0,
+        "ref": {
+          "player": "Ian Happ",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -134,
+          "book": "DraftKings",
+          "game": "Miami Marlins @ Chicago Cubs"
+        }
+      },
+      {
+        "sport": "MLB",
+        "player": "J. Triolo",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "confidence": 0.59,
+        "edge": 5.3,
+        "stake": 1.0,
+        "market_prob": 0.537,
+        "calibration": 0.0,
+        "ref": {
+          "player": "Jared Triolo",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -120,
+          "book": "DraftKings",
+          "game": "St. Louis Cardinals @ Pittsburgh Pirates"
+        }
+      },
+      {
+        "sport": "MLB",
+        "player": "S. Torkelson",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "confidence": 0.58,
+        "edge": 5.8,
+        "stake": 1.0,
+        "market_prob": 0.522,
+        "calibration": 0.0,
+        "ref": {
+          "player": "Spencer Torkelson",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -120,
+          "book": "BetMGM",
+          "game": "Washington Nationals @ Detroit Tigers"
+        }
+      },
+      {
+        "sport": "MLB",
+        "player": "J. Aranda",
+        "market": "Total Bases O/U 1.5",
+        "pick": "Over",
+        "tier": "lean",
+        "confidence": 0.428,
+        "edge": 5.0,
+        "stake": 0.75,
+        "market_prob": 0.378,
+        "calibration": 0.0,
+        "ref": {
+          "player": "Jonathan Aranda",
+          "market": "total_bases",
+          "side": "Over",
+          "line": 1.5,
+          "price": 152,
+          "book": "BetOnline.ag",
+          "game": "Tampa Bay Rays @ New York Yankees"
+        }
+      },
+      {
+        "sport": "MLB",
+        "player": "C. Simpson",
+        "market": "Total Bases O/U 1.5",
+        "pick": "Over",
+        "tier": "lean",
+        "confidence": 0.418,
+        "edge": 7.8,
+        "stake": 0.75,
+        "market_prob": 0.34,
+        "calibration": 0.0,
+        "ref": {
+          "player": "Chandler Simpson",
+          "market": "total_bases",
+          "side": "Over",
+          "line": 1.5,
+          "price": 182,
+          "book": "BetOnline.ag",
+          "game": "Tampa Bay Rays @ New York Yankees"
+        }
+      }
+    ],
+    "parlays": [
+      {
+        "legs": 3,
+        "odds": "+398",
+        "book": "DraftKings",
+        "selections": [
+          "C. Simpson \u2014 Hits Over 0.5",
+          "H. Hernandez \u2014 Hits Over 0.5",
+          "J. Triolo \u2014 Hits Over 0.5"
+        ],
+        "refs": [
+          {
+            "player": "Chandler Simpson",
+            "market": "hits",
+            "side": "Over",
+            "line": 0.5,
+            "price": -189,
+            "game": "Tampa Bay Rays @ New York Yankees"
+          },
+          {
+            "player": "Heriberto Hernandez",
+            "market": "hits",
+            "side": "Over",
+            "line": 0.5,
+            "price": -129,
+            "game": "Miami Marlins @ Chicago Cubs"
+          },
+          {
+            "player": "Jared Triolo",
+            "market": "hits",
+            "side": "Over",
+            "line": 0.5,
+            "price": -120,
+            "game": "St. Louis Cardinals @ Pittsburgh Pirates"
+          }
+        ]
+      },
+      {
+        "legs": 4,
+        "odds": "+1037",
+        "book": "BetOnline.ag",
+        "selections": [
+          "D. Canzone \u2014 Hits Over 0.5",
+          "K. Stowers \u2014 Hits Over 0.5",
+          "C. Simpson \u2014 Total Bases Over 1.5",
+          "A. Benintendi \u2014 Hits Over 0.5"
+        ],
+        "refs": [
+          {
+            "player": "Dominic Canzone",
+            "market": "hits",
+            "side": "Over",
+            "line": 0.5,
+            "price": -196,
+            "game": "Houston Astros @ Seattle Mariners"
+          },
+          {
+            "player": "Kyle Stowers",
+            "market": "hits",
+            "side": "Over",
+            "line": 0.5,
+            "price": -143,
+            "game": "Miami Marlins @ Chicago Cubs"
+          },
+          {
+            "player": "Chandler Simpson",
+            "market": "total_bases",
+            "side": "Over",
+            "line": 1.5,
+            "price": 182,
+            "game": "Tampa Bay Rays @ New York Yankees"
+          },
+          {
+            "player": "Andrew Benintendi",
+            "market": "hits",
+            "side": "Over",
+            "line": 0.5,
+            "price": -175,
+            "game": "Chicago White Sox @ Kansas City Royals"
+          }
+        ]
+      }
+    ]
+  }
+}

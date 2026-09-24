@@ -1,5 +1,19 @@
 {
   "date": "2026-09-24",
+  "updated_at": "2026-09-24T15:10:18Z",
+  "betting_model": [
+    {
+      "tier": "lean",
+      "matchup": "STL @ PIT",
+      "market": "Moneyline",
+      "pick": "STL +137",
+      "confidence": 0.434,
+      "edge": 2.7,
+      "stake": 0.75,
+      "book": "draftkings",
+      "market_prob": 0.407
+    }
+  ],
   "player_props": {
     "picks": [
       {
@@ -485,89 +499,89 @@
           "game": "San Diego Padres @ Los Angeles Dodgers"
         }
       }
+    ],
+    "parlays": [
+      {
+        "legs": 3,
+        "odds": "+449",
+        "book": "BetMGM",
+        "selections": [
+          "J. Cronenworth \u2014 Hits Over 0.5",
+          "J. Burger \u2014 Total Bases Under 1.5",
+          "J. Ramirez \u2014 Total Bases Under 1.5"
+        ],
+        "refs": [
+          {
+            "player": "Jake Cronenworth",
+            "market": "hits",
+            "side": "Over",
+            "line": 0.5,
+            "price": 105,
+            "game": "San Diego Padres @ Los Angeles Dodgers"
+          },
+          {
+            "player": "Jake Burger",
+            "market": "total_bases",
+            "side": "Under",
+            "line": 1.5,
+            "price": -165,
+            "game": "New York Mets @ Texas Rangers"
+          },
+          {
+            "player": "Jose Ramirez",
+            "market": "total_bases",
+            "side": "Under",
+            "line": 1.5,
+            "price": -150,
+            "game": "Cleveland Guardians @ Boston Red Sox"
+          }
+        ]
+      },
+      {
+        "legs": 4,
+        "odds": "+950",
+        "book": "BetRivers",
+        "selections": [
+          "O. Cruz \u2014 Hits Over 0.5",
+          "W. Contreras \u2014 Total Bases Over 1.5",
+          "H. Hernandez \u2014 Hits Over 0.5",
+          "V. Pasquantino \u2014 Hits Over 0.5"
+        ],
+        "refs": [
+          {
+            "player": "Oneil Cruz",
+            "market": "hits",
+            "side": "Over",
+            "line": 0.5,
+            "price": -165,
+            "game": "St. Louis Cardinals @ Pittsburgh Pirates"
+          },
+          {
+            "player": "William Contreras",
+            "market": "total_bases",
+            "side": "Over",
+            "line": 1.5,
+            "price": 163,
+            "game": "Milwaukee Brewers @ Philadelphia Phillies"
+          },
+          {
+            "player": "Heriberto Hernandez",
+            "market": "hits",
+            "side": "Over",
+            "line": 0.5,
+            "price": -152,
+            "game": "Miami Marlins @ Chicago Cubs"
+          },
+          {
+            "player": "Vinnie Pasquantino",
+            "market": "hits",
+            "side": "Over",
+            "line": 0.5,
+            "price": -200,
+            "game": "Chicago White Sox @ Kansas City Royals"
+          }
+        ]
+      }
     ]
-  },
-  "parlays": [
-    {
-      "legs": 3,
-      "odds": "+449",
-      "book": "BetMGM",
-      "selections": [
-        "J. Cronenworth \u2014 Hits Over 0.5",
-        "J. Burger \u2014 Total Bases Under 1.5",
-        "J. Ramirez \u2014 Total Bases Under 1.5"
-      ],
-      "refs": [
-        {
-          "player": "Jake Cronenworth",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": 105,
-          "game": "San Diego Padres @ Los Angeles Dodgers"
-        },
-        {
-          "player": "Jake Burger",
-          "market": "total_bases",
-          "side": "Under",
-          "line": 1.5,
-          "price": -165,
-          "game": "New York Mets @ Texas Rangers"
-        },
-        {
-          "player": "Jose Ramirez",
-          "market": "total_bases",
-          "side": "Under",
-          "line": 1.5,
-          "price": -150,
-          "game": "Cleveland Guardians @ Boston Red Sox"
-        }
-      ]
-    },
-    {
-      "legs": 4,
-      "odds": "+950",
-      "book": "BetRivers",
-      "selections": [
-        "O. Cruz \u2014 Hits Over 0.5",
-        "W. Contreras \u2014 Total Bases Over 1.5",
-        "H. Hernandez \u2014 Hits Over 0.5",
-        "V. Pasquantino \u2014 Hits Over 0.5"
-      ],
-      "refs": [
-        {
-          "player": "Oneil Cruz",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -165,
-          "game": "St. Louis Cardinals @ Pittsburgh Pirates"
-        },
-        {
-          "player": "William Contreras",
-          "market": "total_bases",
-          "side": "Over",
-          "line": 1.5,
-          "price": 163,
-          "game": "Milwaukee Brewers @ Philadelphia Phillies"
-        },
-        {
-          "player": "Heriberto Hernandez",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -152,
-          "game": "Miami Marlins @ Chicago Cubs"
-        },
-        {
-          "player": "Vinnie Pasquantino",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -200,
-          "game": "Chicago White Sox @ Kansas City Royals"
-        }
-      ]
-    }
-  ]
+  }
 }
