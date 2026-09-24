@@ -122,6 +122,46 @@ When you wire up the scheduled task later, its prompt should run the betting
 model, the prop model, and the merge step in that fixed order, in one
 session — not two independent triggers.
 
+## Coverage requirements
+
+These sit on top of the normal edge-based selection — they don't replace it.
+A pick published only to satisfy a coverage rule below, rather than because
+it independently cleared the normal threshold, must carry
+`"basis": "coverage floor"` so it stays distinguishable from genuine
+edge-based picks in both `data.json` and `record.json`. `confidence` still
+reports the honest number either way — coverage rules relax whether a pick
+gets published, never what its stated probability is.
+
+- **MLB:** at least 40% of the day's game slate should have a published
+  pick, down to Lean tier if needed. Note: this only works if enough games
+  reach the pricing stage in the first place. If the pre-pricing screen
+  (survey.py's starter-confirmation check, etc.) is itself eliminating most
+  of the slate before the model ever prices it, lowering the publish
+  threshold won't fix the coverage number — that's a separate bottleneck
+  worth checking directly.
+- **NFL:** TNF, MNF, and SNF always get a published pick, regardless of
+  whether anything clears the normal bar that week. Separately, 40% of
+  Saturday/Sunday NFL games should have a pick.
+- **CFB:** 40% of Saturday games should have a pick.
+- **NFL player props, single-game days:** on any day where the slate is
+  exactly one NFL game, publish at least 6 player props for that game and
+  at least one 3-leg parlay built from it.
+
+## Lean-tier picks
+
+Lean-tier picks are real picks, not a lower-priority afterthought. They get
+published in `data.json` and graded into `record.json` exactly like Top and
+Medium picks — nothing in the pipeline should filter, hide, deprioritize, or
+silently drop a Lean pick at any stage.
+
+## Player prop data source
+
+Player props are priced from DraftKings only. Use the `bookmakers=draftkings`
+parameter on The Odds API request, not `regions=` — regions bundle 8-10+
+books into one priced call and cost credits accordingly; pinning to a single
+bookmaker prices only DK and cuts the credit cost close to proportionally.
+This applies to the props pipeline specifically.
+
 ## Track record (`record.json`)
 
 This file is **append-only history**, separate from `data.json`. `start_date`
