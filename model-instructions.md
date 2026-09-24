@@ -161,22 +161,29 @@ gets published, never what its stated probability is.
   exactly one NFL game, publish at least 6 player props for that game and
   at least one 3-leg parlay built from it.
 
-## NFL / CFB betting: price reads
+## NFL / CFB / NBA betting: spreads, as price reads
 
-There is no graded NFL/CFB betting history yet, so there is no calibrated edge
-model — and MLB's `EDGE_BAR` and the props tier thresholds only exist because
-of real graded samples. Until that history exists, football picks are **price
-reads**, published only where a coverage rule requires a pick (TNF/SNF/MNF,
-and the 40% Saturday/Sunday floors):
+**Spreads only** for CFB, NBA and NFL — no moneylines. There is no graded
+betting history for these sports yet, so there is no calibrated edge model
+(MLB's `EDGE_BAR` and the props tier thresholds only exist because of real
+graded samples; the CFB spread sweep in `bets.db` is explicitly NO_EDGE).
+Until that history exists, picks are **price reads**, published only where a
+coverage rule requires a pick (TNF/SNF/MNF, and the 40% Saturday/Sunday
+NFL and Saturday CFB floors):
 
-- Side: the DraftKings moneyline favourite (the market's own better side).
-- `confidence` = DK no-vig probability of that side; `edge` = `0.0`;
-  `"basis": "price read — no model edge"`.
+- Line: DraftKings' main spread (the alternate pair priced closest to even).
+- Side: the one with the higher no-vig probability (the shorter price); a
+  dead-even price goes to the side laying points.
+- `confidence` = that no-vig probability; `edge` = `0.0`;
+  `"basis": "price read — no model edge"`; `pick` reads `"Team -4.5 (-115)"`.
 - Tier Lean, 0.75u — a zero-edge pick is never sized up by its price.
-- Floor fill order: every candidate's edge is 0.0, so games are taken by
-  highest confidence.
+- Floor denominator: the day's games DraftKings actually prices (unpriced
+  FCS games can't be picked, so counting them makes the floor unreachable).
+- Floor fill order: highest confidence first (every edge is 0.0).
+- NBA has no coverage rule yet, so it publishes nothing until one is set.
 - Published, counted toward coverage, carried forward if started, and graded
-  into `record.json` (PropLine final scores) exactly like every other pick.
+  into `record.json` (PropLine final scores, margin + line; exact = push)
+  exactly like every other pick.
 
 ## Lean-tier picks
 
