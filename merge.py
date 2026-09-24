@@ -26,6 +26,8 @@ Scratch file shapes expected:
   props_output.json          -> { "player_props": { "picks": [...] }, "parlays": [...] }
   betting_graded_<date>.json -> { "betting_model": { "wins", "losses", "pushes", "units", "picks": [...] } }
   props_graded_<date>.json   -> { "player_props": { "wins", "losses", "pushes", "units", "picks": [...] }, "parlays": [...] }
+  (or the graders' raw output {"fully_graded", "picks": [...]} -- totals are computed here,
+   and a day that is not fully_graded is refused)
 
 Adjust field names below if your models' scratch files differ — this is a
 starting point, not a fixed contract.
@@ -69,10 +71,72 @@ def publish(args):
         json.dump(combined, f, indent=2)
     print(f"Wrote {args.out}")
 
+    # The graders read archive/board_<date>.json -- what the site actually showed that
+    # day. Writing it here means no run has to remember a separate copy step.
+    dates = {d for d in (betting.get("date"), props.get("date")) if d}
+    if len(dates) == 1:
+        snap = Path(args.out).resolve().parent / "archive" / f"board_{dates.pop()}.json"
+        snap.parent.mkdir(exist_ok=True)
+        with open(snap, "w") as f:
+            json.dump(combined, f, indent=2)
+        print(f"Wrote {snap}")
+    else:
+        print(f"  ! scratch files disagree on / lack a date ({dates or 'none'}) — "
+              f"archive snapshot NOT written; grading will have nothing to read", file=sys.stderr)
+
+
+PICK_KEYS = {
+    "betting_model": ("matchup", "market", "pick", "tier", "stake", "odds", "result", "note", "basis", "locked"),
+    "player_props": ("player", "market", "pick", "tier", "stake", "odds", "result", "note", "basis"),
+}
+
+
+def net_units(p):
+    """Spec "Unit sizing": a win nets stake x payout at the pick's own odds, a loss costs
+    the stake, a push is 0."""
+    stake, res = float(p.get("stake", 0)), p["result"]
+    if res == "push":
+        return 0.0
+    if res == "loss":
+        return -stake
+    o = int(p["odds"])
+    return stake * (o / 100 if o > 0 else 100 / -o)
+
+
+def section(graded, name):
+    """Accept either shape:
+      * grader output (board_betting.py / board_props.py --grade):
+          {"date", "fully_graded", "picks": [...], ...}  -> totals computed here
+      * already-summed: {name: {"wins", "losses", "pushes", "units", "picks"}}
+    Returns (section, problem) -- problem is a reason this day can't close yet."""
+    if name in graded and "wins" in graded[name]:
+        return graded[name], None
+    if "picks" not in graded:
+        return None, "unrecognised graded-file shape"
+    if not graded.get("fully_graded"):
+        left = graded.get("ungraded") or graded.get("unresolved") or "?"
+        return None, f"not fully graded (outstanding: {left})"
+    picks = [{k: p[k] for k in PICK_KEYS[name] if k in p} for p in graded["picks"]]
+    return {
+        "wins": sum(p["result"] == "win" for p in picks),
+        "losses": sum(p["result"] == "loss" for p in picks),
+        "pushes": sum(p["result"] == "push" for p in picks),
+        "units": round(sum(net_units(p) for p in picks), 2),
+        "picks": picks,
+    }, None
+
 
 def grade(args):
     betting = load(args.betting_graded)
     props = load(args.props_graded)
+
+    if betting is not None and props is not None:
+        bsec, bwhy = section(betting, "betting_model")
+        psec, pwhy = section(props, "player_props")
+        if bwhy or pwhy:
+            print(f"{args.date}: not closing this day — betting: {bwhy or 'ok'}, "
+                  f"props: {pwhy or 'ok'}. Will retry on a future run.")
+            return
 
     if betting is None or props is None:
         print(
@@ -96,12 +160,12 @@ def grade(args):
         )
         return
 
-    empty_section = {"wins": 0, "losses": 0, "pushes": 0, "units": 0, "picks": []}
     day = {
         "date": args.date,
-        "betting_model": betting.get("betting_model", empty_section),
-        "player_props": props.get("player_props", empty_section),
-        "parlays": props.get("parlays", betting.get("parlays", [])),
+        "betting_model": bsec,
+        "player_props": psec,
+        "parlays": [{k: p[k] for k in ("legs", "odds", "result", "note") if k in p}
+                    for p in props.get("parlays", betting.get("parlays", []))],
     }
     record["days"].append(day)
 
