@@ -9,16 +9,16 @@
         "pick": "Over",
         "tier": "top",
         "confidence": 0.705,
-        "edge": 8.7,
+        "edge": 9.6,
         "stake": 1.5,
-        "market_prob": 0.618,
+        "market_prob": 0.609,
         "calibration": 0.0,
         "ref": {
           "player": "Elly De La Cruz",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -195,
+          "price": -186,
           "book": "DraftKings",
           "game": "Cincinnati Reds @ Atlanta Braves"
         }
@@ -358,7 +358,7 @@
     },
     {
       "legs": 4,
-      "odds": "+547",
+      "odds": "+558",
       "book": "DraftKings",
       "selections": [
         "E. De La Cruz \u2014 Hits Over 0.5",
@@ -372,7 +372,7 @@
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -195,
+          "price": -186,
           "game": "Cincinnati Reds @ Atlanta Braves"
         },
         {

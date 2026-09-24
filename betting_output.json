@@ -3,15 +3,25 @@
   "betting_model": [
     {
       "tier": "lean",
+      "matchup": "NYM @ TEX",
+      "market": "Moneyline",
+      "pick": "NYM +112",
+      "confidence": 0.504,
+      "edge": 4.7,
+      "stake": 0.75,
+      "book": "draftkings",
+      "market_prob": 0.457
+    },
+    {
+      "tier": "medium",
       "matchup": "TB @ NYY",
       "market": "Moneyline",
       "pick": "NYY -147",
-      "confidence": 0.582,
-      "edge": 0.5,
-      "stake": 0.75,
+      "confidence": 0.612,
+      "edge": 3.5,
+      "stake": 1.0,
       "book": "betrivers",
-      "market_prob": 0.577,
-      "basis": "coverage floor"
+      "market_prob": 0.577
     },
     {
       "tier": "lean",
@@ -24,6 +34,29 @@
       "book": "draftkings",
       "market_prob": 0.407,
       "locked": "published before first pitch; game since started"
+    },
+    {
+      "tier": "top",
+      "matchup": "ARI @ COL",
+      "market": "Moneyline",
+      "pick": "ARI -189",
+      "confidence": 0.658,
+      "edge": 2.5,
+      "stake": 1.5,
+      "book": "williamhill_us",
+      "market_prob": 0.632
+    },
+    {
+      "tier": "lean",
+      "matchup": "MIA @ CHC",
+      "market": "Moneyline",
+      "pick": "MIA +175",
+      "confidence": 0.372,
+      "edge": 2.0,
+      "stake": 0.75,
+      "book": "betrivers",
+      "market_prob": 0.353,
+      "basis": "coverage floor"
     }
   ]
 }
