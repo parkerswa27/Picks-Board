@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T17:22:19Z",
+  "updated_at": "2026-09-24T17:26:04Z",
   "betting_model": [
     {
       "tier": "lean",
@@ -674,6 +674,54 @@
             "line": 1.5,
             "price": -186,
             "game": "New York Mets @ Texas Rangers"
+          }
+        ]
+      },
+      {
+        "legs": 3,
+        "odds": "~+559",
+        "book": "DraftKings",
+        "sgp": false,
+        "odds_basis": "estimate: product of single-leg DK prices, not a DK SGP quote",
+        "basis": "coverage floor",
+        "selections": [
+          "C. Brooks \u2014 Receiving Yards Under 6.5",
+          "J. Smith \u2014 Receiving Yards Over 8.5",
+          "S. Moore \u2014 Receiving Yards Over 11.5"
+        ],
+        "refs": [
+          {
+            "sport": "NFL",
+            "event_id": "32648",
+            "player": "Chris Brooks",
+            "market": "rec_yds",
+            "side": "Under",
+            "line": 6.5,
+            "price": -116,
+            "book": "DraftKings",
+            "game": "ATL Falcons @ GB Packers"
+          },
+          {
+            "sport": "NFL",
+            "event_id": "32648",
+            "player": "Jonnu Smith",
+            "market": "rec_yds",
+            "side": "Over",
+            "line": 8.5,
+            "price": -114,
+            "book": "DraftKings",
+            "game": "ATL Falcons @ GB Packers"
+          },
+          {
+            "sport": "NFL",
+            "event_id": "32648",
+            "player": "Skyy Moore",
+            "market": "rec_yds",
+            "side": "Over",
+            "line": 11.5,
+            "price": -113,
+            "book": "DraftKings",
+            "game": "ATL Falcons @ GB Packers"
           }
         ]
       }

@@ -95,8 +95,15 @@ Game Parlay odds for that combination, not by multiplying the individual
 legs' standalone prices. Correlated legs are priced differently by the
 book than independent ones; computing a naive product overstates the
 payout and misrepresents what's actually placeable. If DraftKings
-doesn't offer that specific combination as an SGP, don't publish it as
-a parlay at all rather than approximate the price.
+declines that specific combination as an SGP, don't publish it.
+
+**Exception (9/24/26):** when DraftKings' SGP price simply isn't available
+to us (PropLine's free tier redacts SGP quotes), a parlay the spec requires
+may be published at an **estimate** — the product of the legs' own DK
+prices — shown as `"~+559"` with `"odds_basis": "estimate: product of
+single-leg DK prices, not a DK SGP quote"`. It ignores same-game
+correlation, so it is not a placeable price; the `~` stays on it through
+grading.
 
 ## Unit sizing
 
