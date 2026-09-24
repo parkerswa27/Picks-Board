@@ -174,9 +174,11 @@ gets published, never what its stated probability is.
 betting history for these sports yet, so there is no calibrated edge model
 (MLB's `EDGE_BAR` and the props tier thresholds only exist because of real
 graded samples; the CFB spread sweep in `bets.db` is explicitly NO_EDGE).
-Until that history exists, picks are **price reads**, published only where a
-coverage rule requires a pick (TNF/SNF/MNF, and the 40% Saturday/Sunday
-NFL and Saturday CFB floors):
+Until that history exists, CFB (and NBA) picks are **price reads**; NFL
+picks come from the nfl_eff model under the documented exception below.
+Either way they are published only where a coverage rule requires a pick
+(TNF/SNF/MNF, the 40% Saturday/Sunday NFL and Saturday CFB floors, and
+games in `requested_games.json`). Price reads work like this:
 
 - Line: DraftKings' main spread (the alternate pair priced closest to even).
 - Side: the one with the higher no-vig probability (the shorter price); a
@@ -191,6 +193,47 @@ NFL and Saturday CFB floors):
 - Published, counted toward coverage, carried forward if started, and graded
   into `record.json` (PropLine final scores, margin + line; exact = push)
   exactly like every other pick.
+
+## NFL spread model: published below breakeven (documented exception, 9/24/26)
+
+**Every other model in this pipeline publishes only once it clears breakeven
+on a validated holdout. The NFL spread model does not, and publishes anyway.**
+This is a deliberate, one-time exception by Parker, recorded here so nobody
+reads "NFL has a real model now" as "NFL has an edge now". It has not been
+shown to have one; the backtest says it doesn't.
+
+Model: `nfl_power/nfl_eff.py` — opponent-adjusted offense/defense EPA/play and
+success rate from nflverse play-by-play (ridge fit toward a carried prior), a
+3-season rolling home-field term, no market data in the fit, walk-forward.
+Splits: TUNE 2000–14 (hyperparameters, on margin RMSE), TEST 2015–22 excl.
+2020, HOLDOUT 2023–25; graded at a uniform −110 (breakeven 52.38%) because the
+line source changed from sharp (~2% hold, 2006–22) to retail (4.7%, 2023+).
+
+Backtest, reported in full (9/24/26):
+
+| Split | Games | Cover% (95% CI) | ROI @ −110 | Model RMSE | Market RMSE |
+|---|---|---|---|---|---|
+| TEST 2015–22 excl. 2020 | 1,848 | 50.2% (47.9–52.4) | −4.2% | 13.10 | 12.73 |
+| HOLDOUT 2023–25 | 836 | 47.2% (43.9–50.6) | −9.8% | 13.24 | 12.72 |
+
+Larger model-vs-market disagreements covered *worse* (5+ pts: 45.7% TEST,
+43.8% holdout) — the opposite of a real edge. The market was more accurate in
+every split. The schedule-bias check passed in the configuration the model
+runs (adjusted-rating correlation with opponent defense −0.065 overall,
++0.017 from week 14), so this is a working model that doesn't beat the line,
+not a broken one.
+
+Rules that still apply to its picks:
+- `confidence` = the model's own calibrated P(cover), fit on TUNE only
+  (≈ 0.48–0.54). Never adjusted upward; a 0.497 publishes as 0.497. Out of
+  sample even this runs slightly hot at large edges.
+- `edge` = confidence minus DK's no-vig probability for that side, in points.
+- Every pick is **Lean, 0.75u** until a real graded NFL sample exists to set
+  tiers against — no NFL edge bar has been validated.
+- `"basis": "nfl_eff model — below breakeven in backtest (documented
+  exception)"` on every pick, in `data.json` and `record.json`.
+- Coverage rules still decide which games get a pick; the model decides the
+  side and the confidence.
 
 ## Lean-tier picks
 

@@ -10,7 +10,8 @@
       "edge": 4.7,
       "stake": 0.75,
       "book": "draftkings",
-      "market_prob": 0.457
+      "market_prob": 0.457,
+      "locked": "published before first pitch; game since started"
     },
     {
       "tier": "medium",
@@ -21,7 +22,8 @@
       "edge": 3.5,
       "stake": 1.0,
       "book": "betrivers",
-      "market_prob": 0.577
+      "market_prob": 0.577,
+      "locked": "published before first pitch; game since started"
     },
     {
       "tier": "lean",
@@ -44,7 +46,8 @@
       "edge": 2.5,
       "stake": 1.5,
       "book": "williamhill_us",
-      "market_prob": 0.632
+      "market_prob": 0.632,
+      "locked": "published before first pitch; game since started"
     },
     {
       "tier": "lean",
@@ -56,20 +59,21 @@
       "stake": 0.75,
       "book": "betrivers",
       "market_prob": 0.353,
-      "basis": "coverage floor"
+      "basis": "coverage floor",
+      "locked": "published before first pitch; game since started"
     },
     {
       "tier": "lean",
       "matchup": "ATL Falcons @ GB Packers",
       "market": "Spread",
-      "pick": "GB Packers -4.5 (-115)",
-      "odds": -115,
-      "confidence": 0.511,
+      "pick": "GB Packers -4.5 (-112)",
+      "odds": -112,
+      "confidence": 0.504,
       "edge": 0.0,
       "stake": 0.75,
       "book": "draftkings",
-      "market_prob": 0.511,
-      "basis": "price read \u2014 no model edge",
+      "market_prob": 0.504,
+      "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception)",
       "sport": "NFL",
       "event_id": "32648",
       "coverage": "primetime"
@@ -78,17 +82,20 @@
       "tier": "lean",
       "matchup": "Liberty @ Coastal Carolina",
       "market": "Spread",
-      "pick": "Liberty -2.5 (-110)",
-      "odds": -110,
-      "confidence": 0.5,
+      "pick": "Coastal Carolina +2.5 (-115)",
+      "odds": -115,
+      "confidence": 0.511,
       "edge": 0.0,
       "stake": 0.75,
       "book": "draftkings",
-      "market_prob": 0.5,
+      "market_prob": 0.511,
       "basis": "price read \u2014 no model edge",
       "sport": "CFB",
       "event_id": "213896",
-      "coverage": "requested"
+      "coverage": "requested",
+      "model_line": 2.9,
+      "model_line_text": "Coastal Carolina -2.9",
+      "model_line_note": "power model thru wk3, market-free \u2014 informational, not a pick"
     }
   ]
 }
