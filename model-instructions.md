@@ -163,7 +163,8 @@ gets published, never what its stated probability is.
 - **NFL:** TNF, MNF, and SNF always get a published pick, regardless of
   whether anything clears the normal bar that week. Separately, 40% of
   Saturday/Sunday NFL games should have a pick.
-- **CFB:** 40% of Saturday games should have a pick.
+- **CFB:** 40% of each day's games should have a pick — Saturday and any
+  weeknight (Thu/Fri etc.) CFB slate alike (extended from Saturday-only 9/25/26).
 - **NFL player props, single-game days:** on any day where the slate is
   exactly one NFL game, publish at least 6 player props for that game and
   at least one 3-leg parlay built from it.
@@ -177,7 +178,7 @@ graded samples; the CFB spread sweep in `bets.db` is explicitly NO_EDGE).
 Until that history exists, CFB (and NBA) picks are **price reads**; NFL
 picks come from the nfl_eff model under the documented exception below.
 Either way they are published only where a coverage rule requires a pick
-(TNF/SNF/MNF, the 40% Saturday/Sunday NFL and Saturday CFB floors, and
+(TNF/SNF/MNF, the 40% Saturday/Sunday NFL and daily CFB floors, and
 games in `requested_games.json`). Price reads work like this:
 
 - Line: DraftKings' main spread (the alternate pair priced closest to even).

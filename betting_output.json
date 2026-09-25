@@ -55,6 +55,41 @@
       "stake": 0.75,
       "book": "williamhill_us",
       "market_prob": 0.503
+    },
+    {
+      "tier": "lean",
+      "matchup": "Howard @ Rutgers",
+      "market": "Spread",
+      "pick": "Rutgers -41.5 (-118)",
+      "odds": -118,
+      "confidence": 0.517,
+      "edge": 0.0,
+      "stake": 0.75,
+      "book": "draftkings",
+      "market_prob": 0.517,
+      "basis": "price read \u2014 no model edge",
+      "sport": "CFB",
+      "event_id": "213894",
+      "coverage": "weekend floor"
+    },
+    {
+      "tier": "lean",
+      "matchup": "Northwestern @ Indiana",
+      "market": "Spread",
+      "pick": "Indiana -20.5 (-112)",
+      "odds": -112,
+      "confidence": 0.504,
+      "edge": 0.0,
+      "stake": 0.75,
+      "book": "draftkings",
+      "market_prob": 0.504,
+      "basis": "price read \u2014 no model edge",
+      "sport": "CFB",
+      "event_id": "213895",
+      "coverage": "weekend floor",
+      "model_line": 24.7,
+      "model_line_text": "Indiana -24.7",
+      "model_line_note": "power model thru wk3, market-free \u2014 informational, not a pick"
     }
   ]
 }
