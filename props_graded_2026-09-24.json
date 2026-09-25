@@ -1,0 +1,277 @@
+{
+  "date": "2026-09-24",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "M. Penix Jr.",
+      "market": "Passing TDs O/U 1.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -267,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "E. De La Cruz",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "top",
+      "stake": 1.5,
+      "odds": -186,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "W. Contreras",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -193,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Sanoja",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -188,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "V. Pasquantino",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -188,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Ortiz",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -165,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "C. Jensen",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -180,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Burger",
+      "market": "Total Bases O/U 1.5",
+      "pick": "Under",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -186,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "A. Benintendi",
+      "market": "Total Bases O/U 1.5",
+      "pick": "Under",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -188,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Bauers",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -145,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Ramirez",
+      "market": "Total Bases O/U 1.5",
+      "pick": "Under",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -175,
+      "actual": 2.0,
+      "result": "loss"
+    },
+    {
+      "player": "C. Yelich",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -151,
+      "actual": "void",
+      "result": "push",
+      "note": "DNP (did not play) \u2014 void"
+    },
+    {
+      "player": "S. Antonacci",
+      "market": "Total Bases O/U 1.5",
+      "pick": "Under",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -157,
+      "actual": 2.0,
+      "result": "loss"
+    },
+    {
+      "player": "M. Vargas",
+      "market": "Total Bases O/U 1.5",
+      "pick": "Under",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -145,
+      "actual": 2.0,
+      "result": "loss"
+    },
+    {
+      "player": "K. Tucker",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -146,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "I. Happ",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -147,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "C. Brooks",
+      "market": "Receiving Yards O/U 7.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -122,
+      "actual": 4.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Smith",
+      "market": "Receiving Yards O/U 8.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -114,
+      "actual": 16.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Duran",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -136,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Dotson",
+      "market": "Receiving Yards O/U 16.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -107,
+      "actual": 11.0,
+      "result": "win"
+    },
+    {
+      "player": "S. Moore",
+      "market": "Receiving Yards O/U 11.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 31.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Cronenworth",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -113,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Love",
+      "market": "Passing TDs O/U 1.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -103,
+      "actual": 2.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Love",
+      "market": "Rushing Yards O/U 7.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -119,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Whyle",
+      "market": "Anytime TD",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 1300,
+      "actual": "void",
+      "result": "push",
+      "note": "DNP (did not play) \u2014 void"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "+256",
+      "result": "loss"
+    },
+    {
+      "legs": 4,
+      "odds": "+502",
+      "result": "loss",
+      "note": "1 leg(s) void/push \u2014 graded on the remaining 3"
+    },
+    {
+      "legs": 3,
+      "odds": "~+384",
+      "result": "win"
+    }
+  ],
+  "unresolved": []
+}

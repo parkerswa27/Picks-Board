@@ -1,199 +1,152 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "player_props": {
     "picks": [
       {
-        "sport": "NFL",
-        "player": "M. Penix Jr.",
-        "market": "Passing TDs O/U 1.5",
-        "pick": "Under",
-        "tier": "lean",
-        "confidence": 0.778,
-        "edge": 8.8,
-        "stake": 0.75,
-        "market_prob": 0.689,
-        "calibration": 0.0,
-        "basis": "coverage floor",
-        "ref": {
-          "sport": "NFL",
-          "event_id": "32648",
-          "player": "Michael Penix Jr.",
-          "market": "pass_tds",
-          "side": "Under",
-          "line": 1.5,
-          "price": -267,
-          "book": "DraftKings",
-          "game": "ATL Falcons @ GB Packers",
-          "team": "ATL"
-        },
-        "requested": "dated override (prop_overrides.json)"
-      },
-      {
         "sport": "MLB",
-        "player": "E. De La Cruz",
+        "player": "A. Pages",
         "market": "Hits O/U 0.5",
         "pick": "Over",
         "tier": "top",
-        "confidence": 0.705,
-        "edge": 9.6,
+        "confidence": 0.711,
+        "edge": 9.0,
         "stake": 1.5,
-        "market_prob": 0.609,
+        "market_prob": 0.621,
         "calibration": 0.0,
         "ref": {
-          "player": "Elly De La Cruz",
+          "player": "Andy Pages",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -186,
+          "price": -197,
           "book": "DraftKings",
-          "game": "Cincinnati Reds @ Atlanta Braves"
+          "game": "Los Angeles Dodgers @ San Francisco Giants"
         }
       },
       {
         "sport": "MLB",
-        "player": "W. Contreras",
+        "player": "C. Bellinger",
         "market": "Hits O/U 0.5",
         "pick": "Over",
         "tier": "medium",
         "confidence": 0.674,
-        "edge": 5.8,
-        "stake": 1.0,
-        "market_prob": 0.616,
-        "calibration": 0.0,
-        "ref": {
-          "player": "William Contreras",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -193,
-          "book": "DraftKings",
-          "game": "Milwaukee Brewers @ Philadelphia Phillies"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "J. Sanoja",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "medium",
-        "confidence": 0.67,
-        "edge": 5.9,
-        "stake": 1.0,
-        "market_prob": 0.611,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Javier Sanoja",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -188,
-          "book": "DraftKings",
-          "game": "Miami Marlins @ Chicago Cubs"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "V. Pasquantino",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "medium",
-        "confidence": 0.664,
-        "edge": 5.3,
-        "stake": 1.0,
-        "market_prob": 0.611,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Vinnie Pasquantino",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -188,
-          "book": "DraftKings",
-          "game": "Chicago White Sox @ Kansas City Royals"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "J. Ortiz",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "medium",
-        "confidence": 0.657,
-        "edge": 7.5,
-        "stake": 1.0,
-        "market_prob": 0.582,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Joey Ortiz",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -165,
-          "book": "DraftKings",
-          "game": "Milwaukee Brewers @ Philadelphia Phillies"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "C. Jensen",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "medium",
-        "confidence": 0.649,
-        "edge": 4.7,
-        "stake": 1.0,
-        "market_prob": 0.602,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Carter Jensen",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -180,
-          "book": "DraftKings",
-          "game": "Chicago White Sox @ Kansas City Royals"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "J. Burger",
-        "market": "Total Bases O/U 1.5",
-        "pick": "Under",
-        "tier": "medium",
-        "confidence": 0.648,
-        "edge": 3.9,
+        "edge": 6.5,
         "stake": 1.0,
         "market_prob": 0.609,
         "calibration": 0.0,
         "ref": {
-          "player": "Jake Burger",
-          "market": "total_bases",
-          "side": "Under",
-          "line": 1.5,
+          "player": "Cody Bellinger",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
           "price": -186,
           "book": "DraftKings",
-          "game": "New York Mets @ Texas Rangers"
+          "game": "Baltimore Orioles @ New York Yankees"
         }
       },
       {
         "sport": "MLB",
-        "player": "A. Benintendi",
-        "market": "Total Bases O/U 1.5",
-        "pick": "Under",
+        "player": "R. Arozarena",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
         "tier": "medium",
-        "confidence": 0.646,
-        "edge": 3.5,
+        "confidence": 0.673,
+        "edge": 6.8,
         "stake": 1.0,
-        "market_prob": 0.611,
+        "market_prob": 0.605,
         "calibration": 0.0,
         "ref": {
-          "player": "Andrew Benintendi",
-          "market": "total_bases",
-          "side": "Under",
-          "line": 1.5,
-          "price": -188,
+          "player": "Randy Arozarena",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -183,
           "book": "DraftKings",
-          "game": "Chicago White Sox @ Kansas City Royals"
+          "game": "Los Angeles Angels @ Seattle Mariners"
+        }
+      },
+      {
+        "sport": "MLB",
+        "player": "J. Caglianone",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "confidence": 0.669,
+        "edge": 8.5,
+        "stake": 1.0,
+        "market_prob": 0.584,
+        "calibration": 0.0,
+        "ref": {
+          "player": "Jac Caglianone",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -166,
+          "book": "DraftKings",
+          "game": "Cleveland Guardians @ Kansas City Royals"
+        }
+      },
+      {
+        "sport": "MLB",
+        "player": "B. Reynolds",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "confidence": 0.669,
+        "edge": 5.0,
+        "stake": 1.0,
+        "market_prob": 0.619,
+        "calibration": 0.0,
+        "ref": {
+          "player": "Bryan Reynolds",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -195,
+          "book": "DraftKings",
+          "game": "Pittsburgh Pirates @ Detroit Tigers"
+        }
+      },
+      {
+        "sport": "MLB",
+        "player": "T. Hernandez",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "confidence": 0.658,
+        "edge": 4.2,
+        "stake": 1.0,
+        "market_prob": 0.616,
+        "calibration": 0.0,
+        "ref": {
+          "player": "Teoscar Hernandez",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -192,
+          "book": "DraftKings",
+          "game": "Los Angeles Dodgers @ San Francisco Giants"
+        }
+      },
+      {
+        "sport": "MLB",
+        "player": "B. Lee",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "confidence": 0.651,
+        "edge": 4.1,
+        "stake": 1.0,
+        "market_prob": 0.61,
+        "calibration": 0.0,
+        "ref": {
+          "player": "Brooks Lee",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -187,
+          "book": "DraftKings",
+          "game": "Texas Rangers @ Minnesota Twins"
         }
       },
       {
@@ -202,195 +155,124 @@
         "market": "Hits O/U 0.5",
         "pick": "Over",
         "tier": "medium",
-        "confidence": 0.643,
-        "edge": 9.0,
+        "confidence": 0.646,
+        "edge": 5.6,
         "stake": 1.0,
-        "market_prob": 0.553,
+        "market_prob": 0.59,
         "calibration": 0.0,
         "ref": {
           "player": "Jake Bauers",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -145,
+          "price": -171,
           "book": "DraftKings",
-          "game": "Milwaukee Brewers @ Philadelphia Phillies"
+          "game": "St. Louis Cardinals @ Milwaukee Brewers"
         }
       },
       {
         "sport": "MLB",
-        "player": "J. Ramirez",
-        "market": "Total Bases O/U 1.5",
-        "pick": "Under",
-        "tier": "medium",
-        "confidence": 0.642,
-        "edge": 4.7,
-        "stake": 1.0,
-        "market_prob": 0.595,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Jose Ramirez",
-          "market": "total_bases",
-          "side": "Under",
-          "line": 1.5,
-          "price": -175,
-          "book": "DraftKings",
-          "game": "Cleveland Guardians @ Boston Red Sox"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "C. Yelich",
+        "player": "B. Rice",
         "market": "Hits O/U 0.5",
         "pick": "Over",
         "tier": "medium",
-        "confidence": 0.623,
-        "edge": 6.0,
+        "confidence": 0.644,
+        "edge": 6.3,
         "stake": 1.0,
-        "market_prob": 0.563,
+        "market_prob": 0.581,
         "calibration": 0.0,
         "ref": {
-          "player": "Christian Yelich",
+          "player": "Ben Rice",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -151,
+          "price": -164,
           "book": "DraftKings",
-          "game": "Milwaukee Brewers @ Philadelphia Phillies"
+          "game": "Baltimore Orioles @ New York Yankees"
         }
       },
       {
         "sport": "MLB",
-        "player": "S. Antonacci",
-        "market": "Total Bases O/U 1.5",
-        "pick": "Under",
-        "tier": "medium",
-        "confidence": 0.617,
-        "edge": 4.6,
-        "stake": 1.0,
-        "market_prob": 0.571,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Sam Antonacci",
-          "market": "total_bases",
-          "side": "Under",
-          "line": 1.5,
-          "price": -157,
-          "book": "DraftKings",
-          "game": "Chicago White Sox @ Kansas City Royals"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "M. Vargas",
-        "market": "Total Bases O/U 1.5",
-        "pick": "Under",
-        "tier": "medium",
-        "confidence": 0.603,
-        "edge": 5.0,
-        "stake": 1.0,
-        "market_prob": 0.553,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Miguel Vargas",
-          "market": "total_bases",
-          "side": "Under",
-          "line": 1.5,
-          "price": -145,
-          "book": "DraftKings",
-          "game": "Chicago White Sox @ Kansas City Royals"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "K. Tucker",
+        "player": "K. Clemens",
         "market": "Hits O/U 0.5",
         "pick": "Over",
         "tier": "medium",
-        "confidence": 0.603,
-        "edge": 4.8,
+        "confidence": 0.644,
+        "edge": 6.1,
         "stake": 1.0,
-        "market_prob": 0.555,
+        "market_prob": 0.583,
         "calibration": 0.0,
         "ref": {
-          "player": "Kyle Tucker",
+          "player": "Kody Clemens",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -146,
+          "price": -166,
           "book": "DraftKings",
-          "game": "San Diego Padres @ Los Angeles Dodgers"
+          "game": "Texas Rangers @ Minnesota Twins"
         }
       },
       {
         "sport": "MLB",
-        "player": "I. Happ",
+        "player": "A. Bohm",
         "market": "Hits O/U 0.5",
         "pick": "Over",
         "tier": "medium",
-        "confidence": 0.6,
-        "edge": 4.3,
+        "confidence": 0.644,
+        "edge": 3.9,
+        "stake": 1.0,
+        "market_prob": 0.605,
+        "calibration": 0.0,
+        "ref": {
+          "player": "Alec Bohm",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -183,
+          "book": "DraftKings",
+          "game": "Tampa Bay Rays @ Philadelphia Phillies"
+        }
+      },
+      {
+        "sport": "MLB",
+        "player": "A. Gimenez",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "confidence": 0.64,
+        "edge": 8.3,
         "stake": 1.0,
         "market_prob": 0.557,
         "calibration": 0.0,
         "ref": {
-          "player": "Ian Happ",
+          "player": "Andres Gimenez",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
           "price": -147,
           "book": "DraftKings",
-          "game": "Miami Marlins @ Chicago Cubs"
+          "game": "Cincinnati Reds @ Toronto Blue Jays"
         }
       },
       {
-        "sport": "NFL",
-        "player": "C. Brooks",
-        "market": "Receiving Yards O/U 7.5",
-        "pick": "Under",
-        "tier": "lean",
-        "confidence": 0.6,
-        "edge": 8.0,
-        "stake": 0.75,
-        "market_prob": 0.52,
-        "calibration": 0.0,
-        "basis": "coverage floor",
-        "ref": {
-          "sport": "NFL",
-          "event_id": "32648",
-          "player": "Chris Brooks",
-          "market": "rec_yds",
-          "side": "Under",
-          "line": 7.5,
-          "price": -122,
-          "book": "DraftKings",
-          "game": "ATL Falcons @ GB Packers",
-          "team": "GB"
-        }
-      },
-      {
-        "sport": "NFL",
-        "player": "J. Smith",
-        "market": "Receiving Yards O/U 8.5",
+        "sport": "MLB",
+        "player": "B. Harper",
+        "market": "Hits O/U 0.5",
         "pick": "Over",
-        "tier": "lean",
-        "confidence": 0.588,
-        "edge": 8.4,
-        "stake": 0.75,
-        "market_prob": 0.504,
+        "tier": "medium",
+        "confidence": 0.624,
+        "edge": 4.0,
+        "stake": 1.0,
+        "market_prob": 0.584,
         "calibration": 0.0,
-        "basis": "coverage floor",
         "ref": {
-          "sport": "NFL",
-          "event_id": "32648",
-          "player": "Jonnu Smith",
-          "market": "rec_yds",
+          "player": "Bryce Harper",
+          "market": "hits",
           "side": "Over",
-          "line": 8.5,
-          "price": -114,
+          "line": 0.5,
+          "price": -166,
           "book": "DraftKings",
-          "game": "ATL Falcons @ GB Packers",
-          "team": "GB"
+          "game": "Tampa Bay Rays @ Philadelphia Phillies"
         }
       },
       {
@@ -399,167 +281,61 @@
         "market": "Hits O/U 0.5",
         "pick": "Over",
         "tier": "medium",
-        "confidence": 0.577,
-        "edge": 3.9,
+        "confidence": 0.58,
+        "edge": 5.9,
         "stake": 1.0,
-        "market_prob": 0.538,
+        "market_prob": 0.521,
         "calibration": 0.0,
         "ref": {
           "player": "Jarren Duran",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -136,
+          "price": -126,
           "book": "DraftKings",
-          "game": "Cleveland Guardians @ Boston Red Sox"
-        }
-      },
-      {
-        "sport": "NFL",
-        "player": "J. Dotson",
-        "market": "Receiving Yards O/U 16.5",
-        "pick": "Under",
-        "tier": "lean",
-        "confidence": 0.571,
-        "edge": 8.2,
-        "stake": 0.75,
-        "market_prob": 0.489,
-        "calibration": 0.0,
-        "basis": "coverage floor",
-        "ref": {
-          "sport": "NFL",
-          "event_id": "32648",
-          "player": "Jahan Dotson",
-          "market": "rec_yds",
-          "side": "Under",
-          "line": 16.5,
-          "price": -107,
-          "book": "DraftKings",
-          "game": "ATL Falcons @ GB Packers",
-          "team": "ATL"
-        }
-      },
-      {
-        "sport": "NFL",
-        "player": "S. Moore",
-        "market": "Receiving Yards O/U 11.5",
-        "pick": "Over",
-        "tier": "lean",
-        "confidence": 0.571,
-        "edge": 7.6,
-        "stake": 0.75,
-        "market_prob": 0.496,
-        "calibration": 0.0,
-        "basis": "coverage floor",
-        "ref": {
-          "sport": "NFL",
-          "event_id": "32648",
-          "player": "Skyy Moore",
-          "market": "rec_yds",
-          "side": "Over",
-          "line": 11.5,
-          "price": -110,
-          "book": "DraftKings",
-          "game": "ATL Falcons @ GB Packers",
-          "team": "GB"
+          "game": "Chicago Cubs @ Boston Red Sox"
         }
       },
       {
         "sport": "MLB",
-        "player": "J. Cronenworth",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
+        "player": "B. Bichette",
+        "market": "Total Bases O/U 1.5",
+        "pick": "Under",
         "tier": "medium",
-        "confidence": 0.566,
-        "edge": 7.0,
+        "confidence": 0.565,
+        "edge": 0.4,
         "stake": 1.0,
-        "market_prob": 0.496,
-        "calibration": 0.0,
+        "market_prob": 0.561,
+        "calibration": -0.089,
         "ref": {
-          "player": "Jake Cronenworth",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -113,
+          "player": "Bo Bichette",
+          "market": "total_bases",
+          "side": "Under",
+          "line": 1.5,
+          "price": -150,
           "book": "DraftKings",
-          "game": "San Diego Padres @ Los Angeles Dodgers"
+          "game": "New York Mets @ Washington Nationals"
         }
       },
       {
-        "sport": "NFL",
-        "player": "J. Love",
-        "market": "Passing TDs O/U 1.5",
-        "pick": "Under",
-        "tier": "lean",
-        "confidence": 0.533,
-        "edge": 5.4,
-        "stake": 0.75,
-        "market_prob": 0.479,
-        "calibration": 0.0,
-        "basis": "coverage floor",
-        "ref": {
-          "sport": "NFL",
-          "event_id": "32648",
-          "player": "Jordan Love",
-          "market": "pass_tds",
-          "side": "Under",
-          "line": 1.5,
-          "price": -103,
-          "book": "DraftKings",
-          "game": "ATL Falcons @ GB Packers",
-          "team": "GB"
-        },
-        "requested": "dated override (prop_overrides.json)"
-      },
-      {
-        "sport": "NFL",
-        "player": "J. Love",
-        "market": "Rushing Yards O/U 7.5",
+        "sport": "MLB",
+        "player": "M. Yastrzemski",
+        "market": "Hits O/U 0.5",
         "pick": "Over",
         "tier": "lean",
-        "confidence": 0.533,
-        "edge": 1.9,
+        "confidence": 0.547,
+        "edge": 6.4,
         "stake": 0.75,
-        "market_prob": 0.515,
+        "market_prob": 0.483,
         "calibration": 0.0,
-        "basis": "coverage floor",
         "ref": {
-          "sport": "NFL",
-          "event_id": "32648",
-          "player": "Jordan Love",
-          "market": "rush_yds",
+          "player": "Mike Yastrzemski",
+          "market": "hits",
           "side": "Over",
-          "line": 7.5,
-          "price": -119,
+          "line": 0.5,
+          "price": -107,
           "book": "DraftKings",
-          "game": "ATL Falcons @ GB Packers",
-          "team": "GB"
-        },
-        "requested": "dated override (prop_overrides.json)"
-      },
-      {
-        "sport": "NFL",
-        "player": "J. Whyle",
-        "market": "Anytime TD",
-        "pick": "Yes",
-        "tier": "lean",
-        "confidence": 0.167,
-        "edge": 9.5,
-        "stake": 0.75,
-        "market_prob": 0.071,
-        "calibration": 0.0,
-        "basis": "coverage floor",
-        "ref": {
-          "sport": "NFL",
-          "event_id": "32648",
-          "player": "Josh Whyle",
-          "market": "anytime_td",
-          "side": "Yes",
-          "line": null,
-          "price": 1300,
-          "book": "DraftKings",
-          "game": "ATL Falcons @ GB Packers",
-          "team": "GB"
+          "game": "Atlanta Braves @ Miami Marlins"
         }
       }
     ]
@@ -567,133 +343,82 @@
   "parlays": [
     {
       "legs": 3,
-      "odds": "+256",
+      "odds": "+253",
       "book": "DraftKings",
       "selections": [
-        "J. Sanoja \u2014 Hits Over 0.5",
-        "W. Contreras \u2014 Hits Over 0.5",
-        "A. Benintendi \u2014 Total Bases Under 1.5"
+        "B. Reynolds \u2014 Hits Over 0.5",
+        "T. Hernandez \u2014 Hits Over 0.5",
+        "B. Lee \u2014 Hits Over 0.5"
       ],
       "refs": [
         {
-          "player": "Javier Sanoja",
+          "player": "Bryan Reynolds",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -188,
-          "game": "Miami Marlins @ Chicago Cubs"
+          "price": -195,
+          "game": "Pittsburgh Pirates @ Detroit Tigers"
         },
         {
-          "player": "William Contreras",
+          "player": "Teoscar Hernandez",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -193,
-          "game": "Milwaukee Brewers @ Philadelphia Phillies"
+          "price": -192,
+          "game": "Los Angeles Dodgers @ San Francisco Giants"
         },
         {
-          "player": "Andrew Benintendi",
-          "market": "total_bases",
-          "side": "Under",
-          "line": 1.5,
-          "price": -188,
-          "game": "Chicago White Sox @ Kansas City Royals"
+          "player": "Brooks Lee",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -187,
+          "game": "Texas Rangers @ Minnesota Twins"
         }
       ]
     },
     {
       "legs": 4,
-      "odds": "+502",
+      "odds": "+499",
       "book": "DraftKings",
       "selections": [
-        "E. De La Cruz \u2014 Hits Over 0.5",
-        "C. Yelich \u2014 Hits Over 0.5",
-        "V. Pasquantino \u2014 Hits Over 0.5",
-        "J. Burger \u2014 Total Bases Under 1.5"
+        "A. Pages \u2014 Hits Over 0.5",
+        "J. Caglianone \u2014 Hits Over 0.5",
+        "R. Arozarena \u2014 Hits Over 0.5",
+        "B. Harper \u2014 Hits Over 0.5"
       ],
       "refs": [
         {
-          "player": "Elly De La Cruz",
+          "player": "Andy Pages",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -186,
-          "game": "Cincinnati Reds @ Atlanta Braves"
+          "price": -197,
+          "game": "Los Angeles Dodgers @ San Francisco Giants"
         },
         {
-          "player": "Christian Yelich",
+          "player": "Jac Caglianone",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -151,
-          "game": "Milwaukee Brewers @ Philadelphia Phillies"
+          "price": -166,
+          "game": "Cleveland Guardians @ Kansas City Royals"
         },
         {
-          "player": "Vinnie Pasquantino",
+          "player": "Randy Arozarena",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -188,
-          "game": "Chicago White Sox @ Kansas City Royals"
+          "price": -183,
+          "game": "Los Angeles Angels @ Seattle Mariners"
         },
         {
-          "player": "Jake Burger",
-          "market": "total_bases",
-          "side": "Under",
-          "line": 1.5,
-          "price": -186,
-          "game": "New York Mets @ Texas Rangers"
-        }
-      ]
-    },
-    {
-      "legs": 3,
-      "odds": "~+384",
-      "book": "DraftKings",
-      "sgp": false,
-      "odds_basis": "estimate: product of single-leg DK prices, not a DK SGP quote",
-      "basis": "coverage floor",
-      "selections": [
-        "M. Penix Jr. \u2014 Passing TDs Under 1.5",
-        "C. Brooks \u2014 Receiving Yards Under 7.5",
-        "J. Dotson \u2014 Receiving Yards Under 16.5"
-      ],
-      "refs": [
-        {
-          "sport": "NFL",
-          "event_id": "32648",
-          "player": "Michael Penix Jr.",
-          "market": "pass_tds",
-          "side": "Under",
-          "line": 1.5,
-          "price": -267,
-          "book": "DraftKings",
-          "game": "ATL Falcons @ GB Packers",
-          "team": "ATL"
-        },
-        {
-          "sport": "NFL",
-          "event_id": "32648",
-          "player": "Chris Brooks",
-          "market": "rec_yds",
-          "side": "Under",
-          "line": 7.5,
-          "price": -122,
-          "book": "DraftKings",
-          "game": "ATL Falcons @ GB Packers",
-          "team": "GB"
-        },
-        {
-          "sport": "NFL",
-          "event_id": "32648",
-          "player": "Jahan Dotson",
-          "market": "rec_yds",
-          "side": "Under",
-          "line": 16.5,
-          "price": -107,
-          "book": "DraftKings",
-          "game": "ATL Falcons @ GB Packers",
-          "team": "ATL"
+          "player": "Bryce Harper",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -166,
+          "game": "Tampa Bay Rays @ Philadelphia Phillies"
         }
       ]
     }

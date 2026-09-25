@@ -1,0 +1,87 @@
+{
+  "date": "2026-09-24",
+  "fully_graded": true,
+  "picks": [
+    {
+      "matchup": "NYM @ TEX",
+      "market": "Moneyline",
+      "pick": "NYM +112",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 112,
+      "result": "loss",
+      "source": "bets.db",
+      "locked": "published before first pitch; game since started"
+    },
+    {
+      "matchup": "TB @ NYY",
+      "market": "Moneyline",
+      "pick": "NYY -147",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -147,
+      "result": "win",
+      "source": "bets.db",
+      "locked": "published before first pitch; game since started"
+    },
+    {
+      "matchup": "STL @ PIT",
+      "market": "Moneyline",
+      "pick": "STL +137",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 137,
+      "result": "loss",
+      "source": "MLB Stats API final score",
+      "locked": "published before first pitch; game since started"
+    },
+    {
+      "matchup": "ARI @ COL",
+      "market": "Moneyline",
+      "pick": "ARI -189",
+      "tier": "top",
+      "stake": 1.5,
+      "odds": -189,
+      "result": "win",
+      "source": "bets.db",
+      "locked": "published before first pitch; game since started"
+    },
+    {
+      "matchup": "MIA @ CHC",
+      "market": "Moneyline",
+      "pick": "MIA +175",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 175,
+      "result": "loss",
+      "source": "bets.db",
+      "basis": "coverage floor",
+      "locked": "published before first pitch; game since started"
+    },
+    {
+      "matchup": "ATL Falcons @ GB Packers",
+      "market": "Spread",
+      "pick": "GB Packers -4.5 (-112)",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -112,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception)",
+      "sport": "NFL"
+    },
+    {
+      "matchup": "Liberty @ Coastal Carolina",
+      "market": "Spread",
+      "pick": "Coastal Carolina +2.5 (-115)",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -115,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "price read \u2014 no model edge",
+      "sport": "CFB"
+    }
+  ],
+  "ungraded": []
+}
