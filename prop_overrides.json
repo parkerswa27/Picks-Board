@@ -10,5 +10,12 @@
       {"player": "Jordan Love", "market": "pass_tds", "side": "Under"},
       {"player": "Jordan Love", "market": "rush_yds", "side": "Over"}
     ]
+  },
+  "2026-09-25": {
+    "note": "Parker asked for a couple of CFB props on the Friday slate; top two anytime-TD gaps inside the 0-10 pt band (cfb_card.py candidates).",
+    "cfb": [
+      {"player": "Mason Mini", "market": "anytime_td"},
+      {"player": "Chase Hendricks", "market": "anytime_td"}
+    ]
   }
 }

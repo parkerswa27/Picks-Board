@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T22:25:10Z",
+  "updated_at": "2026-09-25T22:30:27Z",
   "betting_model": [
     {
       "tier": "lean",
@@ -58,19 +58,22 @@
     },
     {
       "tier": "lean",
-      "matchup": "Howard @ Rutgers",
+      "matchup": "Clemson @ California",
       "market": "Spread",
-      "pick": "Rutgers -41.5 (-118)",
-      "odds": -118,
-      "confidence": 0.517,
+      "pick": "Clemson -2.5 (-110)",
+      "odds": -110,
+      "confidence": 0.5,
       "edge": 0.0,
       "stake": 0.75,
       "book": "draftkings",
-      "market_prob": 0.517,
+      "market_prob": 0.5,
       "basis": "price read \u2014 no model edge",
       "sport": "CFB",
-      "event_id": "213894",
-      "coverage": "weekend floor"
+      "event_id": "215508",
+      "coverage": "requested",
+      "model_line": -1.9,
+      "model_line_text": "Clemson -1.9",
+      "model_line_note": "power model thru wk3, market-free \u2014 informational, not a pick"
     },
     {
       "tier": "lean",
@@ -86,7 +89,7 @@
       "basis": "price read \u2014 no model edge",
       "sport": "CFB",
       "event_id": "213895",
-      "coverage": "weekend floor",
+      "coverage": "requested",
       "model_line": 24.7,
       "model_line_text": "Indiana -24.7",
       "model_line_note": "power model thru wk3, market-free \u2014 informational, not a pick"
@@ -368,6 +371,32 @@
         }
       },
       {
+        "sport": "CFB",
+        "player": "C. Hendricks",
+        "market": "Anytime TD",
+        "pick": "Yes",
+        "tier": "lean",
+        "confidence": 0.594,
+        "edge": 7.0,
+        "stake": 0.75,
+        "market_prob": 0.524,
+        "calibration": 0.0,
+        "basis": "requested",
+        "requested": "dated override (prop_overrides.json)",
+        "ref": {
+          "sport": "CFB",
+          "event_id": "215508",
+          "player": "Chase Hendricks",
+          "market": "anytime_td",
+          "side": "Yes",
+          "line": null,
+          "price": -110,
+          "book": "DraftKings",
+          "game": "Clemson @ California",
+          "team": "California Golden Bears"
+        }
+      },
+      {
         "sport": "MLB",
         "player": "J. Duran",
         "market": "Hits O/U 0.5",
@@ -428,6 +457,32 @@
           "price": -107,
           "book": "DraftKings",
           "game": "Atlanta Braves @ Miami Marlins"
+        }
+      },
+      {
+        "sport": "CFB",
+        "player": "M. Mini",
+        "market": "Anytime TD",
+        "pick": "Yes",
+        "tier": "lean",
+        "confidence": 0.44,
+        "edge": 8.9,
+        "stake": 0.75,
+        "market_prob": 0.351,
+        "calibration": 0.0,
+        "basis": "requested",
+        "requested": "dated override (prop_overrides.json)",
+        "ref": {
+          "sport": "CFB",
+          "event_id": "215508",
+          "player": "Mason Mini",
+          "market": "anytime_td",
+          "side": "Yes",
+          "line": null,
+          "price": 185,
+          "book": "DraftKings",
+          "game": "Clemson @ California",
+          "team": "California Golden Bears"
         }
       }
     ],

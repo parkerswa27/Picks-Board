@@ -276,6 +276,32 @@
         }
       },
       {
+        "sport": "CFB",
+        "player": "C. Hendricks",
+        "market": "Anytime TD",
+        "pick": "Yes",
+        "tier": "lean",
+        "confidence": 0.594,
+        "edge": 7.0,
+        "stake": 0.75,
+        "market_prob": 0.524,
+        "calibration": 0.0,
+        "basis": "requested",
+        "requested": "dated override (prop_overrides.json)",
+        "ref": {
+          "sport": "CFB",
+          "event_id": "215508",
+          "player": "Chase Hendricks",
+          "market": "anytime_td",
+          "side": "Yes",
+          "line": null,
+          "price": -110,
+          "book": "DraftKings",
+          "game": "Clemson @ California",
+          "team": "California Golden Bears"
+        }
+      },
+      {
         "sport": "MLB",
         "player": "J. Duran",
         "market": "Hits O/U 0.5",
@@ -336,6 +362,32 @@
           "price": -107,
           "book": "DraftKings",
           "game": "Atlanta Braves @ Miami Marlins"
+        }
+      },
+      {
+        "sport": "CFB",
+        "player": "M. Mini",
+        "market": "Anytime TD",
+        "pick": "Yes",
+        "tier": "lean",
+        "confidence": 0.44,
+        "edge": 8.9,
+        "stake": 0.75,
+        "market_prob": 0.351,
+        "calibration": 0.0,
+        "basis": "requested",
+        "requested": "dated override (prop_overrides.json)",
+        "ref": {
+          "sport": "CFB",
+          "event_id": "215508",
+          "player": "Mason Mini",
+          "market": "anytime_td",
+          "side": "Yes",
+          "line": null,
+          "price": 185,
+          "book": "DraftKings",
+          "game": "Clemson @ California",
+          "team": "California Golden Bears"
         }
       }
     ]
