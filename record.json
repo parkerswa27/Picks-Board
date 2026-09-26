@@ -541,6 +541,266 @@
           "result": "win"
         }
       ]
+    },
+    {
+      "date": "2026-09-25",
+      "betting_model": {
+        "wins": 3,
+        "losses": 4,
+        "pushes": 0,
+        "units": -0.79,
+        "picks": [
+          {
+            "matchup": "LAA @ SEA",
+            "market": "Moneyline",
+            "pick": "LAA +110",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 110,
+            "result": "win"
+          },
+          {
+            "matchup": "PIT @ DET",
+            "market": "Moneyline",
+            "pick": "DET -106",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -106,
+            "result": "win"
+          },
+          {
+            "matchup": "CLE @ KC",
+            "market": "Moneyline",
+            "pick": "KC +120",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 120,
+            "result": "loss"
+          },
+          {
+            "matchup": "STL @ MIL",
+            "market": "Moneyline",
+            "pick": "STL +160",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 160,
+            "result": "loss"
+          },
+          {
+            "matchup": "TEX @ MIN",
+            "market": "Moneyline",
+            "pick": "TEX -108",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -108,
+            "result": "loss"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Clemson @ California",
+            "market": "Spread",
+            "pick": "Clemson -2.5 (-110)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -110,
+            "result": "win",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Northwestern @ Indiana",
+            "market": "Spread",
+            "pick": "Indiana -20.5 (-112)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -112,
+            "result": "loss",
+            "basis": "price read \u2014 no model edge"
+          }
+        ]
+      },
+      "player_props": {
+        "wins": 9,
+        "losses": 9,
+        "pushes": 0,
+        "units": -2.63,
+        "picks": [
+          {
+            "player": "A. Pages",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "top",
+            "stake": 1.5,
+            "odds": -197,
+            "result": "win"
+          },
+          {
+            "player": "C. Bellinger",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -186,
+            "result": "loss"
+          },
+          {
+            "player": "R. Arozarena",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -183,
+            "result": "win"
+          },
+          {
+            "player": "J. Caglianone",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -166,
+            "result": "win"
+          },
+          {
+            "player": "B. Reynolds",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -195,
+            "result": "loss"
+          },
+          {
+            "player": "T. Hernandez",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -192,
+            "result": "win"
+          },
+          {
+            "player": "B. Lee",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -187,
+            "result": "loss"
+          },
+          {
+            "player": "J. Bauers",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -171,
+            "result": "win"
+          },
+          {
+            "player": "B. Rice",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -164,
+            "result": "win"
+          },
+          {
+            "player": "K. Clemens",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -166,
+            "result": "win"
+          },
+          {
+            "player": "A. Bohm",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -183,
+            "result": "loss"
+          },
+          {
+            "player": "A. Gimenez",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -147,
+            "result": "loss"
+          },
+          {
+            "player": "B. Harper",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -166,
+            "result": "win"
+          },
+          {
+            "player": "C. Hendricks",
+            "market": "Anytime TD",
+            "pick": "Yes",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -110,
+            "result": "loss"
+          },
+          {
+            "player": "J. Duran",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -126,
+            "result": "win"
+          },
+          {
+            "player": "B. Bichette",
+            "market": "Total Bases O/U 1.5",
+            "pick": "Under",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -150,
+            "result": "loss"
+          },
+          {
+            "player": "M. Yastrzemski",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -107,
+            "result": "loss"
+          },
+          {
+            "player": "M. Mini",
+            "market": "Anytime TD",
+            "pick": "Yes",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 185,
+            "result": "loss"
+          }
+        ]
+      },
+      "parlays": [
+        {
+          "legs": 3,
+          "odds": "+253",
+          "result": "loss"
+        },
+        {
+          "legs": 4,
+          "odds": "+499",
+          "result": "win"
+        }
+      ]
     }
   ]
 }

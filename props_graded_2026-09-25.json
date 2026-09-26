@@ -1,0 +1,199 @@
+{
+  "date": "2026-09-25",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "A. Pages",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "top",
+      "stake": 1.5,
+      "odds": -197,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "C. Bellinger",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -186,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "R. Arozarena",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -183,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Caglianone",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -166,
+      "actual": 3.0,
+      "result": "win"
+    },
+    {
+      "player": "B. Reynolds",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -195,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "T. Hernandez",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -192,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "B. Lee",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -187,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Bauers",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -171,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "B. Rice",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -164,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "K. Clemens",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -166,
+      "actual": 3.0,
+      "result": "win"
+    },
+    {
+      "player": "A. Bohm",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -183,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "A. Gimenez",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -147,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "B. Harper",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -166,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "C. Hendricks",
+      "market": "Anytime TD",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Duran",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -126,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "B. Bichette",
+      "market": "Total Bases O/U 1.5",
+      "pick": "Under",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -150,
+      "actual": 6.0,
+      "result": "loss"
+    },
+    {
+      "player": "M. Yastrzemski",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -107,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "M. Mini",
+      "market": "Anytime TD",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 185,
+      "actual": 0.0,
+      "result": "loss"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "+253",
+      "result": "loss"
+    },
+    {
+      "legs": 4,
+      "odds": "+499",
+      "result": "win"
+    }
+  ],
+  "unresolved": []
+}

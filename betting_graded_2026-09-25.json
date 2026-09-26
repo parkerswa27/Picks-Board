@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-25",
+  "fully_graded": true,
+  "picks": [
+    {
+      "matchup": "LAA @ SEA",
+      "market": "Moneyline",
+      "pick": "LAA +110",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 110,
+      "result": "win",
+      "source": "bets.db"
+    },
+    {
+      "matchup": "PIT @ DET",
+      "market": "Moneyline",
+      "pick": "DET -106",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -106,
+      "result": "win",
+      "source": "bets.db"
+    },
+    {
+      "matchup": "CLE @ KC",
+      "market": "Moneyline",
+      "pick": "KC +120",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 120,
+      "result": "loss",
+      "source": "bets.db"
+    },
+    {
+      "matchup": "STL @ MIL",
+      "market": "Moneyline",
+      "pick": "STL +160",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 160,
+      "result": "loss",
+      "source": "bets.db"
+    },
+    {
+      "matchup": "TEX @ MIN",
+      "market": "Moneyline",
+      "pick": "TEX -108",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -108,
+      "result": "loss",
+      "source": "bets.db"
+    },
+    {
+      "matchup": "Clemson @ California",
+      "market": "Spread",
+      "pick": "Clemson -2.5 (-110)",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "price read \u2014 no model edge",
+      "sport": "CFB"
+    },
+    {
+      "matchup": "Northwestern @ Indiana",
+      "market": "Spread",
+      "pick": "Indiana -20.5 (-112)",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -112,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "price read \u2014 no model edge",
+      "sport": "CFB"
+    }
+  ],
+  "ungraded": []
+}

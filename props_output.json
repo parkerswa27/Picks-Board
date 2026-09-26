@@ -1,257 +1,173 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "player_props": {
     "picks": [
-      {
-        "sport": "MLB",
-        "player": "A. Pages",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "top",
-        "confidence": 0.711,
-        "edge": 9.0,
-        "stake": 1.5,
-        "market_prob": 0.621,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Andy Pages",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -197,
-          "book": "DraftKings",
-          "game": "Los Angeles Dodgers @ San Francisco Giants"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "C. Bellinger",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "medium",
-        "confidence": 0.674,
-        "edge": 6.5,
-        "stake": 1.0,
-        "market_prob": 0.609,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Cody Bellinger",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -186,
-          "book": "DraftKings",
-          "game": "Baltimore Orioles @ New York Yankees"
-        }
-      },
       {
         "sport": "MLB",
         "player": "R. Arozarena",
         "market": "Hits O/U 0.5",
         "pick": "Over",
         "tier": "medium",
-        "confidence": 0.673,
-        "edge": 6.8,
+        "confidence": 0.672,
+        "edge": 4.8,
         "stake": 1.0,
-        "market_prob": 0.605,
-        "calibration": 0.0,
+        "market_prob": 0.624,
+        "calibration": -0.004,
         "ref": {
           "player": "Randy Arozarena",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -183,
+          "price": -199,
           "book": "DraftKings",
           "game": "Los Angeles Angels @ Seattle Mariners"
         }
       },
       {
         "sport": "MLB",
-        "player": "J. Caglianone",
+        "player": "J. Wood",
         "market": "Hits O/U 0.5",
         "pick": "Over",
         "tier": "medium",
-        "confidence": 0.669,
-        "edge": 8.5,
-        "stake": 1.0,
-        "market_prob": 0.584,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Jac Caglianone",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -166,
-          "book": "DraftKings",
-          "game": "Cleveland Guardians @ Kansas City Royals"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "B. Reynolds",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "medium",
-        "confidence": 0.669,
-        "edge": 5.0,
-        "stake": 1.0,
-        "market_prob": 0.619,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Bryan Reynolds",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -195,
-          "book": "DraftKings",
-          "game": "Pittsburgh Pirates @ Detroit Tigers"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "T. Hernandez",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "medium",
-        "confidence": 0.658,
-        "edge": 4.2,
-        "stake": 1.0,
-        "market_prob": 0.616,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Teoscar Hernandez",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -192,
-          "book": "DraftKings",
-          "game": "Los Angeles Dodgers @ San Francisco Giants"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "B. Lee",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "medium",
-        "confidence": 0.651,
-        "edge": 4.1,
+        "confidence": 0.671,
+        "edge": 6.1,
         "stake": 1.0,
         "market_prob": 0.61,
-        "calibration": 0.0,
+        "calibration": -0.004,
         "ref": {
-          "player": "Brooks Lee",
+          "player": "James Wood",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
           "price": -187,
           "book": "DraftKings",
-          "game": "Texas Rangers @ Minnesota Twins"
+          "game": "New York Mets @ Washington Nationals"
         }
       },
       {
         "sport": "MLB",
-        "player": "J. Bauers",
+        "player": "J. Ortiz",
         "market": "Hits O/U 0.5",
         "pick": "Over",
         "tier": "medium",
-        "confidence": 0.646,
-        "edge": 5.6,
+        "confidence": 0.66,
+        "edge": 8.1,
         "stake": 1.0,
-        "market_prob": 0.59,
-        "calibration": 0.0,
+        "market_prob": 0.579,
+        "calibration": -0.004,
         "ref": {
-          "player": "Jake Bauers",
+          "player": "Joey Ortiz",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -171,
+          "price": -163,
           "book": "DraftKings",
           "game": "St. Louis Cardinals @ Milwaukee Brewers"
         }
       },
       {
         "sport": "MLB",
-        "player": "B. Rice",
+        "player": "V. Pasquantino",
         "market": "Hits O/U 0.5",
         "pick": "Over",
         "tier": "medium",
-        "confidence": 0.644,
-        "edge": 6.3,
+        "confidence": 0.657,
+        "edge": 5.7,
         "stake": 1.0,
-        "market_prob": 0.581,
-        "calibration": 0.0,
+        "market_prob": 0.6,
+        "calibration": -0.004,
         "ref": {
-          "player": "Ben Rice",
+          "player": "Vinnie Pasquantino",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -164,
+          "price": -179,
           "book": "DraftKings",
-          "game": "Baltimore Orioles @ New York Yankees"
+          "game": "Cleveland Guardians @ Kansas City Royals"
         }
       },
       {
         "sport": "MLB",
-        "player": "K. Clemens",
+        "player": "N. Arenado",
         "market": "Hits O/U 0.5",
         "pick": "Over",
         "tier": "medium",
-        "confidence": 0.644,
-        "edge": 6.1,
+        "confidence": 0.656,
+        "edge": 9.1,
         "stake": 1.0,
-        "market_prob": 0.583,
-        "calibration": 0.0,
+        "market_prob": 0.565,
+        "calibration": -0.004,
         "ref": {
-          "player": "Kody Clemens",
+          "player": "Nolan Arenado",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -166,
+          "price": -153,
           "book": "DraftKings",
-          "game": "Texas Rangers @ Minnesota Twins"
+          "game": "Arizona Diamondbacks @ San Diego Padres"
         }
       },
       {
         "sport": "MLB",
-        "player": "A. Bohm",
+        "player": "C. Jensen",
         "market": "Hits O/U 0.5",
         "pick": "Over",
         "tier": "medium",
-        "confidence": 0.644,
-        "edge": 3.9,
+        "confidence": 0.643,
+        "edge": 3.8,
         "stake": 1.0,
         "market_prob": 0.605,
-        "calibration": 0.0,
+        "calibration": -0.004,
         "ref": {
-          "player": "Alec Bohm",
+          "player": "Carter Jensen",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
           "price": -183,
           "book": "DraftKings",
-          "game": "Tampa Bay Rays @ Philadelphia Phillies"
+          "game": "Cleveland Guardians @ Kansas City Royals"
         }
       },
       {
         "sport": "MLB",
-        "player": "A. Gimenez",
+        "player": "Z. Neto",
         "market": "Hits O/U 0.5",
         "pick": "Over",
         "tier": "medium",
-        "confidence": 0.64,
-        "edge": 8.3,
+        "confidence": 0.639,
+        "edge": 2.9,
         "stake": 1.0,
-        "market_prob": 0.557,
-        "calibration": 0.0,
+        "market_prob": 0.61,
+        "calibration": -0.004,
         "ref": {
-          "player": "Andres Gimenez",
+          "player": "Zach Neto",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -147,
+          "price": -188,
           "book": "DraftKings",
-          "game": "Cincinnati Reds @ Toronto Blue Jays"
+          "game": "Los Angeles Angels @ Seattle Mariners"
+        }
+      },
+      {
+        "sport": "MLB",
+        "player": "M. Trout",
+        "market": "Hits O/U 0.5",
+        "pick": "Over",
+        "tier": "medium",
+        "confidence": 0.635,
+        "edge": 4.0,
+        "stake": 1.0,
+        "market_prob": 0.595,
+        "calibration": -0.004,
+        "ref": {
+          "player": "Mike Trout",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -175,
+          "book": "DraftKings",
+          "game": "Los Angeles Angels @ Seattle Mariners"
         }
       },
       {
@@ -260,66 +176,19 @@
         "market": "Hits O/U 0.5",
         "pick": "Over",
         "tier": "medium",
-        "confidence": 0.624,
-        "edge": 4.0,
+        "confidence": 0.623,
+        "edge": 5.2,
         "stake": 1.0,
-        "market_prob": 0.584,
-        "calibration": 0.0,
+        "market_prob": 0.571,
+        "calibration": -0.004,
         "ref": {
           "player": "Bryce Harper",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -166,
+          "price": -157,
           "book": "DraftKings",
           "game": "Tampa Bay Rays @ Philadelphia Phillies"
-        }
-      },
-      {
-        "sport": "CFB",
-        "player": "C. Hendricks",
-        "market": "Anytime TD",
-        "pick": "Yes",
-        "tier": "lean",
-        "confidence": 0.594,
-        "edge": 7.0,
-        "stake": 0.75,
-        "market_prob": 0.524,
-        "calibration": 0.0,
-        "basis": "requested",
-        "requested": "dated override (prop_overrides.json)",
-        "ref": {
-          "sport": "CFB",
-          "event_id": "215508",
-          "player": "Chase Hendricks",
-          "market": "anytime_td",
-          "side": "Yes",
-          "line": null,
-          "price": -110,
-          "book": "DraftKings",
-          "game": "Clemson @ California",
-          "team": "California Golden Bears"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "J. Duran",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "medium",
-        "confidence": 0.58,
-        "edge": 5.9,
-        "stake": 1.0,
-        "market_prob": 0.521,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Jarren Duran",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -126,
-          "book": "DraftKings",
-          "game": "Chicago Cubs @ Boston Red Sox"
         }
       },
       {
@@ -327,67 +196,41 @@
         "player": "B. Bichette",
         "market": "Total Bases O/U 1.5",
         "pick": "Under",
-        "tier": "medium",
-        "confidence": 0.565,
-        "edge": 0.4,
-        "stake": 1.0,
-        "market_prob": 0.561,
-        "calibration": -0.089,
+        "tier": "lean",
+        "confidence": 0.52,
+        "edge": -4.3,
+        "stake": 0.75,
+        "market_prob": 0.563,
+        "calibration": -0.129,
         "ref": {
           "player": "Bo Bichette",
           "market": "total_bases",
           "side": "Under",
           "line": 1.5,
-          "price": -150,
+          "price": -151,
           "book": "DraftKings",
           "game": "New York Mets @ Washington Nationals"
         }
       },
       {
         "sport": "MLB",
-        "player": "M. Yastrzemski",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
+        "player": "J. Ramirez",
+        "market": "Total Bases O/U 1.5",
+        "pick": "Under",
         "tier": "lean",
-        "confidence": 0.547,
-        "edge": 6.4,
+        "confidence": 0.51,
+        "edge": -4.7,
         "stake": 0.75,
-        "market_prob": 0.483,
-        "calibration": 0.0,
+        "market_prob": 0.557,
+        "calibration": -0.129,
         "ref": {
-          "player": "Mike Yastrzemski",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -107,
+          "player": "Jose Ramirez",
+          "market": "total_bases",
+          "side": "Under",
+          "line": 1.5,
+          "price": -148,
           "book": "DraftKings",
-          "game": "Atlanta Braves @ Miami Marlins"
-        }
-      },
-      {
-        "sport": "CFB",
-        "player": "M. Mini",
-        "market": "Anytime TD",
-        "pick": "Yes",
-        "tier": "lean",
-        "confidence": 0.44,
-        "edge": 8.9,
-        "stake": 0.75,
-        "market_prob": 0.351,
-        "calibration": 0.0,
-        "basis": "requested",
-        "requested": "dated override (prop_overrides.json)",
-        "ref": {
-          "sport": "CFB",
-          "event_id": "215508",
-          "player": "Mason Mini",
-          "market": "anytime_td",
-          "side": "Yes",
-          "line": null,
-          "price": 185,
-          "book": "DraftKings",
-          "game": "Clemson @ California",
-          "team": "California Golden Bears"
+          "game": "Cleveland Guardians @ Kansas City Royals"
         }
       }
     ]
@@ -395,82 +238,82 @@
   "parlays": [
     {
       "legs": 3,
-      "odds": "+253",
+      "odds": "+257",
       "book": "DraftKings",
       "selections": [
-        "B. Reynolds \u2014 Hits Over 0.5",
-        "T. Hernandez \u2014 Hits Over 0.5",
-        "B. Lee \u2014 Hits Over 0.5"
+        "J. Wood \u2014 Hits Over 0.5",
+        "R. Arozarena \u2014 Hits Over 0.5",
+        "C. Jensen \u2014 Hits Over 0.5"
       ],
       "refs": [
         {
-          "player": "Bryan Reynolds",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -195,
-          "game": "Pittsburgh Pirates @ Detroit Tigers"
-        },
-        {
-          "player": "Teoscar Hernandez",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -192,
-          "game": "Los Angeles Dodgers @ San Francisco Giants"
-        },
-        {
-          "player": "Brooks Lee",
+          "player": "James Wood",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
           "price": -187,
-          "game": "Texas Rangers @ Minnesota Twins"
-        }
-      ]
-    },
-    {
-      "legs": 4,
-      "odds": "+499",
-      "book": "DraftKings",
-      "selections": [
-        "A. Pages \u2014 Hits Over 0.5",
-        "J. Caglianone \u2014 Hits Over 0.5",
-        "R. Arozarena \u2014 Hits Over 0.5",
-        "B. Harper \u2014 Hits Over 0.5"
-      ],
-      "refs": [
-        {
-          "player": "Andy Pages",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -197,
-          "game": "Los Angeles Dodgers @ San Francisco Giants"
-        },
-        {
-          "player": "Jac Caglianone",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -166,
-          "game": "Cleveland Guardians @ Kansas City Royals"
+          "game": "New York Mets @ Washington Nationals"
         },
         {
           "player": "Randy Arozarena",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -183,
+          "price": -199,
           "game": "Los Angeles Angels @ Seattle Mariners"
+        },
+        {
+          "player": "Carter Jensen",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -183,
+          "game": "Cleveland Guardians @ Kansas City Royals"
+        }
+      ]
+    },
+    {
+      "legs": 4,
+      "odds": "+566",
+      "book": "DraftKings",
+      "selections": [
+        "B. Bichette \u2014 Total Bases Under 1.5",
+        "V. Pasquantino \u2014 Hits Over 0.5",
+        "B. Harper \u2014 Hits Over 0.5",
+        "M. Trout \u2014 Hits Over 0.5"
+      ],
+      "refs": [
+        {
+          "player": "Bo Bichette",
+          "market": "total_bases",
+          "side": "Under",
+          "line": 1.5,
+          "price": -151,
+          "game": "New York Mets @ Washington Nationals"
+        },
+        {
+          "player": "Vinnie Pasquantino",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -179,
+          "game": "Cleveland Guardians @ Kansas City Royals"
         },
         {
           "player": "Bryce Harper",
           "market": "hits",
           "side": "Over",
           "line": 0.5,
-          "price": -166,
+          "price": -157,
           "game": "Tampa Bay Rays @ Philadelphia Phillies"
+        },
+        {
+          "player": "Mike Trout",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -175,
+          "game": "Los Angeles Angels @ Seattle Mariners"
         }
       ]
     }
