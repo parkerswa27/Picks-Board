@@ -1,0 +1,130 @@
+{
+  "date": "2026-09-26",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "R. Arozarena",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -199,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Wood",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -187,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Ortiz",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -163,
+      "actual": "void",
+      "result": "push",
+      "note": "DNP (did not play) \u2014 void"
+    },
+    {
+      "player": "V. Pasquantino",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -179,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "N. Arenado",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -153,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "C. Jensen",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -183,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "Z. Neto",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -188,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "M. Trout",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -175,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "B. Harper",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -157,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "B. Bichette",
+      "market": "Total Bases O/U 1.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -151,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Ramirez",
+      "market": "Total Bases O/U 1.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -148,
+      "actual": 0.0,
+      "result": "win"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "+257",
+      "result": "win"
+    },
+    {
+      "legs": 4,
+      "odds": "+566",
+      "result": "loss"
+    }
+  ],
+  "unresolved": []
+}

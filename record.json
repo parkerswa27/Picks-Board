@@ -801,6 +801,342 @@
           "result": "win"
         }
       ]
+    },
+    {
+      "date": "2026-09-26",
+      "betting_model": {
+        "wins": 10,
+        "losses": 9,
+        "pushes": 0,
+        "units": -0.26,
+        "picks": [
+          {
+            "matchup": "CLE @ KC",
+            "market": "Moneyline",
+            "pick": "KC +110",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 110,
+            "result": "loss"
+          },
+          {
+            "matchup": "CIN @ TOR",
+            "market": "Moneyline",
+            "pick": "TOR -154",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -154,
+            "result": "loss",
+            "basis": "coverage floor"
+          },
+          {
+            "matchup": "STL @ MIL",
+            "market": "Moneyline",
+            "pick": "STL +158",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 158,
+            "result": "loss",
+            "basis": "coverage floor"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "San Diego State @ Toledo",
+            "market": "Spread",
+            "pick": "Toledo -2.5 (-118)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -118,
+            "result": "win",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Lindenwood @ Eastern Michigan",
+            "market": "Spread",
+            "pick": "Eastern Michigan -23.5 (-118)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -118,
+            "result": "win",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Ball State @ Kent State",
+            "market": "Spread",
+            "pick": "Kent State -2.5 (-115)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "win",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Colorado State @ UTSA",
+            "market": "Spread",
+            "pick": "Colorado State +14.5 (-115)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "win",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "South Alabama @ Kentucky",
+            "market": "Spread",
+            "pick": "Kentucky -20.5 (-115)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "win",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Delaware @ Virginia",
+            "market": "Spread",
+            "pick": "Virginia -19.5 (-115)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "win",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Notre Dame @ Purdue",
+            "market": "Spread",
+            "pick": "Purdue +27.5 (-115)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "loss",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Iowa @ Michigan",
+            "market": "Spread",
+            "pick": "Iowa +5.5 (-115)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "win",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "William & Mary @ Duke",
+            "market": "Spread",
+            "pick": "Duke -43.5 (-115)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "win",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Gardner-Webb @ Marshall",
+            "market": "Spread",
+            "pick": "Gardner-Webb +25.5 (-115)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "win",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "James Madison @ Old Dominion",
+            "market": "Spread",
+            "pick": "James Madison -6.5 (-115)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "win",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Southern Miss @ Tulane",
+            "market": "Spread",
+            "pick": "Tulane -17.5 (-115)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "loss",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Oregon @ USC",
+            "market": "Spread",
+            "pick": "USC +3.5 (-115)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "loss",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Houston Christian @ North Texas",
+            "market": "Spread",
+            "pick": "Houston Christian +38.5 (-115)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "loss",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "South Florida @ Bowling Green",
+            "market": "Spread",
+            "pick": "South Florida -17.5 (-120)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -120,
+            "result": "loss",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "UNLV @ Akron",
+            "market": "Spread",
+            "pick": "Akron +13.5 (-112)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -112,
+            "result": "loss",
+            "basis": "price read \u2014 no model edge"
+          }
+        ]
+      },
+      "player_props": {
+        "wins": 8,
+        "losses": 2,
+        "pushes": 1,
+        "units": 2.44,
+        "picks": [
+          {
+            "player": "R. Arozarena",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -199,
+            "result": "win"
+          },
+          {
+            "player": "J. Wood",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -187,
+            "result": "win"
+          },
+          {
+            "player": "J. Ortiz",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -163,
+            "result": "push",
+            "note": "DNP (did not play) \u2014 void"
+          },
+          {
+            "player": "V. Pasquantino",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -179,
+            "result": "win"
+          },
+          {
+            "player": "N. Arenado",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -153,
+            "result": "win"
+          },
+          {
+            "player": "C. Jensen",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -183,
+            "result": "win"
+          },
+          {
+            "player": "Z. Neto",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -188,
+            "result": "loss"
+          },
+          {
+            "player": "M. Trout",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -175,
+            "result": "loss"
+          },
+          {
+            "player": "B. Harper",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -157,
+            "result": "win"
+          },
+          {
+            "player": "B. Bichette",
+            "market": "Total Bases O/U 1.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -151,
+            "result": "win"
+          },
+          {
+            "player": "J. Ramirez",
+            "market": "Total Bases O/U 1.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -148,
+            "result": "win"
+          }
+        ]
+      },
+      "parlays": [
+        {
+          "legs": 3,
+          "odds": "+257",
+          "result": "win"
+        },
+        {
+          "legs": 4,
+          "odds": "+566",
+          "result": "loss"
+        }
+      ]
     }
   ]
 }
