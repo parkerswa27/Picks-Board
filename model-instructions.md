@@ -227,8 +227,32 @@ Backtest, reported in full (9/24/26):
 
 | Split | Games | Cover% (95% CI) | ROI @ −110 | Model RMSE | Market RMSE |
 |---|---|---|---|---|---|
+| TUNE 2000–14 (in-sample for b; context only) | 3,879 | 50.1% (48.5–51.7) | −4.4% | 13.82 | 13.55 |
 | TEST 2015–22 excl. 2020 | 1,848 | 50.2% (47.9–52.4) | −4.2% | 13.10 | 12.73 |
 | HOLDOUT 2023–25 | 836 | 47.2% (43.9–50.6) | −9.8% | 13.24 | 12.72 |
+
+Re-run 9/28/26 from the frozen parameters: identical. HOLDOUT by season: 2023
+45.0%, 2024 50.2%, 2025 46.5%.
+
+**Calibration of the published confidence (9/28/26).** `cover_logit` (P(model
+side covers) = logistic(a0 + a1·|model − line|), a0 −0.066, a1 +0.031) is fit
+on TUNE. Out of sample it does not hold: refit on TEST the slope is −0.033, on
+HOLDOUT −0.003 — confidence rises with disagreement while actual cover falls.
+Its Brier score is no better than a constant 0.5 on TEST (0.2508 vs 0.2500) or
+HOLDOUT (0.2504 vs 0.2500). HOLDOUT, predicted vs actual: 0.53–0.55 bin 0.538
+vs 0.379 (n=29); 0.55+ bin 0.566 vs 0.444 (n=18). "Slightly hot" understated it.
+
+**Cover by model-vs-line disagreement (diagnostic context, 9/28/26):**
+
+| Disagreement | TEST n | TEST cover | HOLDOUT n | HOLDOUT cover |
+|---|---|---|---|---|
+| 0–1 pts | 517 | 52.4% | 236 | 44.1% |
+| 1–2 | 472 | 50.0% | 199 | 52.3% |
+| 2–3 | 315 | 50.8% | 158 | 43.7% |
+| 3–5 | 360 | 48.9% | 163 | 50.9% |
+| 5+ | 184 | 45.7% | 80 | 43.8% |
+
+No bucket is consistently above breakeven; 5+ is the worst in both splits.
 
 Larger model-vs-market disagreements covered *worse* (5+ pts: 45.7% TEST,
 43.8% holdout) — the opposite of a real edge. The market was more accurate in
@@ -248,6 +272,30 @@ Rules that still apply to its picks:
   exception)"` on every pick, in `data.json` and `record.json`.
 - Coverage rules still decide which games get a pick; the model decides the
   side and the confidence.
+- **Weekend floor fill order (9/28/26):** floor games are filled by the
+  **smallest** model-vs-line disagreement (`model_gap_pts`), tagged
+  `"basis": "coverage floor"` with the model caveat moved to `note`. This
+  avoids the 5+ bucket the old highest-confidence order selected. It is a
+  judgment call, not a tuned parameter, and not a claimed edge — the table
+  above shows no bucket beats breakeven.
+- **`model_gap_pts`** (|model margin − line|, points) is on every NFL model
+  pick and kept in `record.json` with its outcome.
+- **Neutral sites:** the model reads nflverse's schedule (`location ==
+  "Neutral"`) and uses HFA 0 there, exactly as the backtest did. A game
+  missing from the schedule is a loud `!!` price read, never a silent home site.
+  (The CFB Model column does the same from `cfb.db`'s neutral flag.)
+- **Fail loudly:** a missing parameter in `nfl_eff_tuned.json` (`cover_logit`
+  included — `--tune` now writes it, TUNE only) or a failed nflverse
+  `--refresh` prints `!! NFL model unavailable` and that run's NFL picks are
+  price reads. A failed refresh stops only the NFL model, not the daily run.
+- **Season:** nflverse convention — January/February games belong to the prior
+  season (`nfl_eff.nfl_season`).
+
+**Standing rules (Parker, 9/28/26):**
+- Don't tune on 2023–2025 again. HOLDOUT has been looked at; any future change
+  is judged on 2026+ games only.
+- Every NFL spread pick is logged with `model_gap_pts` and its graded outcome,
+  so 2026 is the clean forward test.
 
 ## Lean-tier picks
 
@@ -290,6 +338,7 @@ Each daily run should:
 3. `wins` / `losses` / `pushes` and `units` are per-day totals for that section; the site sums across all days itself, so don't maintain a running cumulative total in the file.
 4. Parlays are graded independently — a parlay's win/loss doesn't change the win/loss tally of its individual legs, even if a leg also appears as a standalone pick that same day.
 5. Only grade games that have actually finished. If a day isn't fully graded yet (postponements, late games), leave it out of `record.json` until it is — don't publish partial or estimated results.
+6. **Cancelled with no makeup date = void (9/28/26).** An MLB game Cancelled with no `rescheduleDate`/`resumeDate` (e.g. rained out on the season's last day) will never be played: betting picks and prop legs on it grade as a **push** (0 units) with a void note. Both graders apply this automatically; a dated `"void"` entry in `prop_overrides.json` records a manual, box-score-verified void. Postponed and suspended games are *not* void — they stay ungraded until made up (rule 5).
 
 Schema:
 
