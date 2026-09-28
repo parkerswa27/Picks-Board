@@ -31,17 +31,26 @@ function confCell(confidence) {
     </span>`;
 }
 
-function groupHeaderRow(label, count) {
-  return `<tr class="group-row"><td colspan="5">${label} <span class="group-row__count">${count}</span></td></tr>`;
+function groupHeaderRow(label, count, cols = 5) {
+  return `<tr class="group-row"><td colspan="${cols}">${label} <span class="group-row__count">${count}</span></td></tr>`;
 }
 
-function pickRow(row, firstColKey) {
+// Model Line: the CFB power model's own implied line, market-free. Shown only
+// as a reference column beside the market number -- it is NOT a pick and has no
+// bearing on tier, stake or edge. Blank for every non-CFB row.
+function modelLineCell(row) {
+  if (row.model_line_text == null) return `<td class="num model-line">—</td>`;
+  return `<td class="num model-line" title="${row.model_line_note ?? ""}">${row.model_line_text}</td>`;
+}
+
+function pickRow(row, firstColKey, withModelLine = false) {
   const edgeClass = (row.edge ?? 0) >= 0 ? "edge-pos" : "edge-neg";
   return `
     <tr>
       <td>${row[firstColKey] ?? "—"}</td>
       <td>${row.market ?? "—"}</td>
       <td class="pick-cell">${row.pick ?? "—"}</td>
+      ${withModelLine ? modelLineCell(row) : ""}
       <td class="num">${confCell(row.confidence)}</td>
       <td class="num ${edgeClass}">${fmtEdge(row.edge)}</td>
     </tr>`;
@@ -61,8 +70,8 @@ function renderBettingModel(rows) {
   TIER_ORDER.forEach(tier => {
     const group = byTier[tier];
     if (!group || !group.length) return;
-    html += groupHeaderRow(TIER_LABEL[tier], group.length);
-    html += group.map(r => pickRow(r, "matchup")).join("");
+    html += groupHeaderRow(TIER_LABEL[tier], group.length, 6);
+    html += group.map(r => pickRow(r, "matchup", true)).join("");
   });
   tbody.innerHTML = html;
   return true;

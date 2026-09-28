@@ -372,3 +372,11 @@ main {
   .ledger { font-size: 0.82rem; }
   .ledger thead th:nth-child(2), .ledger tbody td:nth-child(2) { display: none; }
 }
+
+/* Model Line — the CFB power model's own implied line, shown for reference
+   beside the market number. Deliberately de-emphasised: it is not a pick and
+   must never read like one. */
+.ledger td.model-line {
+  color: var(--muted, #8b8b8b);
+  font-weight: 400;
+}
