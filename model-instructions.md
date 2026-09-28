@@ -168,6 +168,19 @@ gets published, never what its stated probability is.
 - **NFL player props, single-game days:** on any day where the slate is
   exactly one NFL game, publish at least 6 player props for that game and
   at least one 3-leg parlay built from it.
+  - **The 6 is a target, not a quota (9/28/26).** If fewer than 6 legs clear
+    the rules, publish what clears and report it in the run report as
+    `NFL props: N of 6, shortfall`. A shortfall is never filled by bending
+    the anytime-TD floor or cap, the gap window, or any other rule.
+  - **Anytime TD floor and cap (9/28/26):** an anytime-TD leg needs model
+    probability ≥ 25% **and** a DraftKings price no longer than +300. Both
+    must hold (`NFL_TD_MIN_PROB`, `NFL_TD_MAX_PRICE` in `board_props.py`).
+    9/28 MNF published 5 of 6 under these rules (Odunze +475 at 25.0% and
+    Cooper, Moore, Wicks excluded).
+  - **Parlay leg search:** every valid 3-leg combination of the published
+    props (one leg per player, one per team + stat category) is considered;
+    the one with the highest joint model probability publishes. If no valid
+    combination exists, no parlay publishes.
 
 ## NFL / CFB / NBA betting: spreads, as price reads
 

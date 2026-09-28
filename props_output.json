@@ -79,24 +79,24 @@
       },
       {
         "sport": "NFL",
-        "player": "R. Odunze",
-        "market": "Anytime TD",
-        "pick": "Yes",
+        "player": "L. Burden III",
+        "market": "Receiving Yards O/U 37.5",
+        "pick": "Under",
         "tier": "lean",
-        "confidence": 0.25,
-        "edge": 7.6,
+        "confidence": 0.533,
+        "edge": 3.3,
         "stake": 0.75,
-        "market_prob": 0.174,
+        "market_prob": 0.5,
         "calibration": 0.0,
         "basis": "coverage floor",
         "ref": {
           "sport": "NFL",
           "event_id": "32662",
-          "player": "Rome Odunze",
-          "market": "anytime_td",
-          "side": "Yes",
-          "line": null,
-          "price": 475,
+          "player": "Luther Burden III",
+          "market": "rec_yds",
+          "side": "Under",
+          "line": 37.5,
+          "price": -112,
           "book": "DraftKings",
           "game": "Philadelphia Eagles @ Chicago Bears",
           "team": "CHI"
@@ -104,52 +104,27 @@
       },
       {
         "sport": "NFL",
-        "player": "D. Cooper",
+        "player": "K. Monangai",
         "market": "Anytime TD",
         "pick": "Yes",
         "tier": "lean",
-        "confidence": 0.2,
-        "edge": 10.0,
+        "confidence": 0.376,
+        "edge": 2.6,
         "stake": 0.75,
-        "market_prob": 0.1,
+        "market_prob": 0.351,
         "calibration": 0.0,
         "basis": "coverage floor",
         "ref": {
           "sport": "NFL",
           "event_id": "32662",
-          "player": "Darius Cooper",
+          "player": "Kyle Monangai",
           "market": "anytime_td",
           "side": "Yes",
           "line": null,
-          "price": 900,
+          "price": 185,
           "book": "DraftKings",
           "game": "Philadelphia Eagles @ Chicago Bears",
-          "team": "PHI"
-        }
-      },
-      {
-        "sport": "NFL",
-        "player": "E. Moore",
-        "market": "Anytime TD",
-        "pick": "Yes",
-        "tier": "lean",
-        "confidence": 0.111,
-        "edge": 5.2,
-        "stake": 0.75,
-        "market_prob": 0.059,
-        "calibration": 0.0,
-        "basis": "coverage floor",
-        "ref": {
-          "sport": "NFL",
-          "event_id": "32662",
-          "player": "Elijah Moore",
-          "market": "anytime_td",
-          "side": "Yes",
-          "line": null,
-          "price": 1600,
-          "book": "DraftKings",
-          "game": "Philadelphia Eagles @ Chicago Bears",
-          "team": "BUF"
+          "team": "CHI"
         }
       }
     ]
@@ -157,25 +132,26 @@
   "parlays": [
     {
       "legs": 3,
-      "odds": "~+1961",
+      "odds": "~+948",
       "book": "DraftKings",
+      "stake": 0.5,
       "sgp": false,
       "odds_basis": "estimate: product of single-leg DK prices, not a DK SGP quote",
       "basis": "coverage floor",
       "selections": [
-        "K. Monangai \u2014 Receiving Yards Over 8.5",
+        "D. Swift \u2014 Receiving Yards Over 13.5",
         "S. Barkley \u2014 Receiving Yards Under 11.5",
-        "R. Odunze \u2014 Anytime TD"
+        "K. Monangai \u2014 Anytime TD"
       ],
       "refs": [
         {
           "sport": "NFL",
           "event_id": "32662",
-          "player": "Kyle Monangai",
+          "player": "D'Andre Swift",
           "market": "rec_yds",
           "side": "Over",
-          "line": 8.5,
-          "price": -114,
+          "line": 13.5,
+          "price": -108,
           "book": "DraftKings",
           "game": "Philadelphia Eagles @ Chicago Bears",
           "team": "CHI"
@@ -195,11 +171,11 @@
         {
           "sport": "NFL",
           "event_id": "32662",
-          "player": "Rome Odunze",
+          "player": "Kyle Monangai",
           "market": "anytime_td",
           "side": "Yes",
           "line": null,
-          "price": 475,
+          "price": 185,
           "book": "DraftKings",
           "game": "Philadelphia Eagles @ Chicago Bears",
           "team": "CHI"
