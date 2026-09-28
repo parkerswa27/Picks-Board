@@ -380,3 +380,19 @@ main {
   color: var(--muted, #8b8b8b);
   font-weight: 400;
 }
+
+/* CFB Power 50 — reference table. Deliberately quieter than the pick tables:
+   this rating has never cleared break-even and must not read like a play. */
+.cfb-asof {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.78rem; color: var(--muted);
+  margin: 0 0 0.9rem;
+}
+.cfb-note { font-size: 0.78rem; color: var(--muted); margin: 1rem 0 0; }
+.cfb-team { display: block; font-weight: 600; }
+.cfb-conf { font-size: 0.72rem; color: var(--muted); }
+.cfb-rating { font-weight: 600; }
+.cfb-sub { color: var(--muted); font-weight: 400; }
+.cfb-rorank { font-size: 0.72rem; opacity: 0.65; }
+.ledger td.rk { width: 2.2rem; text-align: right; color: var(--muted);
+                font-family: 'IBM Plex Mono', monospace; font-size: 0.8rem; }

@@ -23,6 +23,7 @@
     <button class="tabs__btn is-active" data-target="betting_model">Betting Model</button>
     <button class="tabs__btn" data-target="player_props">Player Props</button>
     <button class="tabs__btn" data-target="track_record">Track Record</button>
+    <button class="tabs__btn" data-target="cfb_power">CFB Power 50</button>
   </nav>
 
   <main>
@@ -69,6 +70,28 @@
         No results yet. The log fills in once <code>record.json</code> has graded days.
       </p>
       <div id="record-log" class="record-log"></div>
+    </section>
+
+    <section class="panel" id="panel-cfb_power">
+      <p class="cfb-asof" id="cfb-asof"></p>
+      <p id="cfb-empty" class="empty-state" hidden>
+        No CFB ratings yet. The table fills in once <code>cfb_top50.json</code> is written.
+      </p>
+      <table class="ledger" id="cfb-table" hidden>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Team</th>
+            <th class="num">Rec</th>
+            <th class="num" title="Expected margin vs an average FBS team on a neutral field">Rating</th>
+            <th class="num" title="Same model fit on this season's games only — no preseason prior, no last-season games">Results only</th>
+            <th class="num" title="Rating minus results-only: how much is still carried from before the season">Prior</th>
+            <th class="num" title="This team's own stadium, shrunk toward the league value">Home</th>
+          </tr>
+        </thead>
+        <tbody id="rows-cfb_power"></tbody>
+      </table>
+      <p class="cfb-note" id="cfb-note"></p>
     </section>
   </main>
 

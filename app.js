@@ -219,6 +219,61 @@ async function loadRecord() {
   }
 }
 
+function renderCfb(data) {
+  const asOf = document.getElementById("cfb-asof");
+  const empty = document.getElementById("cfb-empty");
+  const table = document.getElementById("cfb-table");
+  const note = document.getElementById("cfb-note");
+  const tbody = document.getElementById("rows-cfb_power");
+  const teams = (data && data.teams) || [];
+
+  if (!teams.length) {
+    empty.hidden = false; table.hidden = true;
+    asOf.textContent = ""; note.textContent = "";
+    return;
+  }
+  empty.hidden = true; table.hidden = false;
+
+  // Always state the as-of week and date, so a stale table is visibly stale.
+  const d = (data.as_of_date || "").slice(0, 10);
+  asOf.textContent = `Through week ${data.as_of_week}`
+    + (d ? ` \u00b7 newest completed game ${d}` : "")
+    + (data.games ? ` \u00b7 ${data.games} games` : "")
+    + (data.hfa != null ? ` \u00b7 home field ${fmtSigned(data.hfa)}` : "");
+  note.textContent = data.note || "";
+
+  tbody.innerHTML = teams.map(t => {
+    const ro = t.results_only;
+    const gap = (ro == null || t.rating == null) ? null : t.rating - ro;
+    return `<tr>
+      <td class="rk">${t.rank}</td>
+      <td><span class="cfb-team">${t.team}</span><span class="cfb-conf">${t.conf ?? ""}</span></td>
+      <td class="num cfb-sub">${t.record ?? "\u2014"}</td>
+      <td class="num cfb-rating">${fmtSigned(t.rating)}</td>
+      <td class="num cfb-sub">${ro == null ? "\u2014" : fmtSigned(ro)}${
+        t.results_only_rank ? `<span class="cfb-rorank"> #${t.results_only_rank}</span>` : ""}</td>
+      <td class="num ${gap == null ? "" : (gap >= 0 ? "edge-pos" : "edge-neg")}">${
+        gap == null ? "\u2014" : fmtSigned(gap)}</td>
+      <td class="num cfb-sub">${t.home_hfa == null ? "\u2014" : fmtSigned(t.home_hfa)}</td>
+    </tr>`;
+  }).join("");
+}
+
+function fmtSigned(v) {
+  if (v == null || Number.isNaN(v)) return "\u2014";
+  return (v >= 0 ? "+" : "") + Number(v).toFixed(1);
+}
+
+async function loadCfb() {
+  try {
+    const res = await fetch("cfb_top50.json", { cache: "no-store" });
+    if (!res.ok) throw new Error("no cfb_top50.json");
+    renderCfb(await res.json());
+  } catch (err) {
+    renderCfb(null);
+  }
+}
+
 async function load() {
   const emptyState = document.getElementById("empty-state");
   try {
@@ -259,3 +314,4 @@ function setupTabs() {
 setupTabs();
 load();
 loadRecord();
+loadCfb();
