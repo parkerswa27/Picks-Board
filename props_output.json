@@ -1,320 +1,155 @@
 {
-  "date": "2026-09-27",
+  "date": "2026-09-28",
   "player_props": {
     "picks": [
       {
-        "sport": "MLB",
-        "player": "S. Stewart",
-        "market": "Hits O/U 0.5",
+        "sport": "NFL",
+        "player": "K. Monangai",
+        "market": "Receiving Yards O/U 8.5",
         "pick": "Over",
-        "tier": "top",
-        "confidence": 0.7,
-        "edge": 8.1,
-        "stake": 1.5,
-        "market_prob": 0.619,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Sal Stewart",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -195,
-          "book": "DraftKings",
-          "game": "Cincinnati Reds @ Toronto Blue Jays"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "G. Springer",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "top",
-        "confidence": 0.688,
-        "edge": 9.6,
-        "stake": 1.5,
-        "market_prob": 0.592,
-        "calibration": 0.0,
-        "ref": {
-          "player": "George Springer",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -172,
-          "book": "DraftKings",
-          "game": "Cincinnati Reds @ Toronto Blue Jays"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "B. Turang",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "medium",
-        "confidence": 0.669,
-        "edge": 6.6,
-        "stake": 1.0,
-        "market_prob": 0.603,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Brice Turang",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -181,
-          "book": "DraftKings",
-          "game": "St. Louis Cardinals @ Milwaukee Brewers"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "R. Greene",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "medium",
-        "confidence": 0.664,
-        "edge": 8.7,
-        "stake": 1.0,
-        "market_prob": 0.577,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Riley Greene",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -161,
-          "book": "DraftKings",
-          "game": "Pittsburgh Pirates @ Detroit Tigers"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "J. McNeil",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "medium",
-        "confidence": 0.647,
-        "edge": 4.1,
-        "stake": 1.0,
-        "market_prob": 0.606,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Jeff McNeil",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -184,
-          "book": "DraftKings",
-          "game": "Houston Astros @ Athletics"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "K. Karros",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "medium",
-        "confidence": 0.637,
-        "edge": 5.2,
-        "stake": 1.0,
-        "market_prob": 0.585,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Kyle Karros",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -167,
-          "book": "DraftKings",
-          "game": "Colorado Rockies @ Chicago White Sox"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "J. Young",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "medium",
-        "confidence": 0.635,
-        "edge": 4.7,
-        "stake": 1.0,
-        "market_prob": 0.588,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Jacob Young",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -170,
-          "book": "DraftKings",
-          "game": "New York Mets @ Washington Nationals"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "D. Beavers",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "medium",
-        "confidence": 0.627,
-        "edge": 6.4,
-        "stake": 1.0,
-        "market_prob": 0.563,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Dylan Beavers",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -152,
-          "book": "DraftKings",
-          "game": "Baltimore Orioles @ New York Yankees"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "C. Yelich",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "medium",
-        "confidence": 0.626,
-        "edge": 4.9,
-        "stake": 1.0,
-        "market_prob": 0.577,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Christian Yelich",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -161,
-          "book": "DraftKings",
-          "game": "St. Louis Cardinals @ Milwaukee Brewers"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "C. Mayo",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "medium",
-        "confidence": 0.616,
-        "edge": 3.2,
-        "stake": 1.0,
-        "market_prob": 0.584,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Coby Mayo",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -166,
-          "book": "DraftKings",
-          "game": "Baltimore Orioles @ New York Yankees"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "I. Happ",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "medium",
-        "confidence": 0.599,
-        "edge": 4.6,
-        "stake": 1.0,
-        "market_prob": 0.553,
-        "calibration": 0.0,
-        "ref": {
-          "player": "Ian Happ",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -145,
-          "book": "DraftKings",
-          "game": "Chicago Cubs @ Boston Red Sox"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "D. Hamilton",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "medium",
-        "confidence": 0.578,
-        "edge": 9.5,
-        "stake": 1.0,
-        "market_prob": 0.483,
-        "calibration": 0.0,
-        "ref": {
-          "player": "David Hamilton",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -107,
-          "book": "DraftKings",
-          "game": "St. Louis Cardinals @ Milwaukee Brewers"
-        }
-      },
-      {
-        "sport": "MLB",
-        "player": "E. Tovar",
-        "market": "Hits O/U 0.5",
-        "pick": "Over",
-        "tier": "medium",
+        "tier": "lean",
         "confidence": 0.571,
         "edge": 6.7,
-        "stake": 1.0,
+        "stake": 0.75,
         "market_prob": 0.504,
         "calibration": 0.0,
+        "basis": "coverage floor",
         "ref": {
-          "player": "Ezequiel Tovar",
-          "market": "hits",
+          "sport": "NFL",
+          "event_id": "32662",
+          "player": "Kyle Monangai",
+          "market": "rec_yds",
           "side": "Over",
-          "line": 0.5,
-          "price": -117,
+          "line": 8.5,
+          "price": -114,
           "book": "DraftKings",
-          "game": "Colorado Rockies @ Chicago White Sox"
+          "game": "Philadelphia Eagles @ Chicago Bears",
+          "team": "CHI"
         }
       },
       {
-        "sport": "MLB",
-        "player": "C. Cowser",
-        "market": "Hits O/U 0.5",
+        "sport": "NFL",
+        "player": "D. Swift",
+        "market": "Receiving Yards O/U 13.5",
         "pick": "Over",
         "tier": "lean",
-        "confidence": 0.537,
-        "edge": 5.6,
+        "confidence": 0.562,
+        "edge": 7.1,
         "stake": 0.75,
-        "market_prob": 0.481,
+        "market_prob": 0.492,
         "calibration": 0.0,
+        "basis": "coverage floor",
         "ref": {
-          "player": "Colton Cowser",
-          "market": "hits",
+          "sport": "NFL",
+          "event_id": "32662",
+          "player": "D'Andre Swift",
+          "market": "rec_yds",
           "side": "Over",
-          "line": 0.5,
-          "price": -106,
+          "line": 13.5,
+          "price": -108,
           "book": "DraftKings",
-          "game": "Baltimore Orioles @ New York Yankees"
+          "game": "Philadelphia Eagles @ Chicago Bears",
+          "team": "CHI"
         }
       },
       {
-        "sport": "MLB",
-        "player": "B. Witt Jr.",
-        "market": "Total Bases O/U 1.5",
+        "sport": "NFL",
+        "player": "S. Barkley",
+        "market": "Receiving Yards O/U 11.5",
         "pick": "Under",
         "tier": "lean",
-        "confidence": 0.496,
-        "edge": 0.1,
+        "confidence": 0.533,
+        "edge": 3.8,
         "stake": 0.75,
-        "market_prob": 0.495,
-        "calibration": -0.069,
+        "market_prob": 0.496,
+        "calibration": 0.0,
+        "basis": "coverage floor",
         "ref": {
-          "player": "Bobby Witt Jr.",
-          "market": "total_bases",
+          "sport": "NFL",
+          "event_id": "32662",
+          "player": "Saquon Barkley",
+          "market": "rec_yds",
           "side": "Under",
-          "line": 1.5,
-          "price": -113,
+          "line": 11.5,
+          "price": -110,
           "book": "DraftKings",
-          "game": "Cleveland Guardians @ Kansas City Royals"
+          "game": "Philadelphia Eagles @ Chicago Bears",
+          "team": "PHI"
+        }
+      },
+      {
+        "sport": "NFL",
+        "player": "R. Odunze",
+        "market": "Anytime TD",
+        "pick": "Yes",
+        "tier": "lean",
+        "confidence": 0.25,
+        "edge": 7.6,
+        "stake": 0.75,
+        "market_prob": 0.174,
+        "calibration": 0.0,
+        "basis": "coverage floor",
+        "ref": {
+          "sport": "NFL",
+          "event_id": "32662",
+          "player": "Rome Odunze",
+          "market": "anytime_td",
+          "side": "Yes",
+          "line": null,
+          "price": 475,
+          "book": "DraftKings",
+          "game": "Philadelphia Eagles @ Chicago Bears",
+          "team": "CHI"
+        }
+      },
+      {
+        "sport": "NFL",
+        "player": "D. Cooper",
+        "market": "Anytime TD",
+        "pick": "Yes",
+        "tier": "lean",
+        "confidence": 0.2,
+        "edge": 10.0,
+        "stake": 0.75,
+        "market_prob": 0.1,
+        "calibration": 0.0,
+        "basis": "coverage floor",
+        "ref": {
+          "sport": "NFL",
+          "event_id": "32662",
+          "player": "Darius Cooper",
+          "market": "anytime_td",
+          "side": "Yes",
+          "line": null,
+          "price": 900,
+          "book": "DraftKings",
+          "game": "Philadelphia Eagles @ Chicago Bears",
+          "team": "PHI"
+        }
+      },
+      {
+        "sport": "NFL",
+        "player": "E. Moore",
+        "market": "Anytime TD",
+        "pick": "Yes",
+        "tier": "lean",
+        "confidence": 0.111,
+        "edge": 5.2,
+        "stake": 0.75,
+        "market_prob": 0.059,
+        "calibration": 0.0,
+        "basis": "coverage floor",
+        "ref": {
+          "sport": "NFL",
+          "event_id": "32662",
+          "player": "Elijah Moore",
+          "market": "anytime_td",
+          "side": "Yes",
+          "line": null,
+          "price": 1600,
+          "book": "DraftKings",
+          "game": "Philadelphia Eagles @ Chicago Bears",
+          "team": "BUF"
         }
       }
     ]
@@ -322,82 +157,52 @@
   "parlays": [
     {
       "legs": 3,
-      "odds": "+276",
+      "odds": "~+1961",
       "book": "DraftKings",
+      "sgp": false,
+      "odds_basis": "estimate: product of single-leg DK prices, not a DK SGP quote",
+      "basis": "coverage floor",
       "selections": [
-        "S. Stewart \u2014 Hits Over 0.5",
-        "B. Turang \u2014 Hits Over 0.5",
-        "C. Mayo \u2014 Hits Over 0.5"
+        "K. Monangai \u2014 Receiving Yards Over 8.5",
+        "S. Barkley \u2014 Receiving Yards Under 11.5",
+        "R. Odunze \u2014 Anytime TD"
       ],
       "refs": [
         {
-          "player": "Sal Stewart",
-          "market": "hits",
+          "sport": "NFL",
+          "event_id": "32662",
+          "player": "Kyle Monangai",
+          "market": "rec_yds",
           "side": "Over",
-          "line": 0.5,
-          "price": -195,
-          "game": "Cincinnati Reds @ Toronto Blue Jays"
+          "line": 8.5,
+          "price": -114,
+          "book": "DraftKings",
+          "game": "Philadelphia Eagles @ Chicago Bears",
+          "team": "CHI"
         },
         {
-          "player": "Brice Turang",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -181,
-          "game": "St. Louis Cardinals @ Milwaukee Brewers"
+          "sport": "NFL",
+          "event_id": "32662",
+          "player": "Saquon Barkley",
+          "market": "rec_yds",
+          "side": "Under",
+          "line": 11.5,
+          "price": -110,
+          "book": "DraftKings",
+          "game": "Philadelphia Eagles @ Chicago Bears",
+          "team": "PHI"
         },
         {
-          "player": "Coby Mayo",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -166,
-          "game": "Baltimore Orioles @ New York Yankees"
-        }
-      ]
-    },
-    {
-      "legs": 4,
-      "odds": "+671",
-      "book": "DraftKings",
-      "selections": [
-        "G. Springer \u2014 Hits Over 0.5",
-        "R. Greene \u2014 Hits Over 0.5",
-        "E. Tovar \u2014 Hits Over 0.5",
-        "C. Yelich \u2014 Hits Over 0.5"
-      ],
-      "refs": [
-        {
-          "player": "George Springer",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -172,
-          "game": "Cincinnati Reds @ Toronto Blue Jays"
-        },
-        {
-          "player": "Riley Greene",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -161,
-          "game": "Pittsburgh Pirates @ Detroit Tigers"
-        },
-        {
-          "player": "Ezequiel Tovar",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -117,
-          "game": "Colorado Rockies @ Chicago White Sox"
-        },
-        {
-          "player": "Christian Yelich",
-          "market": "hits",
-          "side": "Over",
-          "line": 0.5,
-          "price": -161,
-          "game": "St. Louis Cardinals @ Milwaukee Brewers"
+          "sport": "NFL",
+          "event_id": "32662",
+          "player": "Rome Odunze",
+          "market": "anytime_td",
+          "side": "Yes",
+          "line": null,
+          "price": 475,
+          "book": "DraftKings",
+          "game": "Philadelphia Eagles @ Chicago Bears",
+          "team": "CHI"
         }
       ]
     }

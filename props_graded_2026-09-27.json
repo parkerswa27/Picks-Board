@@ -1,0 +1,173 @@
+{
+  "date": "2026-09-27",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "S. Stewart",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "top",
+      "stake": 1.5,
+      "odds": -195,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "G. Springer",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "top",
+      "stake": 1.5,
+      "odds": -172,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "B. Turang",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -181,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "R. Greene",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -161,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. McNeil",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -184,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "K. Karros",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -167,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Young",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -170,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "D. Beavers",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -152,
+      "actual": "void",
+      "result": "push",
+      "note": "DNP (override: BAL @ NYY 9/27 cancelled (rain), no makeup; no 9/27 game log, box score 0 batters (verified 9/28)) \u2014 void"
+    },
+    {
+      "player": "C. Yelich",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -161,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "C. Mayo",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -166,
+      "actual": "void",
+      "result": "push",
+      "note": "DNP (override: BAL @ NYY 9/27 cancelled (rain), no makeup; no 9/27 game log, box score 0 batters (verified 9/28)) \u2014 void"
+    },
+    {
+      "player": "I. Happ",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -145,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "D. Hamilton",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -107,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "E. Tovar",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -117,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "C. Cowser",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -106,
+      "actual": "void",
+      "result": "push",
+      "note": "DNP (override: BAL @ NYY 9/27 cancelled (rain), no makeup; no 9/27 game log, box score 0 batters (verified 9/28)) \u2014 void"
+    },
+    {
+      "player": "B. Witt Jr.",
+      "market": "Total Bases O/U 1.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -113,
+      "actual": 0.0,
+      "result": "win"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "+276",
+      "result": "loss",
+      "note": "1 leg(s) void/push \u2014 graded on the remaining 2"
+    },
+    {
+      "legs": 4,
+      "odds": "+671",
+      "result": "loss"
+    }
+  ],
+  "unresolved": []
+}

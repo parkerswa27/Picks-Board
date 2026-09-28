@@ -1137,6 +1137,314 @@
           "result": "loss"
         }
       ]
+    },
+    {
+      "date": "2026-09-27",
+      "betting_model": {
+        "wins": 7,
+        "losses": 7,
+        "pushes": 0,
+        "units": -0.06,
+        "picks": [
+          {
+            "matchup": "ARI @ SD",
+            "market": "Moneyline",
+            "pick": "SD +135",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 135,
+            "result": "win"
+          },
+          {
+            "matchup": "COL @ CWS",
+            "market": "Moneyline",
+            "pick": "CWS -154",
+            "tier": "top",
+            "stake": 1.5,
+            "odds": -154,
+            "result": "win"
+          },
+          {
+            "matchup": "CIN @ TOR",
+            "market": "Moneyline",
+            "pick": "CIN +150",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 150,
+            "result": "loss"
+          },
+          {
+            "matchup": "TB @ PHI",
+            "market": "Moneyline",
+            "pick": "TB +153",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 153,
+            "result": "loss"
+          },
+          {
+            "matchup": "CLE @ KC",
+            "market": "Moneyline",
+            "pick": "CLE -105",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -105,
+            "result": "loss"
+          },
+          {
+            "matchup": "STL @ MIL",
+            "market": "Moneyline",
+            "pick": "MIL -200",
+            "tier": "top",
+            "stake": 1.5,
+            "odds": -200,
+            "result": "win"
+          },
+          {
+            "matchup": "TEX @ MIN",
+            "market": "Moneyline",
+            "pick": "MIN +100",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 100,
+            "result": "win"
+          },
+          {
+            "matchup": "LAA @ SEA",
+            "market": "Moneyline",
+            "pick": "SEA -154",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -154,
+            "result": "win"
+          },
+          {
+            "sport": "NFL",
+            "matchup": "Baltimore Ravens @ Dallas Cowboys",
+            "market": "Spread",
+            "pick": "Baltimore Ravens -3.5 (-107)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -107,
+            "result": "loss",
+            "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception)"
+          },
+          {
+            "sport": "NFL",
+            "matchup": "Los Angeles Chargers @ Buffalo Bills",
+            "market": "Spread",
+            "pick": "Buffalo Bills -7 (-112)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -112,
+            "result": "win",
+            "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception)"
+          },
+          {
+            "sport": "NFL",
+            "matchup": "Arizona Cardinals @ San Francisco 49ers",
+            "market": "Spread",
+            "pick": "San Francisco 49ers -7.5 (-110)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -110,
+            "result": "loss",
+            "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception)"
+          },
+          {
+            "sport": "NFL",
+            "matchup": "Cincinnati Bengals @ Pittsburgh Steelers",
+            "market": "Spread",
+            "pick": "Pittsburgh Steelers +3.5 (-118)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -118,
+            "result": "win",
+            "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception)"
+          },
+          {
+            "sport": "NFL",
+            "matchup": "Kansas City Chiefs @ Miami Dolphins",
+            "market": "Spread",
+            "pick": "Miami Dolphins +10 (-112)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -112,
+            "result": "loss",
+            "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception)"
+          },
+          {
+            "sport": "NFL",
+            "matchup": "Los Angeles Rams @ Denver Broncos",
+            "market": "Spread",
+            "pick": "Los Angeles Rams -1.5 (-112)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -112,
+            "result": "loss",
+            "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception)"
+          }
+        ]
+      },
+      "player_props": {
+        "wins": 8,
+        "losses": 4,
+        "pushes": 3,
+        "units": 1.19,
+        "picks": [
+          {
+            "player": "S. Stewart",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "top",
+            "stake": 1.5,
+            "odds": -195,
+            "result": "loss"
+          },
+          {
+            "player": "G. Springer",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "top",
+            "stake": 1.5,
+            "odds": -172,
+            "result": "win"
+          },
+          {
+            "player": "B. Turang",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -181,
+            "result": "win"
+          },
+          {
+            "player": "R. Greene",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -161,
+            "result": "loss"
+          },
+          {
+            "player": "J. McNeil",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -184,
+            "result": "loss"
+          },
+          {
+            "player": "K. Karros",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -167,
+            "result": "win"
+          },
+          {
+            "player": "J. Young",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -170,
+            "result": "win"
+          },
+          {
+            "player": "D. Beavers",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -152,
+            "result": "push",
+            "note": "DNP (override: BAL @ NYY 9/27 cancelled (rain), no makeup; no 9/27 game log, box score 0 batters (verified 9/28)) \u2014 void"
+          },
+          {
+            "player": "C. Yelich",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -161,
+            "result": "win"
+          },
+          {
+            "player": "C. Mayo",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -166,
+            "result": "push",
+            "note": "DNP (override: BAL @ NYY 9/27 cancelled (rain), no makeup; no 9/27 game log, box score 0 batters (verified 9/28)) \u2014 void"
+          },
+          {
+            "player": "I. Happ",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -145,
+            "result": "loss"
+          },
+          {
+            "player": "D. Hamilton",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -107,
+            "result": "win"
+          },
+          {
+            "player": "E. Tovar",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -117,
+            "result": "win"
+          },
+          {
+            "player": "C. Cowser",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -106,
+            "result": "push",
+            "note": "DNP (override: BAL @ NYY 9/27 cancelled (rain), no makeup; no 9/27 game log, box score 0 batters (verified 9/28)) \u2014 void"
+          },
+          {
+            "player": "B. Witt Jr.",
+            "market": "Total Bases O/U 1.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -113,
+            "result": "win"
+          }
+        ]
+      },
+      "parlays": [
+        {
+          "legs": 3,
+          "odds": "+276",
+          "result": "loss",
+          "note": "1 leg(s) void/push \u2014 graded on the remaining 2"
+        },
+        {
+          "legs": 4,
+          "odds": "+671",
+          "result": "loss"
+        }
+      ]
     }
   ]
 }
