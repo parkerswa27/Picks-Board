@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-28",
+  "fully_graded": true,
+  "picks": [
+    {
+      "matchup": "Philadelphia Eagles @ Chicago Bears",
+      "market": "Spread",
+      "pick": "Chicago Bears +3.5 (-112)",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -112,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception)",
+      "sport": "NFL",
+      "model_gap_pts": 6.7
+    }
+  ],
+  "ungraded": []
+}

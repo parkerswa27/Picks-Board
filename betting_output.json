@@ -1,22 +1,99 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "betting_model": [
     {
       "tier": "lean",
-      "matchup": "Philadelphia Eagles @ Chicago Bears",
-      "market": "Spread",
-      "pick": "Chicago Bears +3.5 (-112)",
-      "odds": -112,
-      "confidence": 0.536,
-      "edge": 3.1,
-      "model_gap_pts": 6.7,
+      "matchup": "CHC @ SD",
+      "market": "Moneyline",
+      "pick": "CHC +110",
+      "confidence": 0.542,
+      "edge": 8.1,
+      "stake": 0.75,
+      "book": "fanatics",
+      "market_prob": 0.462
+    },
+    {
+      "tier": "lean",
+      "matchup": "PHI @ ATL",
+      "market": "Moneyline",
+      "pick": "PHI +166",
+      "confidence": 0.425,
+      "edge": 5.8,
+      "stake": 0.75,
+      "book": "williamhill_us",
+      "market_prob": 0.367
+    },
+    {
+      "tier": "lean",
+      "matchup": "Chicago Blackhawks @ Vegas Golden Knights",
+      "market": "Moneyline",
+      "pick": "Vegas Golden Knights -258",
+      "odds": -258,
+      "confidence": 0.691,
+      "edge": 0.0,
       "stake": 0.75,
       "book": "draftkings",
-      "market_prob": 0.504,
-      "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception)",
-      "sport": "NFL",
-      "event_id": "32662",
-      "coverage": "primetime"
+      "market_prob": 0.691,
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "event_id": "78385",
+      "coverage": "nhl 60% (tonight only)",
+      "composite_margin": 1.372,
+      "composite_parts": {
+        "xg": 0.585,
+        "pts": 0.65,
+        "goalie": -0.084,
+        "hfa": 0.221
+      },
+      "note": "goalies projected, not confirmed: VGK Adin Hill (proj., GSAx/60 -0.04, 164 GP 21-26); CHI Spencer Knight (proj., GSAx/60 +0.13, 145 GP 21-26)"
+    },
+    {
+      "tier": "lean",
+      "matchup": "Vancouver Canucks @ Edmonton Oilers",
+      "market": "Moneyline",
+      "pick": "Edmonton Oilers -305",
+      "odds": -305,
+      "confidence": 0.722,
+      "edge": 0.0,
+      "stake": 0.75,
+      "book": "draftkings",
+      "market_prob": 0.722,
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "event_id": "78384",
+      "coverage": "nhl 60% (tonight only)",
+      "composite_margin": 1.145,
+      "composite_parts": {
+        "xg": 0.401,
+        "pts": 0.356,
+        "goalie": 0.167,
+        "hfa": 0.221
+      },
+      "note": "goalies projected, not confirmed: EDM Frederik Andersen (proj., GSAx/60 +0.14, 159 GP 21-26); VAN Kevin Lankinen (proj., GSAx/60 -0.20, 173 GP 21-26)"
+    },
+    {
+      "tier": "lean",
+      "matchup": "Florida Panthers @ Carolina Hurricanes",
+      "market": "Moneyline",
+      "pick": "Carolina Hurricanes -130",
+      "odds": -130,
+      "confidence": 0.543,
+      "edge": 0.0,
+      "stake": 0.75,
+      "book": "draftkings",
+      "market_prob": 0.543,
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "event_id": "78381",
+      "coverage": "nhl 60% (tonight only)",
+      "composite_margin": 0.701,
+      "composite_parts": {
+        "xg": 0.21,
+        "pts": 0.243,
+        "goalie": 0.027,
+        "hfa": 0.221
+      },
+      "note": "goalies projected, not confirmed: CAR Brandon Bussi (proj., GSAx/60 +0.03, 39 GP 21-26); FLA Jacob Markstrom (proj., GSAx/60 -0.02, 263 GP 21-26)"
     }
   ]
 }

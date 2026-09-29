@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-28",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "K. Monangai",
+      "market": "Receiving Yards O/U 8.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -114,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "D. Swift",
+      "market": "Receiving Yards O/U 13.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -108,
+      "actual": 4.0,
+      "result": "loss"
+    },
+    {
+      "player": "S. Barkley",
+      "market": "Receiving Yards O/U 11.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": -2.0,
+      "result": "win"
+    },
+    {
+      "player": "L. Burden III",
+      "market": "Receiving Yards O/U 37.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -112,
+      "actual": 61.0,
+      "result": "loss"
+    },
+    {
+      "player": "K. Monangai",
+      "market": "Anytime TD",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 185,
+      "actual": 0.0,
+      "result": "loss"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "~+948",
+      "result": "loss"
+    }
+  ],
+  "unresolved": []
+}

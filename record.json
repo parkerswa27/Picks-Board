@@ -1445,6 +1445,89 @@
           "result": "loss"
         }
       ]
+    },
+    {
+      "date": "2026-09-28",
+      "betting_model": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0,
+        "units": 0.67,
+        "picks": [
+          {
+            "sport": "NFL",
+            "matchup": "Philadelphia Eagles @ Chicago Bears",
+            "market": "Spread",
+            "pick": "Chicago Bears +3.5 (-112)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -112,
+            "result": "win",
+            "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception)",
+            "model_gap_pts": 6.7
+          }
+        ]
+      },
+      "player_props": {
+        "wins": 1,
+        "losses": 4,
+        "pushes": 0,
+        "units": -2.32,
+        "picks": [
+          {
+            "player": "K. Monangai",
+            "market": "Receiving Yards O/U 8.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -114,
+            "result": "loss"
+          },
+          {
+            "player": "D. Swift",
+            "market": "Receiving Yards O/U 13.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -108,
+            "result": "loss"
+          },
+          {
+            "player": "S. Barkley",
+            "market": "Receiving Yards O/U 11.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -110,
+            "result": "win"
+          },
+          {
+            "player": "L. Burden III",
+            "market": "Receiving Yards O/U 37.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -112,
+            "result": "loss"
+          },
+          {
+            "player": "K. Monangai",
+            "market": "Anytime TD",
+            "pick": "Yes",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 185,
+            "result": "loss"
+          }
+        ]
+      },
+      "parlays": [
+        {
+          "legs": 3,
+          "odds": "~+948",
+          "result": "loss"
+        }
+      ]
     }
   ]
 }
