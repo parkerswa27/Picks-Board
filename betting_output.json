@@ -21,7 +21,8 @@
       "edge": 5.8,
       "stake": 0.75,
       "book": "williamhill_us",
-      "market_prob": 0.367
+      "market_prob": 0.367,
+      "locked": "published before first pitch; game since started"
     },
     {
       "tier": "lean",
