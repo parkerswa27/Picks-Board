@@ -297,6 +297,54 @@ Rules that still apply to its picks:
 - Every NFL spread pick is logged with `model_gap_pts` and its graded outcome,
   so 2026 is the clean forward test.
 
+## NHL same-day composite: unvalidated, no backtest (documented exception, 9/29/26)
+
+**This is not a model. It has never been tested against a single game.** Parker
+asked for NHL picks on opening night (9/29/26, 5 games) before any NHL
+pipeline existed, so this is a same-day heuristic published as an explicit,
+dated exception — the same category as the CFB price reads and the NFL
+below-breakeven exception, and weaker than both: nothing here was fit, tuned
+or backtested, because there is nothing yet to backtest against.
+
+What it is (`nhl_power/nhl_composite.py`, wired into `board_betting.py`):
+- Home margin, goals/game = 0.5 × (xG diff/game, home − away) + 0.5 × (points %
+  converted to goals/game, home − away) + 0.5 × (projected starting goalie's
+  GSAx/60, home − away) + home ice.
+- Each team term is a recency-weighted average of 2021-22 through 2025-26:
+  weights 0.40 / 0.25 / 0.15 / 0.10 / 0.10, newest first.
+- Data: MoneyPuck team + goalie season summaries (all situations, score/venue-
+  adjusted xG), NHL standings at each season's end, NHL current rosters.
+- **Every weight is a guess**: the 0.5/0.5 xG-vs-points blend, the season
+  weights, the goalie term's 0.5 discount, the goalie shrink (GP/(GP+40)).
+  Two numbers are measured, not guessed, and neither is a fitted model: home ice
+  (+0.221 goals/game, league home goal diff 2021-26) and the points %→goals
+  conversion (−3.28 + 5.90 × pts%, across 160 team-seasons).
+- **Goalies are projected, not confirmed**: the NHL API posts no starters, so
+  the term uses the current-roster goalie with the most 2025-26 games, and
+  says so in each pick's `note`.
+- Team history does not see offseason roster moves beyond that goalie term.
+
+How it publishes:
+- **Side** = the composite's side. That is the only thing the composite decides.
+- **`confidence`** = DraftKings' no-vig probability for that side. It is the
+  market's number, not the composite's; there is no calibration to trust.
+- **`edge` = 0.0.** Tier **Lean, 0.75u.**
+- **`"basis": "same-day composite — unvalidated, no backtest"`**: a tag distinct
+  from "price read", "coverage floor" and the NFL model basis, so these picks
+  are never mistaken for a tested model in `data.json`, `record.json` or on the site.
+- **Coverage:** 60% of the slate (Parker 9/29/26), filled by the games where the
+  composite is most one-sided (largest |margin|). That order is a judgment
+  call, not a tuned parameter.
+- **Scope:** tonight only (`NHL_DATES = {"2026-09-29"}`). Graded from PropLine
+  final scores, moneyline on the winner, like every other pick.
+
+**Retirement.** This heuristic is retired, not upgraded, once a real walk-forward
+NHL model — historical seasons ingested, TUNE/TEST/HOLDOUT splits, reported the
+way the NFL model is — exists and is validated. That model supersedes it
+entirely. Until then, nobody should read "the board has NHL picks" as "the
+board has an NHL model". As of 9/29/26 no such pipeline exists in either repo;
+it has not been started here.
+
 ## Lean-tier picks
 
 Lean-tier picks are real picks, not a lower-priority afterthought. They get
