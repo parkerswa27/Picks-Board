@@ -21,6 +21,9 @@ Usage:
       --props-graded props_graded_2026-09-22.json \
       --record record.json
 
+  # Backfill parlay stake/units onto days already in record.json (idempotent)
+  python3 merge.py parlay-units --record record.json
+
 Scratch file shapes expected:
   betting_output.json        -> { "betting_model": [ ...picks with tier/confidence/edge... ] }
   props_output.json          -> { "player_props": { "picks": [...] }, "parlays": [...] }
@@ -104,6 +107,37 @@ def net_units(p):
     return stake * (o / 100 if o > 0 else 100 / -o)
 
 
+def parlay_rows(date, graded_parlays, record_path):
+    """Graded parlays -> record rows, with stake and units (spec "Parlay units", 9/30/26).
+    Stake comes from the board the site actually published (archive/board_<date>.json),
+    matched by position and odds -- the graders don't carry it. A parlay that was never
+    sized (no stake on the published board: every parlay before 9/28) gets NO stake/units
+    keys rather than a backdated one. An estimated "~" price is not placeable, so it is
+    0 units win or lose. Returns (rows, problem)."""
+    snap = Path(record_path).resolve().parent / "archive" / f"board_{date}.json"
+    board = load(snap) or {}
+    pub = board.get("player_props", {}).get("parlays") or board.get("parlays") or []
+    rows = []
+    for i, p in enumerate(graded_parlays):
+        row = {k: p[k] for k in ("legs", "odds", "result", "note") if k in p}
+        src = pub[i] if i < len(pub) else None
+        if src is not None and src.get("odds") != p.get("odds"):
+            return None, f"parlay {i} odds {p.get('odds')} != published {src.get('odds')} in {snap.name}"
+        stake = (src or {}).get("stake")
+        if stake is not None:
+            row["stake"] = stake
+            if str(p["odds"]).startswith("~"):
+                row["units"] = 0.0
+            elif p["result"] == "win" and "note" in p:
+                # a void leg dropped out: the ticket paid a reduced price that the stored odds
+                # don't show, so the payout can't be computed from this row
+                return None, f"parlay {i} won with a void leg; reduced price unknown -- units need a manual check"
+            else:
+                row["units"] = round(net_units({"stake": stake, "odds": p["odds"], "result": p["result"]}), 2)
+        rows.append(row)
+    return rows, None
+
+
 def section(graded, name):
     """Accept either shape:
       * grader output (board_betting.py / board_props.py --grade):
@@ -161,18 +195,44 @@ def grade(args):
         )
         return
 
+    parlays, why = parlay_rows(args.date, props.get("parlays", betting.get("parlays", [])), args.record)
+    if why:
+        print(f"{args.date}: not closing this day — parlays: {why}. Will retry on a future run.")
+        return
+
     day = {
         "date": args.date,
         "betting_model": bsec,
         "player_props": psec,
-        "parlays": [{k: p[k] for k in ("legs", "odds", "result", "note") if k in p}
-                    for p in props.get("parlays", betting.get("parlays", []))],
+        "parlays": parlays,
     }
     record["days"].append(day)
 
     with open(args.record, "w") as f:
         json.dump(record, f, indent=2)
     print(f"{args.date}: appended to {args.record}")
+
+
+def parlay_units(args):
+    """Backfill stake/units onto parlays already in record.json (days closed before
+    parlay_rows existed). Recomputes from each day's own graded rows + its archived
+    board; touches nothing but the parlays lists. Idempotent."""
+    record = load(args.record)
+    changed = 0
+    for day in record["days"]:
+        rows, why = parlay_rows(day["date"], day.get("parlays", []), args.record)
+        if why:
+            sys.exit(f"{day['date']}: {why} -- record.json not written")
+        if rows != day.get("parlays", []):
+            day["parlays"] = rows
+            changed += 1
+        for r in rows:
+            u = f"{r['units']:+.2f}u" if "units" in r else "no stake (unsized)"
+            print(f"  {day['date']}  {r['odds']:>7}  {r['result']:<5} {u}")
+    total = sum(r.get("units", 0) for d in record["days"] for r in d.get("parlays", []))
+    with open(args.record, "w") as f:
+        json.dump(record, f, indent=2)
+    print(f"{changed} day(s) updated; parlay units total {total:+.2f}u")
 
 
 if __name__ == "__main__":
@@ -191,6 +251,10 @@ if __name__ == "__main__":
     p_grade.add_argument("--props-graded", required=True)
     p_grade.add_argument("--record", required=True)
     p_grade.set_defaults(func=grade)
+
+    p_pu = sub.add_parser("parlay-units", help="Backfill parlay stake/units onto record.json days")
+    p_pu.add_argument("--record", required=True)
+    p_pu.set_defaults(func=parlay_units)
 
     args = parser.parse_args()
     args.func(args)

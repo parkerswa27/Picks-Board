@@ -105,6 +105,19 @@ single-leg DK prices, not a DK SGP quote"`. It ignores same-game
 correlation, so it is not a placeable price; the `~` stays on it through
 grading.
 
+**Parlay units (9/30/26):** clarifies the 9/24 exception above. An estimated
+(`~`) parlay counts **0 units, win or lose** — its price was never placeable,
+so its payout isn't real. It still counts in the W-L record. Real-priced
+parlays are staked at `PARLAY_STAKE` (0.5u, any leg count) **from 9/28/26
+onward**, when that stake was set: a win nets 0.5 × the ticket's odds, a loss
+costs 0.5u. Parlays published before 9/28 were never sized, so they carry no
+`stake`/`units` in `record.json`; don't backdate a stake onto them. `merge.py`
+writes `stake`/`units` on each parlay from the archived board's stake (the
+Track Record Parlays card sums those stored units, not its own math). A parlay
+that wins with a void leg paid a reduced price that the stored odds don't
+show, so `merge.py` refuses to close that day until its units are checked by
+hand.
+
 ## Unit sizing
 
 Every published pick carries a `tier`, and stake follows tier directly:

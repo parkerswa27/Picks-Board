@@ -276,6 +276,11 @@ main {
   margin-top: 0.25rem;
 }
 
+.stat-card__note {
+  font-size: 0.72rem;
+  opacity: 0.8;
+}
+
 .record-log {
   display: grid;
   gap: 0.6rem;

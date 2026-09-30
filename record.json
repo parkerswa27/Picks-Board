@@ -1525,7 +1525,9 @@
         {
           "legs": 3,
           "odds": "~+948",
-          "result": "loss"
+          "result": "loss",
+          "stake": 0.5,
+          "units": 0.0
         }
       ]
     },
@@ -1696,7 +1698,9 @@
         {
           "legs": 3,
           "odds": "+419",
-          "result": "loss"
+          "result": "loss",
+          "stake": 0.5,
+          "units": -0.5
         }
       ]
     }

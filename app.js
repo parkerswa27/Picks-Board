@@ -129,14 +129,14 @@ function resultClass(result) {
   return result === "win" ? "result-win" : result === "loss" ? "result-loss" : "result-push";
 }
 
-function statCard(label, wl) {
+function statCard(label, wl, unitsNote) {
   const record = `${wl.wins}-${wl.losses}${wl.pushes ? "-" + wl.pushes : ""}`;
   const units = fmtUnits(wl.units);
   return `
     <div class="stat-card">
       <div class="stat-card__label">${label}</div>
       <div class="stat-card__record">${record}</div>
-      ${units !== null ? `<div class="stat-card__units">${units}</div>` : ""}
+      ${units !== null ? `<div class="stat-card__units">${units}${unitsNote ? ` <span class="stat-card__note">${unitsNote}</span>` : ""}</div>` : ""}
     </div>`;
 }
 
@@ -184,7 +184,8 @@ function renderTrackRecord(record) {
   }
   empty.hidden = true;
 
-  const totals = { betting_model: { wins: 0, losses: 0, pushes: 0, units: 0 }, player_props: { wins: 0, losses: 0, pushes: 0, units: 0 }, parlays: { wins: 0, losses: 0, pushes: 0 } };
+  const totals = { betting_model: { wins: 0, losses: 0, pushes: 0, units: 0 }, player_props: { wins: 0, losses: 0, pushes: 0, units: 0 }, parlays: { wins: 0, losses: 0, pushes: 0, units: null } };
+  let parlaySizedFrom = null;   // parlays carry stake/units only from 9/28 (merge.py parlay_rows)
   days.forEach(d => {
     ["betting_model", "player_props"].forEach(key => {
       const src = d[key];
@@ -198,13 +199,17 @@ function renderTrackRecord(record) {
       if (p.result === "win") totals.parlays.wins++;
       else if (p.result === "loss") totals.parlays.losses++;
       else totals.parlays.pushes++;
+      if (typeof p.units === "number") {
+        totals.parlays.units = (totals.parlays.units || 0) + p.units;
+        if (!parlaySizedFrom || d.date < parlaySizedFrom) parlaySizedFrom = d.date;
+      }
     });
   });
 
   statRow.innerHTML =
     statCard("Betting Model", totals.betting_model) +
     statCard("Player Props", totals.player_props) +
-    statCard("Parlays", totals.parlays);
+    statCard("Parlays", totals.parlays, parlaySizedFrom ? `since ${Number(parlaySizedFrom.slice(5, 7))}/${Number(parlaySizedFrom.slice(8))}` : "");
 
   log.innerHTML = days.map((d, i) => dayCard(d, i === 0)).join("");
 }
