@@ -122,7 +122,7 @@ def parlay_rows(date, graded_parlays, record_path):
         row = {k: p[k] for k in ("legs", "odds", "result", "note") if k in p}
         src = pub[i] if i < len(pub) else None
         if src is not None and src.get("odds") != p.get("odds"):
-            return None, f"parlay {i} odds {p.get('odds')} != published {src.get('odds')} in {snap.name}"
+            return None, f"PARLAY ODDS MISMATCH — parlay {i} graded at {p.get('odds')} but {snap.name} published {src.get('odds')}"
         stake = (src or {}).get("stake")
         if stake is not None:
             row["stake"] = stake
@@ -131,7 +131,7 @@ def parlay_rows(date, graded_parlays, record_path):
             elif p["result"] == "win" and "note" in p:
                 # a void leg dropped out: the ticket paid a reduced price that the stored odds
                 # don't show, so the payout can't be computed from this row
-                return None, f"parlay {i} won with a void leg; reduced price unknown -- units need a manual check"
+                return None, f"VOID-LEG PARLAY WIN — parlay {i} ({p['odds']}) won with a void leg; the reduced price is not in the stored odds, so its units must be set by hand"
             else:
                 row["units"] = round(net_units({"stake": stake, "odds": p["odds"], "result": p["result"]}), 2)
         rows.append(row)
@@ -197,7 +197,9 @@ def grade(args):
 
     parlays, why = parlay_rows(args.date, props.get("parlays", betting.get("parlays", [])), args.record)
     if why:
-        print(f"{args.date}: not closing this day — parlays: {why}. Will retry on a future run.")
+        # Not a pending day: re-running will refuse it again until someone fixes the data.
+        print(f"!! {args.date}: MANUAL CHECK NEEDED — day NOT closed: {why}. "
+              f"Retrying will not fix this; see model-instructions.md \"Parlay units (9/30/26)\".")
         return
 
     day = {
