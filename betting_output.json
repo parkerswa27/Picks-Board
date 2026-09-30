@@ -3,13 +3,24 @@
   "betting_model": [
     {
       "tier": "lean",
+      "matchup": "CWS @ HOU",
+      "market": "Moneyline",
+      "pick": "CWS +128",
+      "confidence": 0.462,
+      "edge": 3.8,
+      "stake": 0.75,
+      "book": "williamhill_us",
+      "market_prob": 0.424
+    },
+    {
+      "tier": "lean",
       "matchup": "PHI @ ATL",
       "market": "Moneyline",
       "pick": "PHI -115",
       "confidence": 0.54,
       "edge": 2.1,
       "stake": 0.75,
-      "book": "draftkings",
+      "book": "hardrockbet",
       "market_prob": 0.519
     }
   ]
