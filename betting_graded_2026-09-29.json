@@ -1,0 +1,67 @@
+{
+  "date": "2026-09-29",
+  "fully_graded": true,
+  "picks": [
+    {
+      "matchup": "CHC @ SD",
+      "market": "Moneyline",
+      "pick": "CHC +110",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 110,
+      "result": "loss",
+      "source": "bets.db"
+    },
+    {
+      "matchup": "PHI @ ATL",
+      "market": "Moneyline",
+      "pick": "PHI +166",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 166,
+      "result": "loss",
+      "source": "MLB Stats API final score",
+      "locked": "published before first pitch; game since started"
+    },
+    {
+      "matchup": "Chicago Blackhawks @ Vegas Golden Knights",
+      "market": "Moneyline",
+      "pick": "Vegas Golden Knights -258",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -258,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: VGK Adin Hill (proj., GSAx/60 -0.04, 164 GP 21-26); CHI Spencer Knight (proj., GSAx/60 +0.13, 145 GP 21-26)"
+    },
+    {
+      "matchup": "Vancouver Canucks @ Edmonton Oilers",
+      "market": "Moneyline",
+      "pick": "Edmonton Oilers -305",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -305,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: EDM Frederik Andersen (proj., GSAx/60 +0.14, 159 GP 21-26); VAN Kevin Lankinen (proj., GSAx/60 -0.20, 173 GP 21-26)"
+    },
+    {
+      "matchup": "Florida Panthers @ Carolina Hurricanes",
+      "market": "Moneyline",
+      "pick": "Carolina Hurricanes -130",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -130,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: CAR Brandon Bussi (proj., GSAx/60 +0.03, 39 GP 21-26); FLA Jacob Markstrom (proj., GSAx/60 -0.02, 263 GP 21-26)"
+    }
+  ],
+  "ungraded": []
+}

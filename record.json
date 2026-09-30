@@ -1528,6 +1528,177 @@
           "result": "loss"
         }
       ]
+    },
+    {
+      "date": "2026-09-29",
+      "betting_model": {
+        "wins": 1,
+        "losses": 4,
+        "pushes": 0,
+        "units": -2.71,
+        "picks": [
+          {
+            "matchup": "CHC @ SD",
+            "market": "Moneyline",
+            "pick": "CHC +110",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 110,
+            "result": "loss"
+          },
+          {
+            "matchup": "PHI @ ATL",
+            "market": "Moneyline",
+            "pick": "PHI +166",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 166,
+            "result": "loss",
+            "locked": "published before first pitch; game since started"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Chicago Blackhawks @ Vegas Golden Knights",
+            "market": "Moneyline",
+            "pick": "Vegas Golden Knights -258",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -258,
+            "result": "win",
+            "note": "goalies projected, not confirmed: VGK Adin Hill (proj., GSAx/60 -0.04, 164 GP 21-26); CHI Spencer Knight (proj., GSAx/60 +0.13, 145 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Vancouver Canucks @ Edmonton Oilers",
+            "market": "Moneyline",
+            "pick": "Edmonton Oilers -305",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -305,
+            "result": "loss",
+            "note": "goalies projected, not confirmed: EDM Frederik Andersen (proj., GSAx/60 +0.14, 159 GP 21-26); VAN Kevin Lankinen (proj., GSAx/60 -0.20, 173 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Florida Panthers @ Carolina Hurricanes",
+            "market": "Moneyline",
+            "pick": "Carolina Hurricanes -130",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -130,
+            "result": "loss",
+            "note": "goalies projected, not confirmed: CAR Brandon Bussi (proj., GSAx/60 +0.03, 39 GP 21-26); FLA Jacob Markstrom (proj., GSAx/60 -0.02, 263 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          }
+        ]
+      },
+      "player_props": {
+        "wins": 5,
+        "losses": 5,
+        "pushes": 0,
+        "units": -0.03,
+        "picks": [
+          {
+            "player": "J. Walman",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -175,
+            "result": "win"
+          },
+          {
+            "player": "I. Shesterkin",
+            "market": "Saves O/U 23.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -125,
+            "result": "loss"
+          },
+          {
+            "player": "S. Bobrovsky",
+            "market": "Saves O/U 25.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -120,
+            "result": "win"
+          },
+          {
+            "player": "W. Nylander",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 100,
+            "result": "win"
+          },
+          {
+            "player": "A. Matthews",
+            "market": "Shots on Goal O/U 3.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 105,
+            "result": "loss"
+          },
+          {
+            "player": "J. Tavares",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 120,
+            "result": "win"
+          },
+          {
+            "player": "E. Bouchard",
+            "market": "Assists O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 135,
+            "result": "loss"
+          },
+          {
+            "player": "W. Karlsson",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 135,
+            "result": "loss"
+          },
+          {
+            "player": "E. Lindholm",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 135,
+            "result": "win"
+          },
+          {
+            "player": "S. Reinhart",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 140,
+            "result": "loss"
+          }
+        ]
+      },
+      "parlays": [
+        {
+          "legs": 3,
+          "odds": "+419",
+          "result": "loss"
+        }
+      ]
     }
   ]
 }

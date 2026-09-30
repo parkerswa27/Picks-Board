@@ -1,0 +1,114 @@
+{
+  "date": "2026-09-29",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "J. Walman",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -175,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "I. Shesterkin",
+      "market": "Saves O/U 23.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -125,
+      "actual": 20.0,
+      "result": "loss"
+    },
+    {
+      "player": "S. Bobrovsky",
+      "market": "Saves O/U 25.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -120,
+      "actual": 21.0,
+      "result": "win"
+    },
+    {
+      "player": "W. Nylander",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 100,
+      "actual": 5.0,
+      "result": "win"
+    },
+    {
+      "player": "A. Matthews",
+      "market": "Shots on Goal O/U 3.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 105,
+      "actual": 3.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Tavares",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 120,
+      "actual": 4.0,
+      "result": "win"
+    },
+    {
+      "player": "E. Bouchard",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 135,
+      "actual": 2.0,
+      "result": "loss"
+    },
+    {
+      "player": "W. Karlsson",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 135,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "E. Lindholm",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 135,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "S. Reinhart",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 140,
+      "actual": 2.0,
+      "result": "loss"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "+419",
+      "result": "loss"
+    }
+  ],
+  "unresolved": []
+}
