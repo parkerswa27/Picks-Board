@@ -1703,6 +1703,151 @@
           "units": -0.5
         }
       ]
+    },
+    {
+      "date": "2026-09-30",
+      "betting_model": {
+        "wins": 2,
+        "losses": 0,
+        "pushes": 0,
+        "units": 1.61,
+        "picks": [
+          {
+            "matchup": "CWS @ HOU",
+            "market": "Moneyline",
+            "pick": "CWS +128",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 128,
+            "result": "win"
+          },
+          {
+            "matchup": "PHI @ ATL",
+            "market": "Moneyline",
+            "pick": "PHI -115",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "win"
+          }
+        ]
+      },
+      "player_props": {
+        "wins": 6,
+        "losses": 5,
+        "pushes": 0,
+        "units": -0.27,
+        "picks": [
+          {
+            "player": "T. Konecny",
+            "market": "Shots on Goal O/U 1.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -180,
+            "result": "win"
+          },
+          {
+            "player": "A. Panarin",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -175,
+            "result": "win"
+          },
+          {
+            "player": "G. Landeskog",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -155,
+            "result": "win"
+          },
+          {
+            "player": "J. Tavares",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -130,
+            "result": "loss"
+          },
+          {
+            "player": "A. Kempe",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -130,
+            "result": "loss"
+          },
+          {
+            "player": "J. Cronenworth",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -121,
+            "result": "loss"
+          },
+          {
+            "player": "M. Necas",
+            "market": "Assists O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -110,
+            "result": "loss"
+          },
+          {
+            "player": "W. Nylander",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -105,
+            "result": "loss"
+          },
+          {
+            "player": "B. Nelson",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 100,
+            "result": "win"
+          },
+          {
+            "player": "N. Kadri",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 100,
+            "result": "win"
+          },
+          {
+            "player": "B. Clarke",
+            "market": "Shots on Goal O/U 1.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 120,
+            "result": "win"
+          }
+        ]
+      },
+      "parlays": [
+        {
+          "legs": 3,
+          "odds": "~+302",
+          "result": "win",
+          "stake": 0.5,
+          "units": 0.0
+        }
+      ]
     }
   ]
 }

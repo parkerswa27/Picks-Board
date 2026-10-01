@@ -1,27 +1,41 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "betting_model": [
     {
       "tier": "lean",
-      "matchup": "CWS @ HOU",
-      "market": "Moneyline",
-      "pick": "CWS +128",
-      "confidence": 0.462,
-      "edge": 3.8,
+      "matchup": "Pittsburgh Steelers @ Cleveland Browns",
+      "market": "Spread",
+      "pick": "Cleveland Browns +2.5 (+100)",
+      "odds": 100,
+      "confidence": 0.514,
+      "edge": 3.6,
+      "model_gap_pts": 3.9,
       "stake": 0.75,
-      "book": "williamhill_us",
-      "market_prob": 0.424
+      "book": "draftkings",
+      "market_prob": 0.478,
+      "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception)",
+      "sport": "NFL",
+      "event_id": "32663",
+      "coverage": "primetime"
     },
     {
       "tier": "lean",
-      "matchup": "PHI @ ATL",
-      "market": "Moneyline",
-      "pick": "PHI -115",
-      "confidence": 0.54,
-      "edge": 2.1,
+      "matchup": "North Texas @ Tulsa",
+      "market": "Spread",
+      "pick": "Tulsa +1.5 (-115)",
+      "odds": -115,
+      "confidence": 0.511,
+      "edge": 0.0,
       "stake": 0.75,
-      "book": "hardrockbet",
-      "market_prob": 0.519
+      "book": "draftkings",
+      "market_prob": 0.511,
+      "basis": "price read \u2014 no model edge",
+      "sport": "CFB",
+      "event_id": "225432",
+      "coverage": "weekend floor",
+      "model_line": -9.0,
+      "model_line_text": "North Texas -9.0",
+      "model_line_note": "power model thru wk4, market-free \u2014 informational, not a pick"
     }
   ]
 }

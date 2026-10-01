@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-30",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "T. Konecny",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -180,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "A. Panarin",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -175,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "G. Landeskog",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -155,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Tavares",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -130,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "A. Kempe",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -130,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Cronenworth",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -121,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "M. Necas",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "W. Nylander",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -105,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "B. Nelson",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 100,
+      "actual": 3.0,
+      "result": "win"
+    },
+    {
+      "player": "N. Kadri",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 100,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "B. Clarke",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 120,
+      "actual": 1.0,
+      "result": "win"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "~+302",
+      "result": "win"
+    }
+  ],
+  "unresolved": []
+}
