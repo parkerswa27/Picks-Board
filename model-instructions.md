@@ -348,8 +348,10 @@ How it publishes:
 - **Coverage:** 60% of the slate (Parker 9/29/26), filled by the games where the
   composite is most one-sided (largest |margin|). That order is a judgment
   call, not a tuned parameter.
-- **Scope:** tonight only (`NHL_DATES = {"2026-09-29"}`). Graded from PropLine
-  final scores, moneyline on the winner, like every other pick.
+- **Scope:** dated exceptions only (`NHL_DATES = {"2026-09-29", "2026-10-02"}`;
+  10/2/26 added at Parker's request — regular-season games, not preseason). Each
+  further date must be added explicitly. Graded from PropLine final scores,
+  moneyline on the winner, like every other pick.
 
 **Retirement.** This heuristic is retired, not upgraded, once a real walk-forward
 NHL model — historical seasons ingested, TUNE/TEST/HOLDOUT splits, reported the

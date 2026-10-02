@@ -38,6 +38,78 @@
       "model_line": 1.0,
       "model_line_text": "Northwestern -1.0",
       "model_line_note": "power model thru wk4, market-free \u2014 informational, not a pick"
+    },
+    {
+      "tier": "lean",
+      "matchup": "Anaheim Ducks @ Vegas Golden Knights",
+      "market": "Moneyline",
+      "pick": "Vegas Golden Knights -192",
+      "odds": -192,
+      "confidence": 0.631,
+      "edge": 0.0,
+      "stake": 0.75,
+      "book": "draftkings",
+      "market_prob": 0.631,
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "event_id": "202765",
+      "coverage": "nhl 60% (dated exception)",
+      "composite_margin": 1.002,
+      "composite_parts": {
+        "xg": 0.423,
+        "pts": 0.389,
+        "goalie": -0.032,
+        "hfa": 0.221
+      },
+      "note": "goalies projected, not confirmed: VGK Adin Hill (proj., GSAx/60 -0.04, 164 GP 21-26); ANA Lukas Dostal (proj., GSAx/60 +0.03, 177 GP 21-26)"
+    },
+    {
+      "tier": "lean",
+      "matchup": "St. Louis Blues @ Dallas Stars",
+      "market": "Moneyline",
+      "pick": "Dallas Stars -185",
+      "odds": -185,
+      "confidence": 0.622,
+      "edge": 0.0,
+      "stake": 0.75,
+      "book": "draftkings",
+      "market_prob": 0.622,
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "event_id": "78468",
+      "coverage": "nhl 60% (dated exception)",
+      "composite_margin": 0.859,
+      "composite_parts": {
+        "xg": 0.331,
+        "pts": 0.317,
+        "goalie": -0.011,
+        "hfa": 0.221
+      },
+      "note": "goalies projected, not confirmed: DAL Jake Oettinger (proj., GSAx/60 +0.11, 276 GP 21-26); STL Joel Hofer (proj., GSAx/60 +0.13, 115 GP 21-26)"
+    },
+    {
+      "tier": "lean",
+      "matchup": "Washington Capitals @ Carolina Hurricanes",
+      "market": "Moneyline",
+      "pick": "Carolina Hurricanes -142",
+      "odds": -142,
+      "confidence": 0.563,
+      "edge": 0.0,
+      "stake": 0.75,
+      "book": "draftkings",
+      "market_prob": 0.563,
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "event_id": "202764",
+      "coverage": "nhl 60% (dated exception)",
+      "composite_margin": 0.659,
+      "composite_parts": {
+        "xg": 0.376,
+        "pts": 0.218,
+        "goalie": -0.156,
+        "hfa": 0.221
+      },
+      "note": "goalies projected, not confirmed: CAR Brandon Bussi (proj., GSAx/60 +0.03, 39 GP 21-26); WSH Logan Thompson (proj., GSAx/60 +0.35, 203 GP 21-26)"
     }
   ]
 }
