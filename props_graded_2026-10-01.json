@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-01",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "J. Guentzel",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -160,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Miller",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -135,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "M. Frost",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -120,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "P. Freiermuth",
+      "market": "Receiving Yards O/U 29.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -113,
+      "actual": 17.0,
+      "result": "win"
+    },
+    {
+      "player": "Q. Judkins",
+      "market": "Receiving Yards O/U 12.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -111,
+      "actual": 43.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Trouba",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "B. McMann",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -105,
+      "actual": 3.0,
+      "result": "loss"
+    },
+    {
+      "player": "M. Rossi",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 100,
+      "actual": 4.0,
+      "result": "loss"
+    },
+    {
+      "player": "G. Forsling",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 105,
+      "actual": "void",
+      "result": "push",
+      "note": "DNP (did not play) \u2014 void"
+    },
+    {
+      "player": "D. Metcalf",
+      "market": "Receiving Yards O/U 45.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -109,
+      "actual": 115.0,
+      "result": "win"
+    },
+    {
+      "player": "B. Hagel",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 115,
+      "actual": 3.0,
+      "result": "loss"
+    },
+    {
+      "player": "M. Pittman Jr.",
+      "market": "Receiving Yards O/U 32.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -112,
+      "actual": 15.0,
+      "result": "loss"
+    },
+    {
+      "player": "T. Toffoli",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 140,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Marchessault",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 140,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "D. Metcalf",
+      "market": "Anytime TD",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 205,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "H. Fannin Jr.",
+      "market": "Anytime TD",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 265,
+      "actual": 1.0,
+      "result": "win"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "~+993",
+      "result": "loss"
+    },
+    {
+      "legs": 3,
+      "odds": "~+419",
+      "result": "loss"
+    }
+  ],
+  "unresolved": []
+}

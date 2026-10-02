@@ -1848,6 +1848,209 @@
           "units": 0.0
         }
       ]
+    },
+    {
+      "date": "2026-10-01",
+      "betting_model": {
+        "wins": 2,
+        "losses": 0,
+        "pushes": 0,
+        "units": 1.4,
+        "picks": [
+          {
+            "sport": "NFL",
+            "matchup": "Pittsburgh Steelers @ Cleveland Browns",
+            "market": "Spread",
+            "pick": "Cleveland Browns +2.5 (+100)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 100,
+            "result": "win",
+            "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception)",
+            "model_gap_pts": 3.9
+          },
+          {
+            "sport": "CFB",
+            "matchup": "North Texas @ Tulsa",
+            "market": "Spread",
+            "pick": "Tulsa +1.5 (-115)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "win",
+            "basis": "price read \u2014 no model edge"
+          }
+        ]
+      },
+      "player_props": {
+        "wins": 5,
+        "losses": 10,
+        "pushes": 1,
+        "units": -2.85,
+        "picks": [
+          {
+            "player": "J. Guentzel",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -160,
+            "result": "loss"
+          },
+          {
+            "player": "J. Miller",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -135,
+            "result": "loss"
+          },
+          {
+            "player": "M. Frost",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -120,
+            "result": "win"
+          },
+          {
+            "player": "P. Freiermuth",
+            "market": "Receiving Yards O/U 29.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -113,
+            "result": "win"
+          },
+          {
+            "player": "Q. Judkins",
+            "market": "Receiving Yards O/U 12.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -111,
+            "result": "loss"
+          },
+          {
+            "player": "J. Trouba",
+            "market": "Shots on Goal O/U 1.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -110,
+            "result": "win"
+          },
+          {
+            "player": "B. McMann",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -105,
+            "result": "loss"
+          },
+          {
+            "player": "M. Rossi",
+            "market": "Shots on Goal O/U 1.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 100,
+            "result": "loss"
+          },
+          {
+            "player": "G. Forsling",
+            "market": "Shots on Goal O/U 1.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 105,
+            "result": "push",
+            "note": "DNP (did not play) \u2014 void"
+          },
+          {
+            "player": "D. Metcalf",
+            "market": "Receiving Yards O/U 45.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -109,
+            "result": "win"
+          },
+          {
+            "player": "B. Hagel",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 115,
+            "result": "loss"
+          },
+          {
+            "player": "M. Pittman Jr.",
+            "market": "Receiving Yards O/U 32.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -112,
+            "result": "loss"
+          },
+          {
+            "player": "T. Toffoli",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 140,
+            "result": "loss"
+          },
+          {
+            "player": "J. Marchessault",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 140,
+            "result": "loss"
+          },
+          {
+            "player": "D. Metcalf",
+            "market": "Anytime TD",
+            "pick": "Yes",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 205,
+            "result": "loss"
+          },
+          {
+            "player": "H. Fannin Jr.",
+            "market": "Anytime TD",
+            "pick": "Yes",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 265,
+            "result": "win"
+          }
+        ]
+      },
+      "parlays": [
+        {
+          "legs": 3,
+          "odds": "~+993",
+          "result": "loss",
+          "stake": 0.5,
+          "units": 0.0
+        },
+        {
+          "legs": 3,
+          "odds": "~+419",
+          "result": "loss",
+          "stake": 0.5,
+          "units": 0.0
+        }
+      ]
     }
   ]
 }

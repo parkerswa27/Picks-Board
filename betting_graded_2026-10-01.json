@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-01",
+  "fully_graded": true,
+  "picks": [
+    {
+      "matchup": "Pittsburgh Steelers @ Cleveland Browns",
+      "market": "Spread",
+      "pick": "Cleveland Browns +2.5 (+100)",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 100,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception)",
+      "sport": "NFL",
+      "model_gap_pts": 3.9
+    },
+    {
+      "matchup": "North Texas @ Tulsa",
+      "market": "Spread",
+      "pick": "Tulsa +1.5 (-115)",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -115,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "price read \u2014 no model edge",
+      "sport": "CFB"
+    }
+  ],
+  "ungraded": []
+}
