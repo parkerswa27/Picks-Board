@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-02",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "A. Lafreniere",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -180,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Chychrun",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -175,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "E. Finnie",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -160,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "R. Thomas",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -150,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Miller",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -135,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Robertson",
+      "market": "Shots on Goal O/U 3.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -140,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "J. LaCombe",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 100,
+      "actual": 2.0,
+      "result": "loss"
+    },
+    {
+      "player": "M. Heiskanen",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 100,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "A. Tuch",
+      "market": "Anytime Goal",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 260,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Kyrou",
+      "market": "Assists O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 270,
+      "actual": 0.0,
+      "result": "loss"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "~+297",
+      "result": "loss"
+    }
+  ],
+  "unresolved": []
+}

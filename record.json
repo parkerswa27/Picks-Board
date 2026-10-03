@@ -2051,6 +2051,182 @@
           "units": 0.0
         }
       ]
+    },
+    {
+      "date": "2026-10-02",
+      "betting_model": {
+        "wins": 1,
+        "losses": 4,
+        "pushes": 0,
+        "units": -2.38,
+        "picks": [
+          {
+            "sport": "CFB",
+            "matchup": "Liberty @ Delaware",
+            "market": "Spread",
+            "pick": "Liberty -6.5 (-120)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -120,
+            "result": "win",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Penn State @ Northwestern",
+            "market": "Spread",
+            "pick": "Penn State -2.5 (-118)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -118,
+            "result": "loss",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Anaheim Ducks @ Vegas Golden Knights",
+            "market": "Moneyline",
+            "pick": "Vegas Golden Knights -192",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -192,
+            "result": "loss",
+            "note": "goalies projected, not confirmed: VGK Adin Hill (proj., GSAx/60 -0.04, 164 GP 21-26); ANA Lukas Dostal (proj., GSAx/60 +0.03, 177 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "St. Louis Blues @ Dallas Stars",
+            "market": "Moneyline",
+            "pick": "Dallas Stars -185",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -185,
+            "result": "loss",
+            "note": "goalies projected, not confirmed: DAL Jake Oettinger (proj., GSAx/60 +0.11, 276 GP 21-26); STL Joel Hofer (proj., GSAx/60 +0.13, 115 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Washington Capitals @ Carolina Hurricanes",
+            "market": "Moneyline",
+            "pick": "Carolina Hurricanes -142",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -142,
+            "result": "loss",
+            "note": "goalies projected, not confirmed: CAR Brandon Bussi (proj., GSAx/60 +0.03, 39 GP 21-26); WSH Logan Thompson (proj., GSAx/60 +0.35, 203 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          }
+        ]
+      },
+      "player_props": {
+        "wins": 5,
+        "losses": 5,
+        "pushes": 0,
+        "units": 0.37,
+        "picks": [
+          {
+            "player": "A. Lafreniere",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -180,
+            "result": "win"
+          },
+          {
+            "player": "J. Chychrun",
+            "market": "Assists O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -175,
+            "result": "loss"
+          },
+          {
+            "player": "E. Finnie",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -160,
+            "result": "win"
+          },
+          {
+            "player": "R. Thomas",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -150,
+            "result": "loss"
+          },
+          {
+            "player": "J. Miller",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -135,
+            "result": "loss"
+          },
+          {
+            "player": "J. Robertson",
+            "market": "Shots on Goal O/U 3.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -140,
+            "result": "win"
+          },
+          {
+            "player": "J. LaCombe",
+            "market": "Shots on Goal O/U 1.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 100,
+            "result": "loss"
+          },
+          {
+            "player": "M. Heiskanen",
+            "market": "Assists O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 100,
+            "result": "win"
+          },
+          {
+            "player": "A. Tuch",
+            "market": "Anytime Goal",
+            "pick": "Yes",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 260,
+            "result": "win"
+          },
+          {
+            "player": "J. Kyrou",
+            "market": "Assists O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 270,
+            "result": "loss"
+          }
+        ]
+      },
+      "parlays": [
+        {
+          "legs": 3,
+          "odds": "~+297",
+          "result": "loss",
+          "stake": 0.5,
+          "units": 0.0
+        }
+      ]
     }
   ]
 }
