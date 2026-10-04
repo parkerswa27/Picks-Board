@@ -111,6 +111,31 @@
         }
       },
       {
+        "sport": "NFL",
+        "player": "K. Williams",
+        "market": "Anytime TD",
+        "pick": "Yes",
+        "tier": "lean",
+        "confidence": 0.62,
+        "edge": 9.6,
+        "stake": 0.75,
+        "market_prob": 0.524,
+        "calibration": 0.0,
+        "basis": "coverage floor",
+        "ref": {
+          "sport": "NFL",
+          "event_id": "32671",
+          "player": "Kyren Williams",
+          "market": "anytime_td",
+          "side": "Yes",
+          "line": null,
+          "price": -110,
+          "book": "DraftKings",
+          "game": "Los Angeles Rams @ Philadelphia Eagles",
+          "team": "LA"
+        }
+      },
+      {
         "sport": "NHL",
         "player": "B. McMann",
         "market": "Points O/U 0.5",
@@ -162,6 +187,131 @@
           "book": "DraftKings",
           "game": "Florida Panthers @ Anaheim Ducks",
           "team": "ANA"
+        }
+      },
+      {
+        "sport": "NFL",
+        "player": "L. Burden III",
+        "market": "Receiving Yards O/U 47.5",
+        "pick": "Under",
+        "tier": "lean",
+        "confidence": 0.6,
+        "edge": 9.8,
+        "stake": 0.75,
+        "market_prob": 0.502,
+        "calibration": 0.0,
+        "basis": "coverage floor",
+        "ref": {
+          "sport": "NFL",
+          "event_id": "32667",
+          "player": "Luther Burden III",
+          "market": "rec_yds",
+          "side": "Under",
+          "line": 47.5,
+          "price": -113,
+          "book": "DraftKings",
+          "game": "New York Jets @ Chicago Bears",
+          "team": "CHI"
+        }
+      },
+      {
+        "sport": "NFL",
+        "player": "K. Juszczyk",
+        "market": "Receiving Yards O/U 8.5",
+        "pick": "Over",
+        "tier": "lean",
+        "confidence": 0.6,
+        "edge": 9.6,
+        "stake": 0.75,
+        "market_prob": 0.504,
+        "calibration": 0.0,
+        "basis": "coverage floor",
+        "ref": {
+          "sport": "NFL",
+          "event_id": "32674",
+          "player": "Kyle Juszczyk",
+          "market": "rec_yds",
+          "side": "Over",
+          "line": 8.5,
+          "price": -114,
+          "book": "DraftKings",
+          "game": "Denver Broncos @ San Francisco 49ers",
+          "team": "SF"
+        }
+      },
+      {
+        "sport": "NFL",
+        "player": "C. Watson",
+        "market": "Receiving Yards O/U 68.5",
+        "pick": "Under",
+        "tier": "lean",
+        "confidence": 0.6,
+        "edge": 9.6,
+        "stake": 0.75,
+        "market_prob": 0.504,
+        "calibration": 0.0,
+        "basis": "coverage floor",
+        "ref": {
+          "sport": "NFL",
+          "event_id": "32664",
+          "player": "Christian Watson",
+          "market": "rec_yds",
+          "side": "Under",
+          "line": 68.5,
+          "price": -114,
+          "book": "DraftKings",
+          "game": "Green Bay Packers @ Tampa Bay Buccaneers",
+          "team": "GB"
+        }
+      },
+      {
+        "sport": "NFL",
+        "player": "J. Wright",
+        "market": "Receiving Yards O/U 5.5",
+        "pick": "Over",
+        "tier": "lean",
+        "confidence": 0.6,
+        "edge": 9.4,
+        "stake": 0.75,
+        "market_prob": 0.506,
+        "calibration": 0.0,
+        "basis": "coverage floor",
+        "ref": {
+          "sport": "NFL",
+          "event_id": "32672",
+          "player": "Jaylen Wright",
+          "market": "rec_yds",
+          "side": "Over",
+          "line": 5.5,
+          "price": -115,
+          "book": "DraftKings",
+          "game": "Miami Dolphins @ Minnesota Vikings",
+          "team": "MIA"
+        }
+      },
+      {
+        "sport": "NFL",
+        "player": "J. Ferguson",
+        "market": "Receiving Yards O/U 24.5",
+        "pick": "Over",
+        "tier": "lean",
+        "confidence": 0.588,
+        "edge": 9.5,
+        "stake": 0.75,
+        "market_prob": 0.494,
+        "calibration": 0.0,
+        "basis": "coverage floor",
+        "ref": {
+          "sport": "NFL",
+          "event_id": "32666",
+          "player": "Jake Ferguson",
+          "market": "rec_yds",
+          "side": "Over",
+          "line": 24.5,
+          "price": -109,
+          "book": "DraftKings",
+          "game": "Dallas Cowboys @ Houston Texans",
+          "team": "DAL"
         }
       },
       {
@@ -275,6 +425,58 @@
     ]
   },
   "parlays": [
+    {
+      "legs": 3,
+      "odds": "+576",
+      "book": "DraftKings",
+      "stake": 0.5,
+      "sgp": false,
+      "odds_basis": "cross-game: product of single-leg DK prices",
+      "basis": "coverage floor",
+      "selections": [
+        "K. Williams \u2014 Anytime TD",
+        "L. Burden III \u2014 Receiving Yards Under 47.5",
+        "K. Juszczyk \u2014 Receiving Yards Over 8.5"
+      ],
+      "refs": [
+        {
+          "sport": "NFL",
+          "event_id": "32671",
+          "player": "Kyren Williams",
+          "market": "anytime_td",
+          "side": "Yes",
+          "line": null,
+          "price": -110,
+          "book": "DraftKings",
+          "game": "Los Angeles Rams @ Philadelphia Eagles",
+          "team": "LA"
+        },
+        {
+          "sport": "NFL",
+          "event_id": "32667",
+          "player": "Luther Burden III",
+          "market": "rec_yds",
+          "side": "Under",
+          "line": 47.5,
+          "price": -113,
+          "book": "DraftKings",
+          "game": "New York Jets @ Chicago Bears",
+          "team": "CHI"
+        },
+        {
+          "sport": "NFL",
+          "event_id": "32674",
+          "player": "Kyle Juszczyk",
+          "market": "rec_yds",
+          "side": "Over",
+          "line": 8.5,
+          "price": -114,
+          "book": "DraftKings",
+          "game": "Denver Broncos @ San Francisco 49ers",
+          "team": "SF"
+        }
+      ]
+    },
     {
       "legs": 3,
       "book": "DraftKings",

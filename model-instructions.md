@@ -195,6 +195,15 @@ gets published, never what its stated probability is.
     the one with the highest joint model probability publishes. If no valid
     combination exists, no parlay publishes.
 
+- **NFL player props, full-slate days (10/4/26):** on a day with more than
+  one NFL game, publish props across the not-yet-started games under the
+  same leg rules (publishable markets, 0–10 pt gap window, anytime-TD floor
+  and cap). Target is max(6, ceil(40% of not-started games)), at most one
+  prop per game; a shortfall is reported, never filled by bending a rule.
+  The 3-leg parlay takes the three highest-confidence props — different
+  games by construction — priced as the product of their DK prices (exact
+  for independent legs; no SGP involved). All carry `"basis": "coverage floor"`.
+
 ## NFL / CFB / NBA betting: spreads, as price reads
 
 **Spreads only** for CFB, NBA and NFL — no moneylines. There is no graded
