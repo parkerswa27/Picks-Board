@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "fully_graded": false,
+  "fully_graded": true,
   "picks": [
     {
       "matchup": "SD @ MIL",
@@ -37,6 +37,19 @@
       "basis": "same-day composite \u2014 unvalidated, no backtest",
       "sport": "NHL",
       "note": "goalies projected, not confirmed: ANA Lukas Dostal (proj., GSAx/60 +0.03, 177 GP 21-26); FLA Jacob Markstrom (proj., GSAx/60 -0.02, 263 GP 21-26)"
+    },
+    {
+      "matchup": "Utah Mammoth @ New York Rangers",
+      "market": "Moneyline",
+      "pick": "New York Rangers -125",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -125,
+      "result": "win",
+      "source": "NHL API final 2-4 (REG), ESPN agrees",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: NYR Igor Shesterkin (proj., GSAx/60 +0.36, 278 GP 21-26); UTA Karel Vejmelka (proj., GSAx/60 +0.07, 262 GP 21-26)"
     },
     {
       "matchup": "Detroit Lions @ Carolina Panthers",
@@ -122,7 +135,6 @@
       "model_gap_pts": 0.4
     }
   ],
-  "ungraded": [
-    "New York Rangers -125"
-  ]
+  "ungraded": [],
+  "ungraded_reasons": {}
 }

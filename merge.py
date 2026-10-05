@@ -161,6 +161,23 @@ def section(graded, name):
     }, None
 
 
+def stale_ungraded(date, betting, props):
+    """(Parker 10/5/26) One "!! ... UNGRADED > 24h" line per pick still open once a full
+    grading run has passed it by: run date at least 2 days after the pick's date (the
+    morning after is the normal grade; the morning after that is > 24h). Reported at the
+    top of the daily report, beside the MANUAL CHECK lines."""
+    if (datetime.now().date() - datetime.strptime(date, "%Y-%m-%d").date()).days < 2:
+        return []
+    out = []
+    if betting and not betting.get("fully_graded"):
+        why = betting.get("ungraded_reasons", {})
+        out += [f"!! {date}: UNGRADED > 24h — betting {u}: {why.get(u, 'no reason recorded')}"
+                for u in betting.get("ungraded", [])]
+    if props and not props.get("fully_graded"):
+        out += [f"!! {date}: UNGRADED > 24h — props {u}" for u in props.get("unresolved", [])]
+    return out
+
+
 def grade(args):
     betting = load(args.betting_graded)
     props = load(args.props_graded)
@@ -169,6 +186,8 @@ def grade(args):
         bsec, bwhy = section(betting, "betting_model")
         psec, pwhy = section(props, "player_props")
         if bwhy or pwhy:
+            for line in stale_ungraded(args.date, betting, props):
+                print(line)
             print(f"{args.date}: not closing this day — betting: {bwhy or 'ok'}, "
                   f"props: {pwhy or 'ok'}. Will retry on a future run.")
             return

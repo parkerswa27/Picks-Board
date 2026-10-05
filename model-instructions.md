@@ -361,6 +361,22 @@ How it publishes:
   10/2/26 — it began as an opening-night-only exception, then 10/2 was added, then
   made daily). Still unvalidated: the daily scope does not make it a model.
   Graded from PropLine final scores, moneyline on the winner, like every other pick.
+- **Grading fallback (10/5/26).** When PropLine has no NHL final (status "expired",
+  null scores — 10/3 LAK@SJS and 10/4 UTA@NYR), `board_betting.py --grade` uses the
+  NHL API final only if ESPN's final agrees (same score, same winner), and tags the
+  pick's `source` with it. A level PropLine "final" goes the same way rather than
+  grading as a push: NHL games don't end tied, so the shootout winner wins the moneyline.
+  If the two disagree or either is missing, the pick stays pending and `merge.py`
+  names it once it is over 24h old (`!! <date>: UNGRADED > 24h — <pick>: <reason>`).
+  A dated `grade_overrides/<date>.json` is read only when both sources fail.
+- **NHL props candidate log (10/5/26).** Every NHL prop that clears the minimum-sample
+  rule is written to props.db `nhl_prop_candidates`, published or not: date, player,
+  market, line, side, price, baseline, no-vig market probability, gap, published flag.
+  The unpublished rows are graded from NHL box scores by `board_props.py --grade`. This
+  is for observation only: nothing reads it back into selection, the gap cap or stakes,
+  and it writes to no board file. Purpose: the 59 published props through 10/4 all sat
+  at gap 7.4–10, so they can't separate the selection effect from stale data; the
+  candidates give hit rate against market probability across gap 0–3 / 3–6 / 6+.
 
 **Retirement.** This heuristic is retired, not upgraded, once a real walk-forward
 NHL model — historical seasons ingested, TUNE/TEST/HOLDOUT splits, reported the

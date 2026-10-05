@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "fully_graded": false,
+  "fully_graded": true,
   "picks": [
     {
       "matchup": "NYY @ TB",
@@ -343,6 +343,19 @@
       "note": "goalies projected, not confirmed: NSH Juuse Saros (proj., GSAx/60 +0.01, 312 GP 21-26); DAL Jake Oettinger (proj., GSAx/60 +0.11, 276 GP 21-26)"
     },
     {
+      "matchup": "Los Angeles Kings @ San Jose Sharks",
+      "market": "Moneyline",
+      "pick": "Los Angeles Kings +100",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 100,
+      "result": "loss",
+      "source": "NHL API final 4-5 (OT), ESPN agrees",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: SJS Yaroslav Askarov (proj., GSAx/60 -0.20, 63 GP 21-26); LAK Darcy Kuemper (proj., GSAx/60 +0.10, 247 GP 21-26)"
+    },
+    {
       "matchup": "Montreal Canadiens @ Pittsburgh Penguins",
       "market": "Moneyline",
       "pick": "Pittsburgh Penguins +110",
@@ -369,7 +382,6 @@
       "note": "goalies projected, not confirmed: TBL Andrei Vasilevskiy (proj., GSAx/60 +0.33, 296 GP 21-26); WSH Logan Thompson (proj., GSAx/60 +0.35, 203 GP 21-26)"
     }
   ],
-  "ungraded": [
-    "Los Angeles Kings +100"
-  ]
+  "ungraded": [],
+  "ungraded_reasons": {}
 }
