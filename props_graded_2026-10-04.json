@@ -1,0 +1,179 @@
+{
+  "date": "2026-10-04",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "S. Nemec",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -350,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "C. Gauthier",
+      "market": "Shots on Goal O/U 3.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -150,
+      "actual": 4.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Miller",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -140,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "M. Stone",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -145,
+      "actual": 3.0,
+      "result": "loss"
+    },
+    {
+      "player": "K. Williams",
+      "market": "Anytime TD",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "B. McMann",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -125,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. LaCombe",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -130,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "L. Burden III",
+      "market": "Receiving Yards O/U 47.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -113,
+      "actual": 63.0,
+      "result": "loss"
+    },
+    {
+      "player": "K. Juszczyk",
+      "market": "Receiving Yards O/U 8.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -114,
+      "actual": 28.0,
+      "result": "win"
+    },
+    {
+      "player": "C. Watson",
+      "market": "Receiving Yards O/U 68.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -114,
+      "actual": 47.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Wright",
+      "market": "Receiving Yards O/U 5.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -115,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Ferguson",
+      "market": "Receiving Yards O/U 24.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -109,
+      "actual": 11.0,
+      "result": "loss"
+    },
+    {
+      "player": "A. Lafreniere",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "E. Tolvanen",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 100,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "L. Carlsson",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 125,
+      "actual": 3.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. McCann",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 140,
+      "actual": 2.0,
+      "result": "loss"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "+576",
+      "result": "loss"
+    },
+    {
+      "legs": 3,
+      "odds": "+267",
+      "result": "loss"
+    }
+  ],
+  "unresolved": []
+}

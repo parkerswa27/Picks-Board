@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-04",
+  "fully_graded": false,
+  "picks": [
+    {
+      "matchup": "SD @ MIL",
+      "market": "Moneyline",
+      "pick": "MIL -130",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -130,
+      "result": "win",
+      "source": "bets.db"
+    },
+    {
+      "matchup": "Vegas Golden Knights @ Vancouver Canucks",
+      "market": "Moneyline",
+      "pick": "Vegas Golden Knights -278",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -278,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: VAN Kevin Lankinen (proj., GSAx/60 -0.20, 173 GP 21-26); VGK Adin Hill (proj., GSAx/60 -0.04, 164 GP 21-26)"
+    },
+    {
+      "matchup": "Florida Panthers @ Anaheim Ducks",
+      "market": "Moneyline",
+      "pick": "Florida Panthers -135",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -135,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: ANA Lukas Dostal (proj., GSAx/60 +0.03, 177 GP 21-26); FLA Jacob Markstrom (proj., GSAx/60 -0.02, 263 GP 21-26)"
+    },
+    {
+      "matchup": "Detroit Lions @ Carolina Panthers",
+      "market": "Spread",
+      "pick": "Carolina Panthers +4.5 (-123)",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -123,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception)",
+      "sport": "NFL",
+      "model_gap_pts": 3.9
+    },
+    {
+      "matchup": "Tennessee Titans @ Baltimore Ravens",
+      "market": "Spread",
+      "pick": "Baltimore Ravens -11.5 (-110)",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "coverage floor",
+      "sport": "NFL",
+      "note": "nfl_eff model \u2014 below breakeven in backtest (documented exception)",
+      "model_gap_pts": 0.8
+    },
+    {
+      "matchup": "New England Patriots @ Buffalo Bills",
+      "market": "Spread",
+      "pick": "New England Patriots +7 (-112)",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -112,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "coverage floor",
+      "sport": "NFL",
+      "note": "nfl_eff model \u2014 below breakeven in backtest (documented exception)",
+      "model_gap_pts": 1.4
+    },
+    {
+      "matchup": "Miami Dolphins @ Minnesota Vikings",
+      "market": "Spread",
+      "pick": "Miami Dolphins +10 (-115)",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -115,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "coverage floor",
+      "sport": "NFL",
+      "note": "nfl_eff model \u2014 below breakeven in backtest (documented exception)",
+      "model_gap_pts": 0.1
+    },
+    {
+      "matchup": "Los Angeles Rams @ Philadelphia Eagles",
+      "market": "Spread",
+      "pick": "Philadelphia Eagles +4.5 (-122)",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -122,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "coverage floor",
+      "sport": "NFL",
+      "note": "nfl_eff model \u2014 below breakeven in backtest (documented exception)",
+      "model_gap_pts": 0.2
+    },
+    {
+      "matchup": "Kansas City Chiefs @ Las Vegas Raiders",
+      "market": "Spread",
+      "pick": "Las Vegas Raiders +5.5 (-124)",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -124,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "coverage floor",
+      "sport": "NFL",
+      "note": "nfl_eff model \u2014 below breakeven in backtest (documented exception)",
+      "model_gap_pts": 0.4
+    }
+  ],
+  "ungraded": [
+    "New York Rangers -125"
+  ]
+}
