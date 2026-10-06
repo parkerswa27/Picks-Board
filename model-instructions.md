@@ -126,6 +126,27 @@ Every published pick carries a `tier`, and stake follows tier directly:
 - Medium — **1.0u**
 - Lean / low confidence — **0.75u**
 
+**Reduced stake for non-validated picks (Parker, 10/6/26; from the 10/7/26 publish on).**
+Coverage-floor picks (MLB and NFL), price reads (CFB, and NFL when the model is
+unavailable) and unvalidated-model picks (NFL `nfl_eff`, NHL same-day composite) stake
+**0.5u**, tier still Lean (`REDUCED_STAKE` in `board_betting.py`). Validated MLB model
+picks keep the tiers above (1.5 / 1.0 / 0.75). Earlier days stay as recorded. Expected
+vig at the market's own price is about −0.046u per unit staked on these picks; a
+typical Saturday (~19 CFB floor picks) costs ≈0.68u at 0.75u vs ≈0.45u at 0.5u.
+
+**Promotion rule (Parker, 10/6/26).** A pick type (e.g. NFL model, NFL coverage
+floor, MLB coverage floor, NHL composite) moves above 0.5u only when **all** of these hold:
+- at least **150 graded forward picks** of that type (published picks from 10/7/26
+  on, logged with their gap and result; backtests and re-scored history don't count);
+- cover rate **above break-even at the picks' own prices, with a 95% interval that
+  excludes break-even**;
+- cover rate **rising across model-gap buckets** (larger model-vs-market gaps
+  cover more often, not less).
+
+A promoted type goes **back to 0.5u if it fails a later check** of the same three
+tests. CFB price reads have no model gap, so they **cannot qualify** under this
+rule and stay at 0.5u.
+
 This now applies to **both** models — player props need a `tier` field too,
 not just the betting model. Don't force props into the betting model's
 65%/55% confidence cutoffs, though — prop confidence runs lower across the
@@ -221,7 +242,8 @@ games in `requested_games.json`). Price reads work like this:
   dead-even price goes to the side laying points.
 - `confidence` = that no-vig probability; `edge` = `0.0`;
   `"basis": "price read — no model edge"`; `pick` reads `"Team -4.5 (-115)"`.
-- Tier Lean, 0.75u — a zero-edge pick is never sized up by its price.
+- Tier Lean, 0.75u — a zero-edge pick is never sized up by its price. (0.5u from
+  10/7/26: see "Unit sizing".)
 - Floor denominator: the day's games DraftKings actually prices (unpriced
   FCS games can't be picked, so counting them makes the floor unreachable).
 - Floor fill order: highest confidence first (every edge is 0.0).
@@ -288,7 +310,7 @@ Rules that still apply to its picks:
   (≈ 0.48–0.54). Never adjusted upward; a 0.497 publishes as 0.497. Out of
   sample even this runs slightly hot at large edges.
 - `edge` = confidence minus DK's no-vig probability for that side, in points.
-- Every pick is **Lean, 0.75u** until a real graded NFL sample exists to set
+- Every pick is **Lean, 0.75u** (0.5u from 10/7/26, see "Unit sizing") until a real graded NFL sample exists to set
   tiers against — no NFL edge bar has been validated.
 - `"basis": "nfl_eff model — below breakeven in backtest (documented
   exception)"` on every pick, in `data.json` and `record.json`.
@@ -318,6 +340,37 @@ Rules that still apply to its picks:
   is judged on 2026+ games only.
 - Every NFL spread pick is logged with `model_gap_pts` and its graded outcome,
   so 2026 is the clean forward test.
+
+**Displayed confidence is market-implied (Parker, 10/6/26; from the next NFL
+publish on).** Because `cover_logit` does not hold out of sample (above), the
+model now only picks the **side**. On every NFL pick, model and coverage floor alike:
+- `confidence` = DraftKings' no-vig probability for the chosen side; `edge` = 0.0.
+- `model_gap_pts` unchanged, and still the floor's fill order.
+- `basis` says so: `"nfl_eff model — below breakeven in backtest (documented
+  exception); confidence is market-implied (DK no-vig), not a model probability"`,
+  and on floor fills `"coverage floor — confidence is market-implied (DK no-vig)"`
+  (model basis in `note`).
+- The fitted `cover_logit` value is kept as `cover_prob`, with the raw
+  `model_margin`, in the archive and in bets.db `football_picks`; it is not displayed.
+- Nothing selects, sorts or tiers on the displayed field: the floor fills by
+  `model_gap_pts`, primetime takes the one game, NFL is always Lean. The only
+  effect is display order (the board lists picks by `edge`, so NFL rows now sit
+  with the other 0.0-edge rows).
+- Picks published through 10/6/26 keep the old meaning (confidence = cover_logit)
+  in the archive and `record.json`; they are not rewritten.
+
+**bets.db `football_picks` (10/6/26).** One row per published NFL / CFB pick:
+date, matchup, pick, line, odds, basis category (model / coverage floor / price
+read) and the published basis text, coverage rule, displayed confidence, market
+no-vig, `cover_prob`, `model_margin`, `model_gap_pts`, the CFB model line
+(informational, nullable), stake, result, units. `board_betting.py` is the only
+writer: publish upserts the day, `--grade` re-syncs from the archived board and
+fills result/units, `--backfill-football` loads earlier archives. Backfilled
+9/24–10/6 (61 rows). Two backfill choices: the 9/24 ATL @ GB pick is logged as a
+**price read** (the archive labelled it the model, but its confidence equals the
+no-vig price with edge 0.0 and no gap; `note` says so), and for 9/28–10/5 picks
+`model_margin` is derived from the logged gap and line (the margin itself was not
+stored then; 9/24–9/27 have neither). `record.json` was not changed.
 
 ## NHL same-day composite: unvalidated, no backtest (documented exception, 9/29/26)
 
@@ -350,7 +403,7 @@ How it publishes:
 - **Side** = the composite's side. That is the only thing the composite decides.
 - **`confidence`** = DraftKings' no-vig probability for that side. It is the
   market's number, not the composite's; there is no calibration to trust.
-- **`edge` = 0.0.** Tier **Lean, 0.75u.**
+- **`edge` = 0.0.** Tier **Lean, 0.75u** (0.5u from 10/7/26, see "Unit sizing").
 - **`"basis": "same-day composite — unvalidated, no backtest"`**: a tag distinct
   from "price read", "coverage floor" and the NFL model basis, so these picks
   are never mistaken for a tested model in `data.json`, `record.json` or on the site.
@@ -377,6 +430,23 @@ How it publishes:
   and it writes to no board file. Purpose: the 59 published props through 10/4 all sat
   at gap 7.4–10, so they can't separate the selection effect from stale data; the
   candidates give hit rate against market probability across gap 0–3 / 3–6 / 6+.
+- **NHL props: decision rule for the gap-bucket report (Parker, 10/6/26).** NHL
+  prop selection, the gap window and stakes stay exactly as they are until
+  `nhl_cand_report.py` runs on 10/8. Then, per gap bucket (0–3 / 3–6 / 6+):
+  - A bucket **counts** only if it has **≥ 100 candidates** and its hit rate
+    differs from its mean market probability by **more than 2 standard errors**,
+    with the standard error computed on **effective n = number of game-nights**
+    the bucket's candidates come from (props on the same night are correlated,
+    so candidates are not independent).
+  - If the 6+ bucket counts and hits **below** its market probability, while the
+    0–3 and 3–6 buckets do not, **narrow the gap window** to exclude the large gaps.
+  - If **no** bucket beats its market probability (and at least one bucket counts,
+    i.e. is significantly below it), **drop NHL props to a flat minimum stake or
+    stop publishing them**.
+  - If nothing counts (too few candidates, or within 2 SE), **change nothing and
+    wait for the 10/19 read**.
+  Any change is made only after that report and written up here with each
+  bucket's n, game-nights, hit rate and market probability.
 
 **Retirement.** This heuristic is retired, not upgraded, once a real walk-forward
 NHL model — historical seasons ingested, TUNE/TEST/HOLDOUT splits, reported the
