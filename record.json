@@ -3031,6 +3031,287 @@
           "units": -0.5
         }
       ]
+    },
+    {
+      "date": "2026-10-05",
+      "betting_model": {
+        "wins": 3,
+        "losses": 2,
+        "pushes": 0,
+        "units": 0.18,
+        "picks": [
+          {
+            "matchup": "CWS @ CLE",
+            "market": "Moneyline",
+            "pick": "CWS +130",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 130,
+            "result": "win"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "San Jose Sharks @ Dallas Stars",
+            "market": "Moneyline",
+            "pick": "Dallas Stars -205",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -205,
+            "result": "win",
+            "note": "goalies projected, not confirmed: DAL Jake Oettinger (proj., GSAx/60 +0.11, 276 GP 21-26); SJS Yaroslav Askarov (proj., GSAx/60 -0.20, 63 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Philadelphia Flyers @ Tampa Bay Lightning",
+            "market": "Moneyline",
+            "pick": "Tampa Bay Lightning -218",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -218,
+            "result": "win",
+            "note": "goalies projected, not confirmed: TBL Andrei Vasilevskiy (proj., GSAx/60 +0.33, 296 GP 21-26); PHI Dan Vladar (proj., GSAx/60 +0.06, 152 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Ottawa Senators @ Boston Bruins",
+            "market": "Moneyline",
+            "pick": "Boston Bruins -102",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -102,
+            "result": "loss",
+            "note": "goalies projected, not confirmed: BOS Jeremy Swayman (proj., GSAx/60 +0.26, 235 GP 21-26); OTT Linus Ullmark (proj., GSAx/60 +0.10, 223 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NFL",
+            "matchup": "Atlanta Falcons @ New Orleans Saints",
+            "market": "Spread",
+            "pick": "New Orleans Saints -1.5 (-108)",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -108,
+            "result": "loss",
+            "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception)",
+            "model_gap_pts": 1.1
+          }
+        ]
+      },
+      "player_props": {
+        "wins": 7,
+        "losses": 14,
+        "pushes": 0,
+        "units": -7.59,
+        "picks": [
+          {
+            "player": "C. Perfetti",
+            "market": "Assists O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -225,
+            "result": "win"
+          },
+          {
+            "player": "K. Connor",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -185,
+            "result": "loss"
+          },
+          {
+            "player": "W. Eklund",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -175,
+            "result": "win"
+          },
+          {
+            "player": "H. Lindholm",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -165,
+            "result": "win"
+          },
+          {
+            "player": "J. Peterka",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -165,
+            "result": "win"
+          },
+          {
+            "player": "B. Rice",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -179,
+            "result": "win"
+          },
+          {
+            "player": "S. Antonacci",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -168,
+            "result": "loss"
+          },
+          {
+            "player": "J. Chisholm",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -137,
+            "result": "loss"
+          },
+          {
+            "player": "B. Rocchio",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -154,
+            "result": "loss"
+          },
+          {
+            "player": "B. Robinson",
+            "market": "Receiving Yards O/U 37.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -111,
+            "result": "loss"
+          },
+          {
+            "player": "J. Johnson",
+            "market": "Receiving Yards O/U 44.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -111,
+            "result": "win"
+          },
+          {
+            "player": "D. London",
+            "market": "Receiving Yards O/U 80.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -111,
+            "result": "loss"
+          },
+          {
+            "player": "E. Lindholm",
+            "market": "Shots on Goal O/U 1.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 100,
+            "result": "win"
+          },
+          {
+            "player": "A. Kamara",
+            "market": "Receiving Yards O/U 15.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -118,
+            "result": "loss"
+          },
+          {
+            "player": "P. Bailey",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -113,
+            "result": "loss"
+          },
+          {
+            "player": "C. Giroux",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 125,
+            "result": "loss"
+          },
+          {
+            "player": "O. Tippett",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 140,
+            "result": "loss"
+          },
+          {
+            "player": "T. Konecny",
+            "market": "Assists O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 175,
+            "result": "loss"
+          },
+          {
+            "player": "T. Zegras",
+            "market": "Assists O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 200,
+            "result": "loss"
+          },
+          {
+            "player": "J. Johnson",
+            "market": "Anytime TD",
+            "pick": "Yes",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 245,
+            "result": "loss"
+          },
+          {
+            "player": "K. Miller",
+            "market": "Anytime TD",
+            "pick": "Yes",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 265,
+            "result": "loss"
+          }
+        ]
+      },
+      "parlays": [
+        {
+          "legs": 3,
+          "odds": "~+1112",
+          "result": "loss",
+          "stake": 0.5,
+          "units": 0.0
+        },
+        {
+          "legs": 3,
+          "odds": "~+265",
+          "result": "win",
+          "stake": 0.5,
+          "units": 0.0
+        }
+      ]
     }
   ]
 }

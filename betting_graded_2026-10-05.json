@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-05",
+  "fully_graded": true,
+  "picks": [
+    {
+      "matchup": "CWS @ CLE",
+      "market": "Moneyline",
+      "pick": "CWS +130",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 130,
+      "result": "win",
+      "source": "bets.db"
+    },
+    {
+      "matchup": "San Jose Sharks @ Dallas Stars",
+      "market": "Moneyline",
+      "pick": "Dallas Stars -205",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -205,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: DAL Jake Oettinger (proj., GSAx/60 +0.11, 276 GP 21-26); SJS Yaroslav Askarov (proj., GSAx/60 -0.20, 63 GP 21-26)"
+    },
+    {
+      "matchup": "Philadelphia Flyers @ Tampa Bay Lightning",
+      "market": "Moneyline",
+      "pick": "Tampa Bay Lightning -218",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -218,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: TBL Andrei Vasilevskiy (proj., GSAx/60 +0.33, 296 GP 21-26); PHI Dan Vladar (proj., GSAx/60 +0.06, 152 GP 21-26)"
+    },
+    {
+      "matchup": "Ottawa Senators @ Boston Bruins",
+      "market": "Moneyline",
+      "pick": "Boston Bruins -102",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -102,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: BOS Jeremy Swayman (proj., GSAx/60 +0.26, 235 GP 21-26); OTT Linus Ullmark (proj., GSAx/60 +0.10, 223 GP 21-26)"
+    },
+    {
+      "matchup": "Atlanta Falcons @ New Orleans Saints",
+      "market": "Spread",
+      "pick": "New Orleans Saints -1.5 (-108)",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -108,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception)",
+      "sport": "NFL",
+      "model_gap_pts": 1.1
+    }
+  ],
+  "ungraded": [],
+  "ungraded_reasons": {}
+}
