@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-06",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "Z. Benson",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -200,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "R. McLeod",
+      "market": "Shots on Goal O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -180,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "D. Holloway",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -175,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "B. Byram",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -140,
+      "actual": 2.0,
+      "result": "loss"
+    },
+    {
+      "player": "A. Newhook",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "Q. Byfield",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -105,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "A. Lundell",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -105,
+      "actual": 3.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Chourio",
+      "market": "Total Bases O/U 1.5",
+      "pick": "Under",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -148,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "S. Bennett",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 100,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Tavares",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 125,
+      "actual": 6.0,
+      "result": "win"
+    },
+    {
+      "player": "B. Marchand",
+      "market": "Assists O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 210,
+      "actual": 0.0,
+      "result": "loss"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "~+267",
+      "result": "win"
+    }
+  ],
+  "unresolved": []
+}

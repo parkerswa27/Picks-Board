@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-06",
+  "fully_graded": true,
+  "picks": [
+    {
+      "matchup": "LAD @ ATL",
+      "market": "Moneyline",
+      "pick": "ATL -106",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -106,
+      "result": "loss",
+      "source": "bets.db"
+    },
+    {
+      "matchup": "Southern Miss @ Troy",
+      "market": "Spread",
+      "pick": "Southern Miss +10.5 (-112)",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -112,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "price read \u2014 no model edge",
+      "sport": "CFB"
+    },
+    {
+      "matchup": "Carolina Hurricanes @ Montreal Canadiens",
+      "market": "Moneyline",
+      "pick": "Carolina Hurricanes -120",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -120,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: MTL Jakub Dobes (proj., GSAx/60 +0.27, 59 GP 21-26); CAR Brandon Bussi (proj., GSAx/60 +0.03, 39 GP 21-26)"
+    },
+    {
+      "matchup": "St. Louis Blues @ Chicago Blackhawks",
+      "market": "Moneyline",
+      "pick": "St. Louis Blues -148",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -148,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: CHI Spencer Knight (proj., GSAx/60 +0.13, 145 GP 21-26); STL Joel Hofer (proj., GSAx/60 +0.13, 115 GP 21-26)"
+    },
+    {
+      "matchup": "Vegas Golden Knights @ Seattle Kraken",
+      "market": "Moneyline",
+      "pick": "Vegas Golden Knights -180",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -180,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: SEA Joey Daccord (proj., GSAx/60 +0.05, 164 GP 21-26); VGK Adin Hill (proj., GSAx/60 -0.04, 164 GP 21-26)"
+    },
+    {
+      "matchup": "Nashville Predators @ Toronto Maple Leafs",
+      "market": "Moneyline",
+      "pick": "Toronto Maple Leafs -155",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -155,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: TOR Sergei Bobrovsky (proj., GSAx/60 +0.04, 268 GP 21-26); NSH Juuse Saros (proj., GSAx/60 +0.01, 312 GP 21-26)"
+    },
+    {
+      "matchup": "New York Islanders @ New York Rangers",
+      "market": "Moneyline",
+      "pick": "New York Rangers -148",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -148,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: NYR Igor Shesterkin (proj., GSAx/60 +0.36, 278 GP 21-26); NYI Ilya Sorokin (proj., GSAx/60 +0.31, 286 GP 21-26)"
+    },
+    {
+      "matchup": "Utah Mammoth @ New Jersey Devils",
+      "market": "Moneyline",
+      "pick": "New Jersey Devils -130",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -130,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: NJD Jake Allen (proj., GSAx/60 +0.15, 179 GP 21-26); UTA Karel Vejmelka (proj., GSAx/60 +0.07, 262 GP 21-26)"
+    }
+  ],
+  "ungraded": [],
+  "ungraded_reasons": {}
+}
