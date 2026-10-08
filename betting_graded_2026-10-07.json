@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-07",
+  "fully_graded": true,
+  "picks": [
+    {
+      "matchup": "LAD @ ATL",
+      "market": "Moneyline",
+      "pick": "ATL +128",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 128,
+      "result": "loss",
+      "source": "bets.db"
+    },
+    {
+      "matchup": "TB @ NYY",
+      "market": "Moneyline",
+      "pick": "TB +140",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": 140,
+      "result": "win",
+      "source": "bets.db",
+      "basis": "coverage floor"
+    },
+    {
+      "matchup": "New Mexico State @ Florida International",
+      "market": "Spread",
+      "pick": "Florida International -6.5 (-115)",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -115,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "price read \u2014 no model edge",
+      "sport": "CFB"
+    },
+    {
+      "matchup": "Edmonton Oilers @ Anaheim Ducks",
+      "market": "Moneyline",
+      "pick": "Edmonton Oilers -130",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -130,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: ANA Lukas Dostal (proj., GSAx/60 +0.03, 177 GP 21-26); EDM Frederik Andersen (proj., GSAx/60 +0.14, 159 GP 21-26)"
+    },
+    {
+      "matchup": "Pittsburgh Penguins @ Washington Capitals",
+      "market": "Moneyline",
+      "pick": "Washington Capitals -162",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -162,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: WSH Logan Thompson (proj., GSAx/60 +0.35, 203 GP 21-26); PIT Arturs Silovs (proj., GSAx/60 -0.24, 58 GP 21-26)"
+    }
+  ],
+  "ungraded": [],
+  "ungraded_reasons": {}
+}

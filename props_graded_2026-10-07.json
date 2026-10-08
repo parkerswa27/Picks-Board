@@ -1,0 +1,184 @@
+{
+  "date": "2026-10-07",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "S. Crosby",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -180,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "T. Wilson",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -170,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "L. Carlsson",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -160,
+      "actual": 2.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Ramirez",
+      "market": "Total Bases O/U 1.5",
+      "pick": "Under",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -161,
+      "actual": 5.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Adell",
+      "market": "Total Bases O/U 1.5",
+      "pick": "Under",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -163,
+      "actual": 4.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Ortiz",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -160,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "A. Ovechkin",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -125,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "C. Yelich",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -166,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Bauers",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -163,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "E. Malkin",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -120,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "G. Mitchell",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -159,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "B. Montgomery",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -164,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "A. Tuch",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 6.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Kyrou",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 100,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "D. Toews",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -105,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "B. Nelson",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -105,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Chychrun",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 105,
+      "actual": 0.0,
+      "result": "win"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "~+301",
+      "result": "loss"
+    }
+  ],
+  "unresolved": []
+}

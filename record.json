@@ -3531,6 +3531,241 @@
           "units": 0.0
         }
       ]
+    },
+    {
+      "date": "2026-10-07",
+      "betting_model": {
+        "wins": 4,
+        "losses": 1,
+        "pushes": 0,
+        "units": 1.08,
+        "picks": [
+          {
+            "matchup": "LAD @ ATL",
+            "market": "Moneyline",
+            "pick": "ATL +128",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 128,
+            "result": "loss"
+          },
+          {
+            "matchup": "TB @ NYY",
+            "market": "Moneyline",
+            "pick": "TB +140",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": 140,
+            "result": "win",
+            "basis": "coverage floor"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "New Mexico State @ Florida International",
+            "market": "Spread",
+            "pick": "Florida International -6.5 (-115)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -115,
+            "result": "win",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Edmonton Oilers @ Anaheim Ducks",
+            "market": "Moneyline",
+            "pick": "Edmonton Oilers -130",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -130,
+            "result": "win",
+            "note": "goalies projected, not confirmed: ANA Lukas Dostal (proj., GSAx/60 +0.03, 177 GP 21-26); EDM Frederik Andersen (proj., GSAx/60 +0.14, 159 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Pittsburgh Penguins @ Washington Capitals",
+            "market": "Moneyline",
+            "pick": "Washington Capitals -162",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -162,
+            "result": "win",
+            "note": "goalies projected, not confirmed: WSH Logan Thompson (proj., GSAx/60 +0.35, 203 GP 21-26); PIT Arturs Silovs (proj., GSAx/60 -0.24, 58 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          }
+        ]
+      },
+      "player_props": {
+        "wins": 7,
+        "losses": 10,
+        "pushes": 0,
+        "units": -3.96,
+        "picks": [
+          {
+            "player": "S. Crosby",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -180,
+            "result": "loss"
+          },
+          {
+            "player": "T. Wilson",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -170,
+            "result": "win"
+          },
+          {
+            "player": "L. Carlsson",
+            "market": "Assists O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -160,
+            "result": "loss"
+          },
+          {
+            "player": "J. Ramirez",
+            "market": "Total Bases O/U 1.5",
+            "pick": "Under",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -161,
+            "result": "loss"
+          },
+          {
+            "player": "J. Adell",
+            "market": "Total Bases O/U 1.5",
+            "pick": "Under",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -163,
+            "result": "loss"
+          },
+          {
+            "player": "J. Ortiz",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -160,
+            "result": "loss"
+          },
+          {
+            "player": "A. Ovechkin",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -125,
+            "result": "loss"
+          },
+          {
+            "player": "C. Yelich",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -166,
+            "result": "win"
+          },
+          {
+            "player": "J. Bauers",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -163,
+            "result": "win"
+          },
+          {
+            "player": "E. Malkin",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -120,
+            "result": "loss"
+          },
+          {
+            "player": "G. Mitchell",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -159,
+            "result": "win"
+          },
+          {
+            "player": "B. Montgomery",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -164,
+            "result": "loss"
+          },
+          {
+            "player": "A. Tuch",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -110,
+            "result": "loss"
+          },
+          {
+            "player": "J. Kyrou",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 100,
+            "result": "win"
+          },
+          {
+            "player": "D. Toews",
+            "market": "Shots on Goal O/U 1.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -105,
+            "result": "win"
+          },
+          {
+            "player": "B. Nelson",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -105,
+            "result": "loss"
+          },
+          {
+            "player": "J. Chychrun",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 105,
+            "result": "win"
+          }
+        ]
+      },
+      "parlays": [
+        {
+          "legs": 3,
+          "odds": "~+301",
+          "result": "loss",
+          "stake": 0.5,
+          "units": 0.0
+        }
+      ]
     }
   ]
 }
