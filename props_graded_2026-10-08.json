@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-08",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "B. Horvat",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -190,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "D. Holloway",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -170,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "A. Lee",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -160,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "A. Lehkonen",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -135,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Staal",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -130,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "N. Schmaltz",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -125,
+      "actual": 3.0,
+      "result": "loss"
+    },
+    {
+      "player": "T. Konecny",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -120,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Ferguson",
+      "market": "Receiving Yards O/U 27.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -108,
+      "actual": 19.0,
+      "result": "loss"
+    },
+    {
+      "player": "E. Egbuka",
+      "market": "Receiving Yards O/U 35.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 38.0,
+      "result": "win"
+    },
+    {
+      "player": "Q. Hughes",
+      "market": "Assists O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "R. Josi",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -105,
+      "actual": 2.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Ramirez",
+      "market": "Total Bases O/U 1.5",
+      "pick": "Under",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -176,
+      "actual": 5.0,
+      "result": "loss"
+    },
+    {
+      "player": "C. Godwin",
+      "market": "Receiving Yards O/U 29.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": "void",
+      "result": "push",
+      "note": "DNP (did not play) \u2014 void"
+    },
+    {
+      "player": "C. Lamb",
+      "market": "Receiving Yards O/U 81.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 9.0,
+      "result": "loss"
+    },
+    {
+      "player": "T. Johnson",
+      "market": "Receiving Yards O/U 13.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -111,
+      "actual": 64.0,
+      "result": "win"
+    },
+    {
+      "player": "G. Landeskog",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 125,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Ferguson",
+      "market": "Anytime TD",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 200,
+      "actual": 0.0,
+      "result": "loss"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "~+993",
+      "result": "loss"
+    },
+    {
+      "legs": 3,
+      "odds": "+294",
+      "result": "loss"
+    }
+  ],
+  "unresolved": []
+}
