@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-09",
+  "fully_graded": true,
+  "picks": [
+    {
+      "matchup": "Iowa @ Washington",
+      "market": "Spread",
+      "pick": "Washington -2.5 (-118)",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -118,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "price read \u2014 no model edge",
+      "sport": "CFB"
+    },
+    {
+      "matchup": "Wyoming @ San Jose State",
+      "market": "Spread",
+      "pick": "Wyoming +4.5 (-112)",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -112,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "price read \u2014 no model edge",
+      "sport": "CFB"
+    },
+    {
+      "matchup": "Iowa State @ BYU",
+      "market": "Spread",
+      "pick": "Iowa State +10.5 (-112)",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -112,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "price read \u2014 no model edge",
+      "sport": "CFB"
+    },
+    {
+      "matchup": "Anaheim Ducks @ Winnipeg Jets",
+      "market": "Moneyline",
+      "pick": "Winnipeg Jets -125",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -125,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: WPG Connor Hellebuyck (proj., GSAx/60 +0.32, 310 GP 21-26); ANA Lukas Dostal (proj., GSAx/60 +0.03, 177 GP 21-26)"
+    },
+    {
+      "matchup": "Seattle Kraken @ Detroit Red Wings",
+      "market": "Moneyline",
+      "pick": "Detroit Red Wings -142",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -142,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: DET John Gibson (proj., GSAx/60 +0.09, 241 GP 21-26); SEA Joey Daccord (proj., GSAx/60 +0.05, 164 GP 21-26)"
+    },
+    {
+      "matchup": "New York Rangers @ Washington Capitals",
+      "market": "Moneyline",
+      "pick": "Washington Capitals -148",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -148,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: WSH Logan Thompson (proj., GSAx/60 +0.35, 203 GP 21-26); NYR Igor Shesterkin (proj., GSAx/60 +0.36, 278 GP 21-26)"
+    }
+  ],
+  "ungraded": [],
+  "ungraded_reasons": {}
+}

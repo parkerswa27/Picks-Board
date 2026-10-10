@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-09",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "M. Knies",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -160,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "K. Johnson",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -135,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "A. DeBrincat",
+      "market": "Shots on Goal O/U 3.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -130,
+      "actual": 3.0,
+      "result": "win"
+    },
+    {
+      "player": "Z. Werenski",
+      "market": "Shots on Goal O/U 3.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -115,
+      "actual": 3.0,
+      "result": "win"
+    },
+    {
+      "player": "J. LaCombe",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 100,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "M. Seider",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 100,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "K. Letang",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 105,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "L. Carlsson",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 135,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Miller",
+      "market": "Assists O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 145,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "R. Leonard",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 165,
+      "actual": 1.0,
+      "result": "win"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "~+437",
+      "result": "win"
+    }
+  ],
+  "unresolved": []
+}

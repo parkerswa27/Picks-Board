@@ -4061,6 +4061,193 @@
           "units": -0.5
         }
       ]
+    },
+    {
+      "date": "2026-10-09",
+      "betting_model": {
+        "wins": 2,
+        "losses": 4,
+        "pushes": 0,
+        "units": -1.22,
+        "picks": [
+          {
+            "sport": "CFB",
+            "matchup": "Iowa @ Washington",
+            "market": "Spread",
+            "pick": "Washington -2.5 (-118)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -118,
+            "result": "loss",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Wyoming @ San Jose State",
+            "market": "Spread",
+            "pick": "Wyoming +4.5 (-112)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -112,
+            "result": "win",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Iowa State @ BYU",
+            "market": "Spread",
+            "pick": "Iowa State +10.5 (-112)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -112,
+            "result": "loss",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Anaheim Ducks @ Winnipeg Jets",
+            "market": "Moneyline",
+            "pick": "Winnipeg Jets -125",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -125,
+            "result": "loss",
+            "note": "goalies projected, not confirmed: WPG Connor Hellebuyck (proj., GSAx/60 +0.32, 310 GP 21-26); ANA Lukas Dostal (proj., GSAx/60 +0.03, 177 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Seattle Kraken @ Detroit Red Wings",
+            "market": "Moneyline",
+            "pick": "Detroit Red Wings -142",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -142,
+            "result": "loss",
+            "note": "goalies projected, not confirmed: DET John Gibson (proj., GSAx/60 +0.09, 241 GP 21-26); SEA Joey Daccord (proj., GSAx/60 +0.05, 164 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "New York Rangers @ Washington Capitals",
+            "market": "Moneyline",
+            "pick": "Washington Capitals -148",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -148,
+            "result": "win",
+            "note": "goalies projected, not confirmed: WSH Logan Thompson (proj., GSAx/60 +0.35, 203 GP 21-26); NYR Igor Shesterkin (proj., GSAx/60 +0.36, 278 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          }
+        ]
+      },
+      "player_props": {
+        "wins": 9,
+        "losses": 1,
+        "pushes": 0,
+        "units": 6.38,
+        "picks": [
+          {
+            "player": "M. Knies",
+            "market": "Assists O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -160,
+            "result": "win"
+          },
+          {
+            "player": "K. Johnson",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -135,
+            "result": "win"
+          },
+          {
+            "player": "A. DeBrincat",
+            "market": "Shots on Goal O/U 3.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -130,
+            "result": "win"
+          },
+          {
+            "player": "Z. Werenski",
+            "market": "Shots on Goal O/U 3.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "win"
+          },
+          {
+            "player": "J. LaCombe",
+            "market": "Shots on Goal O/U 1.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 100,
+            "result": "win"
+          },
+          {
+            "player": "M. Seider",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 100,
+            "result": "loss"
+          },
+          {
+            "player": "K. Letang",
+            "market": "Shots on Goal O/U 1.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 105,
+            "result": "win"
+          },
+          {
+            "player": "L. Carlsson",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 135,
+            "result": "win"
+          },
+          {
+            "player": "J. Miller",
+            "market": "Assists O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 145,
+            "result": "win"
+          },
+          {
+            "player": "R. Leonard",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 165,
+            "result": "win"
+          }
+        ]
+      },
+      "parlays": [
+        {
+          "legs": 3,
+          "odds": "~+437",
+          "result": "win",
+          "stake": 0.5,
+          "units": 0.0
+        }
+      ]
     }
   ]
 }
