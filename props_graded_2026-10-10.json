@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-10",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "L. Hughes",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -180,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "T. Moore",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -160,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "T. Peters",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -150,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "L. Stankoven",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -115,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "A. Martinez",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -153,
+      "actual": "void",
+      "result": "push",
+      "note": "DNP (did not play) \u2014 void"
+    },
+    {
+      "player": "S. Jones",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 3.0,
+      "result": "win"
+    },
+    {
+      "player": "B. Rust",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -105,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "B. Rocchio",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -142,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "T. Bazzana",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -136,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "D. Hamilton",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 110,
+      "actual": 2.0,
+      "result": "loss"
+    },
+    {
+      "player": "B. Tkachuk",
+      "market": "Shots on Goal O/U 3.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 130,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "K. Kaprizov",
+      "market": "Anytime Goal",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 155,
+      "actual": 3.0,
+      "result": "win"
+    },
+    {
+      "player": "M. Rielly",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 180,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "T. DeAngelo",
+      "market": "Assists O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 280,
+      "actual": 1.0,
+      "result": "win"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "+373",
+      "result": "loss"
+    }
+  ],
+  "unresolved": []
+}
