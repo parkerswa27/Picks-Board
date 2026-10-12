@@ -1,0 +1,179 @@
+{
+  "date": "2026-10-11",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "J. Blake",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -220,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "A. Lafreniere",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -210,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "A. Ovechkin",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -125,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "D. Metcalf",
+      "market": "Receiving Yards O/U 51.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -112,
+      "actual": 12.0,
+      "result": "win"
+    },
+    {
+      "player": "C. Watson",
+      "market": "Receiving Yards O/U 63.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -113,
+      "actual": 143.0,
+      "result": "loss"
+    },
+    {
+      "player": "W. Marks",
+      "market": "Receiving Yards O/U 8.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -116,
+      "actual": 23.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Johnson",
+      "market": "Receiving Yards O/U 43.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 16.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Williams",
+      "market": "Receiving Yards O/U 52.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 47.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. McCann",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -105,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Chychrun",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 105,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "M. Beniers",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 110,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "P. Dorofeyev",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 125,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "B. Montour",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 140,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "C. Stephenson",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 135,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "M. Evans",
+      "market": "Anytime TD",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 200,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "N. Cates",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 215,
+      "actual": 0.0,
+      "result": "loss"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "+564",
+      "result": "loss"
+    },
+    {
+      "legs": 3,
+      "odds": "+286",
+      "result": "loss"
+    }
+  ],
+  "unresolved": []
+}

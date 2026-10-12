@@ -4729,6 +4729,295 @@
           "units": -0.5
         }
       ]
+    },
+    {
+      "date": "2026-10-11",
+      "betting_model": {
+        "wins": 6,
+        "losses": 3,
+        "pushes": 0,
+        "units": 1.42,
+        "picks": [
+          {
+            "matchup": "LAD @ MIL",
+            "market": "Moneyline",
+            "pick": "MIL -106",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -106,
+            "result": "win"
+          },
+          {
+            "sport": "NFL",
+            "matchup": "Baltimore Ravens @ Atlanta Falcons",
+            "market": "Spread",
+            "pick": "Baltimore Ravens +3.5 (-126)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -126,
+            "result": "win",
+            "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception); confidence is market-implied (DK no-vig), not a model probability",
+            "model_gap_pts": 4.5
+          },
+          {
+            "sport": "NFL",
+            "matchup": "Minnesota Vikings @ New Orleans Saints",
+            "market": "Spread",
+            "pick": "Minnesota Vikings -2.5 (-115)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -115,
+            "result": "win",
+            "note": "nfl_eff model \u2014 below breakeven in backtest (documented exception); confidence is market-implied (DK no-vig), not a model probability",
+            "basis": "coverage floor \u2014 confidence is market-implied (DK no-vig)",
+            "model_gap_pts": 0.4
+          },
+          {
+            "sport": "NFL",
+            "matchup": "Houston Texans @ Tennessee Titans",
+            "market": "Spread",
+            "pick": "Tennessee Titans +6.5 (-102)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -102,
+            "result": "loss",
+            "note": "nfl_eff model \u2014 below breakeven in backtest (documented exception); confidence is market-implied (DK no-vig), not a model probability",
+            "basis": "coverage floor \u2014 confidence is market-implied (DK no-vig)",
+            "model_gap_pts": 0.7
+          },
+          {
+            "sport": "NFL",
+            "matchup": "New York Giants @ Washington Commanders",
+            "market": "Spread",
+            "pick": "New York Giants +3.5 (-105)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -105,
+            "result": "win",
+            "note": "nfl_eff model \u2014 below breakeven in backtest (documented exception); confidence is market-implied (DK no-vig), not a model probability",
+            "basis": "coverage floor \u2014 confidence is market-implied (DK no-vig)",
+            "model_gap_pts": 0.8
+          },
+          {
+            "sport": "NFL",
+            "matchup": "San Francisco 49ers @ Seattle Seahawks",
+            "market": "Spread",
+            "pick": "San Francisco 49ers +3 (-105)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -105,
+            "result": "win",
+            "note": "nfl_eff model \u2014 below breakeven in backtest (documented exception); confidence is market-implied (DK no-vig), not a model probability",
+            "basis": "coverage floor \u2014 confidence is market-implied (DK no-vig)",
+            "model_gap_pts": 1.0
+          },
+          {
+            "sport": "NFL",
+            "matchup": "Chicago Bears @ Green Bay Packers",
+            "market": "Spread",
+            "pick": "Chicago Bears -1.5 (-112)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -112,
+            "result": "loss",
+            "note": "nfl_eff model \u2014 below breakeven in backtest (documented exception); confidence is market-implied (DK no-vig), not a model probability",
+            "basis": "coverage floor \u2014 confidence is market-implied (DK no-vig)",
+            "model_gap_pts": 1.6
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Seattle Kraken @ Washington Capitals",
+            "market": "Moneyline",
+            "pick": "Washington Capitals -218",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -218,
+            "result": "loss",
+            "note": "goalies projected, not confirmed: WSH Logan Thompson (proj., GSAx/60 +0.35, 203 GP 21-26); SEA Joey Daccord (proj., GSAx/60 +0.05, 164 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Vancouver Canucks @ New York Rangers",
+            "market": "Moneyline",
+            "pick": "New York Rangers -265",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -265,
+            "result": "win",
+            "note": "goalies projected, not confirmed: NYR Igor Shesterkin (proj., GSAx/60 +0.36, 278 GP 21-26); VAN Kevin Lankinen (proj., GSAx/60 -0.20, 173 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          }
+        ]
+      },
+      "player_props": {
+        "wins": 8,
+        "losses": 8,
+        "pushes": 0,
+        "units": 0.56,
+        "picks": [
+          {
+            "player": "J. Blake",
+            "market": "Assists O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -220,
+            "result": "win"
+          },
+          {
+            "player": "A. Lafreniere",
+            "market": "Assists O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -210,
+            "result": "loss"
+          },
+          {
+            "player": "A. Ovechkin",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -125,
+            "result": "win"
+          },
+          {
+            "player": "D. Metcalf",
+            "market": "Receiving Yards O/U 51.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -112,
+            "result": "win"
+          },
+          {
+            "player": "C. Watson",
+            "market": "Receiving Yards O/U 63.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -113,
+            "result": "loss"
+          },
+          {
+            "player": "W. Marks",
+            "market": "Receiving Yards O/U 8.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -116,
+            "result": "loss"
+          },
+          {
+            "player": "J. Johnson",
+            "market": "Receiving Yards O/U 43.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -110,
+            "result": "loss"
+          },
+          {
+            "player": "J. Williams",
+            "market": "Receiving Yards O/U 52.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -110,
+            "result": "loss"
+          },
+          {
+            "player": "J. McCann",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -105,
+            "result": "win"
+          },
+          {
+            "player": "J. Chychrun",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 105,
+            "result": "win"
+          },
+          {
+            "player": "M. Beniers",
+            "market": "Shots on Goal O/U 1.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 110,
+            "result": "loss"
+          },
+          {
+            "player": "P. Dorofeyev",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 125,
+            "result": "win"
+          },
+          {
+            "player": "B. Montour",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 140,
+            "result": "loss"
+          },
+          {
+            "player": "C. Stephenson",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 135,
+            "result": "win"
+          },
+          {
+            "player": "M. Evans",
+            "market": "Anytime TD",
+            "pick": "Yes",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 200,
+            "result": "win"
+          },
+          {
+            "player": "N. Cates",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 215,
+            "result": "loss"
+          }
+        ]
+      },
+      "parlays": [
+        {
+          "legs": 3,
+          "odds": "+564",
+          "result": "loss",
+          "stake": 0.5,
+          "units": -0.5
+        },
+        {
+          "legs": 3,
+          "odds": "+286",
+          "result": "loss",
+          "stake": 0.5,
+          "units": -0.5
+        }
+      ]
     }
   ]
 }
