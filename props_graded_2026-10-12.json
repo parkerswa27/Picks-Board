@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-12",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "J. Eichel",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -165,
+      "actual": 2.0,
+      "result": "loss"
+    },
+    {
+      "player": "T. Hertl",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -165,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "K. Williams",
+      "market": "Anytime TD",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -165,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "D. Batherson",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -150,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "J. DeLuca",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -177,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "M. Stone",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -150,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Cook",
+      "market": "Anytime TD",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -115,
+      "actual": "void",
+      "result": "push",
+      "note": "DNP (did not play) \u2014 void"
+    },
+    {
+      "player": "J. Eriksson Ek",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 3.0,
+      "result": "win"
+    },
+    {
+      "player": "T. Thompson",
+      "market": "Shots on Goal O/U 3.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -115,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "D. Adams",
+      "market": "Receiving Yards O/U 59.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 51.0,
+      "result": "win"
+    },
+    {
+      "player": "S. Bennett",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 100,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "T. Higbee",
+      "market": "Receiving Yards O/U 26.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -113,
+      "actual": 83.0,
+      "result": "loss"
+    },
+    {
+      "player": "C. Verhaeghe",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 125,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "B. Corum",
+      "market": "Receiving Yards O/U 3.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -109,
+      "actual": 53.0,
+      "result": "loss"
+    },
+    {
+      "player": "W. Karlsson",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 135,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "S. Reinhart",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 135,
+      "actual": 2.0,
+      "result": "loss"
+    },
+    {
+      "player": "T. Higbee",
+      "market": "Anytime TD",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 245,
+      "actual": 0.0,
+      "result": "loss"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "~+473",
+      "result": "win",
+      "note": "1 leg(s) void/push \u2014 graded on the remaining 2"
+    },
+    {
+      "legs": 3,
+      "odds": "~+346",
+      "result": "loss"
+    }
+  ],
+  "unresolved": []
+}

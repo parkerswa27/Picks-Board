@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-12",
+  "fully_graded": true,
+  "picks": [
+    {
+      "matchup": "LAD @ MIL",
+      "market": "Moneyline",
+      "pick": "MIL +120",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 120,
+      "result": "win",
+      "source": "bets.db"
+    },
+    {
+      "matchup": "CLE @ TB",
+      "market": "Moneyline",
+      "pick": "CLE +142",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 142,
+      "result": "win",
+      "source": "bets.db"
+    },
+    {
+      "matchup": "Buffalo Bills @ Los Angeles Rams",
+      "market": "Spread",
+      "pick": "Los Angeles Rams -3.5 (-102)",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -102,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception); confidence is market-implied (DK no-vig), not a model probability",
+      "sport": "NFL",
+      "model_gap_pts": 1.3
+    },
+    {
+      "matchup": "Vegas Golden Knights @ Minnesota Wild",
+      "market": "Moneyline",
+      "pick": "Minnesota Wild -118",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -118,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: MIN Filip Gustavsson (proj., GSAx/60 +0.10, 210 GP 21-26); VGK Adin Hill (proj., GSAx/60 -0.04, 164 GP 21-26)"
+    },
+    {
+      "matchup": "Ottawa Senators @ New Jersey Devils",
+      "market": "Moneyline",
+      "pick": "New Jersey Devils -135",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -135,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: NJD Jake Allen (proj., GSAx/60 +0.15, 179 GP 21-26); OTT Linus Ullmark (proj., GSAx/60 +0.10, 223 GP 21-26)"
+    }
+  ],
+  "ungraded": [],
+  "ungraded_reasons": {}
+}
