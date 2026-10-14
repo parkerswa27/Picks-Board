@@ -1,10 +1,10 @@
 {
  "as_of_week": 6,
- "as_of_date": "2026-10-11T02:30Z",
- "generated_at": "2026-10-11T15:18:53+00:00",
+ "as_of_date": "2026-10-10T19:30:00-07:00",
+ "generated_at": "2026-10-11T15:40:47+00:00",
  "season": 2026,
  "games": 448,
- "hfa": 3.5,
+ "hfa": 3.49,
  "note": "Reference only - never cleared break-even against a spread.",
  "teams": [
   {
@@ -12,12 +12,11 @@
    "team": "Alabama",
    "conf": "SEC",
    "record": "5-1",
-   "rating": 29.0,
+   "rating": 29.1,
    "results_only": 25.6,
    "results_only_rank": 1,
    "preseason": 16.3,
-   "ret_ppa": 0.264,
-   "home_hfa": 9.09
+   "ret_ppa": 0.264
   },
   {
    "rank": 2,
@@ -28,44 +27,40 @@
    "results_only": 23.0,
    "results_only_rank": 2,
    "preseason": 26.6,
-   "ret_ppa": 0.512,
-   "home_hfa": 5.84
+   "ret_ppa": 0.512
   },
   {
    "rank": 3,
    "team": "Ohio State",
    "conf": "Big Ten",
    "record": "5-1",
-   "rating": 25.1,
+   "rating": 25.2,
    "results_only": 18.8,
    "results_only_rank": 5,
    "preseason": 29.1,
-   "ret_ppa": 0.683,
-   "home_hfa": 8.89
+   "ret_ppa": 0.683
   },
   {
    "rank": 4,
    "team": "Georgia",
    "conf": "SEC",
    "record": "6-0",
-   "rating": 24.4,
+   "rating": 24.5,
    "results_only": 18.7,
    "results_only_rank": 6,
    "preseason": 21.3,
-   "ret_ppa": 0.687,
-   "home_hfa": 6.46
+   "ret_ppa": 0.687
   },
   {
    "rank": 5,
    "team": "Miami",
    "conf": "ACC",
    "record": "5-0",
-   "rating": 23.4,
+   "rating": 23.5,
    "results_only": 18.9,
    "results_only_rank": 4,
    "preseason": 23.5,
-   "ret_ppa": 0.369,
-   "home_hfa": 4.01
+   "ret_ppa": 0.369
   },
   {
    "rank": 6,
@@ -76,44 +71,40 @@
    "results_only": 19.5,
    "results_only_rank": 3,
    "preseason": 22.2,
-   "ret_ppa": 0.166,
-   "home_hfa": 3.43
+   "ret_ppa": 0.166
   },
   {
    "rank": 7,
    "team": "Texas",
    "conf": "SEC",
    "record": "4-1",
-   "rating": 19.5,
+   "rating": 19.6,
    "results_only": 13.9,
    "results_only_rank": 10,
    "preseason": 17.7,
-   "ret_ppa": 0.721,
-   "home_hfa": 5.49
+   "ret_ppa": 0.721
   },
   {
    "rank": 8,
    "team": "Utah",
    "conf": "Big 12",
    "record": "5-0",
-   "rating": 19.4,
+   "rating": 19.5,
    "results_only": 13.8,
    "results_only_rank": 11,
    "preseason": 19.2,
-   "ret_ppa": 0.679,
-   "home_hfa": 4.72
+   "ret_ppa": 0.679
   },
   {
    "rank": 9,
    "team": "LSU",
    "conf": "SEC",
    "record": "4-2",
-   "rating": 18.4,
+   "rating": 18.5,
    "results_only": 16.9,
    "results_only_rank": 8,
    "preseason": 8.5,
-   "ret_ppa": 0.212,
-   "home_hfa": 6.61
+   "ret_ppa": 0.212
   },
   {
    "rank": 10,
@@ -124,20 +115,18 @@
    "results_only": 10.6,
    "results_only_rank": 20,
    "preseason": 26.3,
-   "ret_ppa": 0.753,
-   "home_hfa": 5.82
+   "ret_ppa": 0.753
   },
   {
    "rank": 11,
    "team": "Texas Tech",
    "conf": "Big 12",
    "record": "5-0",
-   "rating": 15.9,
+   "rating": 16.0,
    "results_only": 12.1,
    "results_only_rank": 16,
    "preseason": 23.0,
-   "ret_ppa": 0.534,
-   "home_hfa": 5.03
+   "ret_ppa": 0.534
   },
   {
    "rank": 12,
@@ -148,32 +137,29 @@
    "results_only": 12.9,
    "results_only_rank": 12,
    "preseason": 16.2,
-   "ret_ppa": 0.785,
-   "home_hfa": 3.37
+   "ret_ppa": 0.785
   },
   {
    "rank": 13,
    "team": "UCLA",
    "conf": "Big Ten",
    "record": "5-0",
-   "rating": 15.4,
+   "rating": 15.5,
    "results_only": 17.1,
    "results_only_rank": 7,
    "preseason": -3.6,
-   "ret_ppa": 0.57,
-   "home_hfa": 1.87
+   "ret_ppa": 0.57
   },
   {
    "rank": 14,
    "team": "Missouri",
    "conf": "SEC",
    "record": "5-1",
-   "rating": 15.1,
+   "rating": 15.2,
    "results_only": 12.8,
    "results_only_rank": 13,
    "preseason": 9.1,
-   "ret_ppa": 0.42,
-   "home_hfa": 4.22
+   "ret_ppa": 0.42
   },
   {
    "rank": 15,
@@ -184,20 +170,18 @@
    "results_only": 9.9,
    "results_only_rank": 24,
    "preseason": 13.5,
-   "ret_ppa": 0.353,
-   "home_hfa": 4.89
+   "ret_ppa": 0.353
   },
   {
    "rank": 16,
    "team": "Ole Miss",
    "conf": "SEC",
    "record": "4-1",
-   "rating": 13.7,
+   "rating": 13.8,
    "results_only": 8.3,
    "results_only_rank": 29,
    "preseason": 15.9,
-   "ret_ppa": 0.503,
-   "home_hfa": 5.65
+   "ret_ppa": 0.503
   },
   {
    "rank": 17,
@@ -208,8 +192,7 @@
    "results_only": 14.4,
    "results_only_rank": 9,
    "preseason": 6.4,
-   "ret_ppa": 0.812,
-   "home_hfa": 3.42
+   "ret_ppa": 0.812
   },
   {
    "rank": 18,
@@ -220,20 +203,18 @@
    "results_only": 8.5,
    "results_only_rank": 28,
    "preseason": 20.9,
-   "ret_ppa": 0.592,
-   "home_hfa": 6.69
+   "ret_ppa": 0.592
   },
   {
    "rank": 19,
    "team": "Oklahoma",
    "conf": "SEC",
    "record": "3-2",
-   "rating": 13.3,
+   "rating": 13.4,
    "results_only": 7.9,
    "results_only_rank": 30,
    "preseason": 15.2,
-   "ret_ppa": 0.632,
-   "home_hfa": 7.04
+   "ret_ppa": 0.632
   },
   {
    "rank": 20,
@@ -244,8 +225,7 @@
    "results_only": 7.8,
    "results_only_rank": 32,
    "preseason": 12.9,
-   "ret_ppa": 0.342,
-   "home_hfa": 4.98
+   "ret_ppa": 0.342
   },
   {
    "rank": 21,
@@ -256,20 +236,18 @@
    "results_only": 12.6,
    "results_only_rank": 14,
    "preseason": -0.4,
-   "ret_ppa": 0.463,
-   "home_hfa": 4.75
+   "ret_ppa": 0.463
   },
   {
    "rank": 22,
    "team": "Wake Forest",
    "conf": "ACC",
    "record": "5-1",
-   "rating": 11.8,
+   "rating": 11.9,
    "results_only": 10.8,
    "results_only_rank": 19,
    "preseason": 2.3,
-   "ret_ppa": 0.142,
-   "home_hfa": 2.0
+   "ret_ppa": 0.142
   },
   {
    "rank": 23,
@@ -280,20 +258,18 @@
    "results_only": 12.3,
    "results_only_rank": 15,
    "preseason": 6.5,
-   "ret_ppa": 0.885,
-   "home_hfa": 2.48
+   "ret_ppa": 0.885
   },
   {
    "rank": 24,
    "team": "Mississippi State",
    "conf": "SEC",
    "record": "4-1",
-   "rating": 11.1,
+   "rating": 11.2,
    "results_only": 10.8,
    "results_only_rank": 18,
    "preseason": 2.2,
-   "ret_ppa": 0.339,
-   "home_hfa": 4.08
+   "ret_ppa": 0.339
   },
   {
    "rank": 25,
@@ -304,8 +280,7 @@
    "results_only": 10.3,
    "results_only_rank": 21,
    "preseason": 5.8,
-   "ret_ppa": 0.663,
-   "home_hfa": 4.37
+   "ret_ppa": 0.663
   },
   {
    "rank": 26,
@@ -316,92 +291,84 @@
    "results_only": 8.6,
    "results_only_rank": 27,
    "preseason": 11.2,
-   "ret_ppa": 0.649,
-   "home_hfa": 4.3
+   "ret_ppa": 0.649
   },
   {
    "rank": 27,
    "team": "Florida",
    "conf": "SEC",
    "record": "4-2",
-   "rating": 10.4,
+   "rating": 10.5,
    "results_only": 7.8,
    "results_only_rank": 31,
    "preseason": 7.9,
-   "ret_ppa": 0.691,
-   "home_hfa": 5.68
+   "ret_ppa": 0.691
   },
   {
    "rank": 28,
    "team": "Louisville",
    "conf": "ACC",
    "record": "3-3",
-   "rating": 10.1,
+   "rating": 10.2,
    "results_only": 6.8,
    "results_only_rank": 37,
    "preseason": 6.9,
-   "ret_ppa": 0.348,
-   "home_hfa": 5.26
+   "ret_ppa": 0.348
   },
   {
    "rank": 29,
    "team": "Texas A&M",
    "conf": "SEC",
    "record": "3-3",
-   "rating": 9.9,
+   "rating": 10.0,
    "results_only": 4.2,
    "results_only_rank": 49,
    "preseason": 20.2,
-   "ret_ppa": 0.728,
-   "home_hfa": 5.31
+   "ret_ppa": 0.728
   },
   {
    "rank": 30,
    "team": "Kentucky",
    "conf": "SEC",
    "record": "5-1",
-   "rating": 9.7,
+   "rating": 9.8,
    "results_only": 10.1,
    "results_only_rank": 22,
    "preseason": -1.8,
-   "ret_ppa": 0.193,
-   "home_hfa": 4.48
+   "ret_ppa": 0.193
   },
   {
    "rank": 31,
    "team": "Michigan",
    "conf": "Big Ten",
    "record": "3-2",
-   "rating": 9.5,
+   "rating": 9.6,
    "results_only": 4.4,
    "results_only_rank": 48,
    "preseason": 14.7,
-   "ret_ppa": 0.692,
-   "home_hfa": 7.04
+   "ret_ppa": 0.692
   },
   {
    "rank": 32,
    "team": "Baylor",
    "conf": "Big 12",
    "record": "4-1",
-   "rating": 9.4,
+   "rating": 9.5,
    "results_only": 8.7,
    "results_only_rank": 26,
    "preseason": 1.1,
-   "ret_ppa": 0.602,
-   "home_hfa": 3.36
+   "ret_ppa": 0.602
   },
   {
    "rank": 33,
    "team": "South Carolina",
    "conf": "SEC",
    "record": "3-3",
-   "rating": 9.1,
+   "rating": 9.2,
    "results_only": 7.2,
    "results_only_rank": 36,
    "preseason": 8.1,
-   "ret_ppa": 0.69,
-   "home_hfa": 3.45
+   "ret_ppa": 0.69
   },
   {
    "rank": 34,
@@ -412,20 +379,18 @@
    "results_only": 7.7,
    "results_only_rank": 33,
    "preseason": 6.4,
-   "ret_ppa": 0.08,
-   "home_hfa": 5.68
+   "ret_ppa": 0.08
   },
   {
    "rank": 35,
    "team": "New Mexico",
    "conf": "MWC",
    "record": "4-1",
-   "rating": 8.2,
+   "rating": 8.3,
    "results_only": 8.8,
    "results_only_rank": 25,
    "preseason": -0.6,
-   "ret_ppa": 0.582,
-   "home_hfa": 0.91
+   "ret_ppa": 0.582
   },
   {
    "rank": 36,
@@ -436,20 +401,18 @@
    "results_only": 9.9,
    "results_only_rank": 23,
    "preseason": -2.4,
-   "ret_ppa": 0.31,
-   "home_hfa": 5.66
+   "ret_ppa": 0.31
   },
   {
    "rank": 37,
    "team": "Auburn",
    "conf": "SEC",
    "record": "3-2",
-   "rating": 7.8,
+   "rating": 7.9,
    "results_only": 3.8,
    "results_only_rank": 50,
    "preseason": 5.2,
-   "ret_ppa": 0.144,
-   "home_hfa": 5.79
+   "ret_ppa": 0.144
   },
   {
    "rank": 38,
@@ -460,8 +423,7 @@
    "results_only": 7.5,
    "results_only_rank": 35,
    "preseason": 7.5,
-   "ret_ppa": 0.397,
-   "home_hfa": 3.07
+   "ret_ppa": 0.397
   },
   {
    "rank": 39,
@@ -472,20 +434,18 @@
    "results_only": 5.9,
    "results_only_rank": 42,
    "preseason": 6.0,
-   "ret_ppa": 0.076,
-   "home_hfa": 6.52
+   "ret_ppa": 0.076
   },
   {
    "rank": 40,
    "team": "Oregon State",
    "conf": "Pac-12",
    "record": "4-2",
-   "rating": 7.4,
+   "rating": 7.5,
    "results_only": 11.3,
    "results_only_rank": 17,
    "preseason": -10.8,
-   "ret_ppa": 0.579,
-   "home_hfa": 2.58
+   "ret_ppa": 0.579
   },
   {
    "rank": 41,
@@ -496,35 +456,21 @@
    "results_only": 3.1,
    "results_only_rank": 53,
    "preseason": 8.8,
-   "ret_ppa": 0.401,
-   "home_hfa": 5.46
+   "ret_ppa": 0.401
   },
   {
    "rank": 42,
    "team": "TCU",
    "conf": "Big 12",
    "record": "2-3",
-   "rating": 5.7,
+   "rating": 5.8,
    "results_only": 6.1,
    "results_only_rank": 40,
    "preseason": 4.1,
-   "ret_ppa": 0.224,
-   "home_hfa": 5.05
+   "ret_ppa": 0.224
   },
   {
    "rank": 43,
-   "team": "North Dakota State",
-   "conf": "MWC",
-   "record": "5-1",
-   "rating": 5.5,
-   "results_only": 7.6,
-   "results_only_rank": 34,
-   "preseason": null,
-   "ret_ppa": null,
-   "home_hfa": 3.5
-  },
-  {
-   "rank": 44,
    "team": "SMU",
    "conf": "ACC",
    "record": "4-1",
@@ -532,11 +478,10 @@
    "results_only": 1.1,
    "results_only_rank": 62,
    "preseason": 11.6,
-   "ret_ppa": 0.569,
-   "home_hfa": 4.32
+   "ret_ppa": 0.569
   },
   {
-   "rank": 45,
+   "rank": 44,
    "team": "North Texas",
    "conf": "American",
    "record": "4-2",
@@ -544,11 +489,10 @@
    "results_only": 5.7,
    "results_only_rank": 43,
    "preseason": 1.0,
-   "ret_ppa": 0.025,
-   "home_hfa": 4.42
+   "ret_ppa": 0.025
   },
   {
-   "rank": 46,
+   "rank": 45,
    "team": "Kansas",
    "conf": "Big 12",
    "record": "2-3",
@@ -556,35 +500,32 @@
    "results_only": 4.9,
    "results_only_rank": 45,
    "preseason": -0.3,
-   "ret_ppa": 0.181,
-   "home_hfa": 1.43
+   "ret_ppa": 0.181
   },
   {
-   "rank": 47,
+   "rank": 46,
    "team": "Duke",
    "conf": "ACC",
    "record": "4-1",
-   "rating": 4.9,
+   "rating": 5.0,
    "results_only": 3.4,
    "results_only_rank": 51,
    "preseason": 1.7,
-   "ret_ppa": 0.171,
-   "home_hfa": 0.98
+   "ret_ppa": 0.171
   },
   {
-   "rank": 48,
+   "rank": 47,
    "team": "Kansas State",
    "conf": "Big 12",
    "record": "3-2",
-   "rating": 4.8,
+   "rating": 4.9,
    "results_only": 2.0,
    "results_only_rank": 59,
    "preseason": 5.6,
-   "ret_ppa": 0.714,
-   "home_hfa": 5.44
+   "ret_ppa": 0.714
   },
   {
-   "rank": 49,
+   "rank": 48,
    "team": "Iowa State",
    "conf": "Big 12",
    "record": "3-3",
@@ -592,20 +533,29 @@
    "results_only": 2.4,
    "results_only_rank": 57,
    "preseason": 1.8,
-   "ret_ppa": 0.017,
-   "home_hfa": 6.72
+   "ret_ppa": 0.017
   },
   {
-   "rank": 50,
+   "rank": 49,
    "team": "Washington",
    "conf": "Big Ten",
    "record": "3-3",
-   "rating": 4.4,
+   "rating": 4.5,
    "results_only": -1.8,
    "results_only_rank": 78,
    "preseason": 16.5,
-   "ret_ppa": 0.544,
-   "home_hfa": 5.42
+   "ret_ppa": 0.544
+  },
+  {
+   "rank": 50,
+   "team": "North Carolina",
+   "conf": "ACC",
+   "record": "3-2",
+   "rating": 4.4,
+   "results_only": 6.0,
+   "results_only_rank": 41,
+   "preseason": -3.1,
+   "ret_ppa": 0.278
   }
  ]
 }
