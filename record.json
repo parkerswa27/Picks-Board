@@ -5548,6 +5548,159 @@
           "units": -0.5
         }
       ]
+    },
+    {
+      "date": "2026-10-14",
+      "betting_model": {
+        "wins": 1,
+        "losses": 2,
+        "pushes": 0,
+        "units": -0.6,
+        "picks": [
+          {
+            "sport": "CFB",
+            "matchup": "Western Kentucky @ Sam Houston",
+            "market": "Spread",
+            "pick": "Sam Houston +1.5 (-115)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -115,
+            "result": "loss",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Montreal Canadiens @ Washington Capitals",
+            "market": "Moneyline",
+            "pick": "Washington Capitals -125",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -125,
+            "result": "win",
+            "note": "goalies projected, not confirmed: WSH Logan Thompson (proj., GSAx/60 +0.35, 203 GP 21-26); MTL Jakub Dobes (proj., GSAx/60 +0.27, 59 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Dallas Stars @ Colorado Avalanche",
+            "market": "Moneyline",
+            "pick": "Colorado Avalanche -135",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -135,
+            "result": "loss",
+            "note": "goalies projected, not confirmed: COL Scott Wedgewood (proj., GSAx/60 +0.23, 159 GP 21-26); DAL Jake Oettinger (proj., GSAx/60 +0.11, 276 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          }
+        ]
+      },
+      "player_props": {
+        "wins": 6,
+        "losses": 4,
+        "pushes": 0,
+        "units": 1.32,
+        "picks": [
+          {
+            "player": "T. Wilson",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -180,
+            "result": "loss"
+          },
+          {
+            "player": "N. Suzuki",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -160,
+            "result": "loss"
+          },
+          {
+            "player": "A. Lehkonen",
+            "market": "Shots on Goal O/U 1.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -140,
+            "result": "loss"
+          },
+          {
+            "player": "M. Heiskanen",
+            "market": "Shots on Goal O/U 1.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -145,
+            "result": "win"
+          },
+          {
+            "player": "A. Ovechkin",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -130,
+            "result": "win"
+          },
+          {
+            "player": "J. Kyrou",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 100,
+            "result": "win"
+          },
+          {
+            "player": "B. Nelson",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 100,
+            "result": "win"
+          },
+          {
+            "player": "J. Chychrun",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 105,
+            "result": "win"
+          },
+          {
+            "player": "G. Landeskog",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 125,
+            "result": "win"
+          },
+          {
+            "player": "A. Protas",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 140,
+            "result": "loss"
+          }
+        ]
+      },
+      "parlays": [
+        {
+          "legs": 3,
+          "odds": "~+333",
+          "result": "loss",
+          "stake": 0.5,
+          "units": 0.0
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-14",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "T. Wilson",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -180,
+      "actual": 5.0,
+      "result": "loss"
+    },
+    {
+      "player": "N. Suzuki",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -160,
+      "actual": 3.0,
+      "result": "loss"
+    },
+    {
+      "player": "A. Lehkonen",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -140,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "M. Heiskanen",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -145,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "A. Ovechkin",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -130,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Kyrou",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 100,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "B. Nelson",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 100,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Chychrun",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 105,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "G. Landeskog",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 125,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "A. Protas",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 140,
+      "actual": 0.0,
+      "result": "loss"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "~+333",
+      "result": "loss"
+    }
+  ],
+  "unresolved": []
+}

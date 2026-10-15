@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-14",
+  "fully_graded": true,
+  "picks": [
+    {
+      "matchup": "Western Kentucky @ Sam Houston",
+      "market": "Spread",
+      "pick": "Sam Houston +1.5 (-115)",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -115,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "price read \u2014 no model edge",
+      "sport": "CFB"
+    },
+    {
+      "matchup": "Montreal Canadiens @ Washington Capitals",
+      "market": "Moneyline",
+      "pick": "Washington Capitals -125",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -125,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: WSH Logan Thompson (proj., GSAx/60 +0.35, 203 GP 21-26); MTL Jakub Dobes (proj., GSAx/60 +0.27, 59 GP 21-26)"
+    },
+    {
+      "matchup": "Dallas Stars @ Colorado Avalanche",
+      "market": "Moneyline",
+      "pick": "Colorado Avalanche -135",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -135,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: COL Scott Wedgewood (proj., GSAx/60 +0.23, 159 GP 21-26); DAL Jake Oettinger (proj., GSAx/60 +0.11, 276 GP 21-26)"
+    }
+  ],
+  "ungraded": [],
+  "ungraded_reasons": {}
+}
