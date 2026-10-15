@@ -247,6 +247,16 @@ games in `requested_games.json`). Price reads work like this:
 - Floor denominator: the day's games DraftKings actually prices (unpriced
   FCS games can't be picked, so counting them makes the floor unreachable).
 - Floor fill order: highest confidence first (every edge is 0.0).
+- **CFB floor side rule (Parker, 10/15/26) — unvalidated.** After the floor
+  games are chosen as above, a CFB floor pick switches to the CFB power
+  model's side when the model-vs-line gap is `0 < gap <= 3` pts
+  (`CFB_MODEL_GAP_MAX` in `board_betting.py`). Basis reads
+  `"CFB model side (model-vs-line gap <= 3 pts) — unvalidated, …"`, bets.db
+  `football_picks.basis` = `model`, `model_gap_pts` is logged. Gaps above 3
+  stay on the price read. This is NOT a validated edge: model-side cover in
+  0–3 pts was 49.5–51.2% (TUNE 2015–19) and 47.9–49.1% (TEST 2021–24), below
+  52.38%; 16/29 (55%) on live 2026 floor picks is the only support. It is a
+  forward test, at 0.5u, and does not change which games fill the floor.
 - NBA has no coverage rule yet, so it publishes nothing until one is set.
 - Published, counted toward coverage, carried forward if started, and graded
   into `record.json` (PropLine final scores, margin + line; exact = push)
