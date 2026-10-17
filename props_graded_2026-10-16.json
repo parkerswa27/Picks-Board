@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-16",
+  "fully_graded": false,
+  "picks": [
+    {
+      "player": "E. Malkin",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -160,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "N. Zadorov",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -145,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "M. Necas",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 3.0,
+      "result": "loss"
+    },
+    {
+      "player": "D. Toews",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 100,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "D. Pastrnak",
+      "market": "Shots on Goal O/U 3.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 100,
+      "actual": 4.0,
+      "result": "win"
+    },
+    {
+      "player": "G. Landeskog",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 125,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "L. Carlsson",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 130,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "K. Letang",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 175,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "S. Crosby",
+      "market": "Anytime Goal",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 250,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "B. Rust",
+      "market": "Anytime Goal",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 280,
+      "actual": 1.0,
+      "result": "win"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "~+424",
+      "result": "loss"
+    }
+  ],
+  "unresolved": [
+    "R. Palacios: did not play"
+  ]
+}
