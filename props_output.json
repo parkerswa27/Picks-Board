@@ -84,33 +84,6 @@
         }
       },
       {
-        "sport": "NHL",
-        "player": "V. Nichushkin",
-        "market": "Shots on Goal O/U 1.5",
-        "pick": "Over",
-        "tier": "lean",
-        "confidence": 0.664,
-        "edge": 9.8,
-        "stake": 0.75,
-        "market_prob": 0.567,
-        "calibration": 0.0,
-        "basis": "real per-game baseline (NHL game logs 2021-26) \u2014 no fitted calibration",
-        "ref": {
-          "sport": "NHL",
-          "event_id": "345121",
-          "nhl_game_id": 2026020129,
-          "nhl_player_id": 8477501,
-          "player": "Valeri Nichushkin",
-          "market": "sog",
-          "side": "Over",
-          "line": 1.5,
-          "price": -155,
-          "book": "DraftKings",
-          "game": "New York Rangers @ Columbus Blue Jackets",
-          "team": "CBJ"
-        }
-      },
-      {
         "sport": "MLB",
         "player": "J. Aranda",
         "market": "Hits O/U 0.5",
@@ -335,10 +308,76 @@
           "game": "New York Rangers @ Columbus Blue Jackets",
           "team": "CBJ"
         }
+      },
+      {
+        "sport": "NHL",
+        "player": "A. Ovechkin",
+        "market": "Anytime Goal",
+        "pick": "Yes",
+        "tier": "lean",
+        "confidence": 0.379,
+        "edge": 9.9,
+        "stake": 0.75,
+        "market_prob": 0.28,
+        "calibration": 0.0,
+        "basis": "real per-game baseline (NHL game logs 2021-26) \u2014 no fitted calibration",
+        "ref": {
+          "sport": "NHL",
+          "event_id": "232926",
+          "nhl_game_id": 2026020121,
+          "nhl_player_id": 8471214,
+          "player": "Alex Ovechkin",
+          "market": "anytime_goal",
+          "side": "Yes",
+          "line": null,
+          "price": 225,
+          "book": "DraftKings",
+          "game": "New Jersey Devils @ Washington Capitals",
+          "team": "WSH"
+        }
       }
     ]
   },
   "parlays": [
+    {
+      "legs": 3,
+      "book": "DraftKings",
+      "stake": 0.5,
+      "sgp": false,
+      "selections": [
+        "J. DeLuca \u2014 Hits Over 0.5",
+        "R. Palacios \u2014 Hits Over 0.5",
+        "J. Aranda \u2014 Hits Over 0.5"
+      ],
+      "refs": [
+        {
+          "player": "Jonny DeLuca",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -166,
+          "game": "Tampa Bay Rays @ Cleveland Guardians"
+        },
+        {
+          "player": "Richie Palacios",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -130,
+          "game": "Tampa Bay Rays @ Cleveland Guardians"
+        },
+        {
+          "player": "Jonathan Aranda",
+          "market": "hits",
+          "side": "Over",
+          "line": 0.5,
+          "price": -187,
+          "game": "Tampa Bay Rays @ Cleveland Guardians"
+        }
+      ],
+      "odds": "~+335",
+      "odds_basis": "estimate: product of single-leg prices, not an SGP quote"
+    },
     {
       "legs": 3,
       "book": "DraftKings",
