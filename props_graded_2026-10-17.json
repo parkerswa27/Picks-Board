@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-17",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "T. Foerster",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -320,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "A. Lafreniere",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -180,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "L. Cooley",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -160,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Aranda",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -187,
+      "actual": 3.0,
+      "result": "win"
+    },
+    {
+      "player": "J. DeLuca",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -166,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "K. Johnson",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -125,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "M. Weegar",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -120,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Markstrom",
+      "market": "Saves O/U 21.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -115,
+      "actual": 20.0,
+      "result": "loss"
+    },
+    {
+      "player": "R. Palacios",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -130,
+      "actual": 3.0,
+      "result": "win"
+    },
+    {
+      "player": "D. Holloway",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 125,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "B. Clarke",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 130,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "A. Fantilli",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 135,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "A. Ovechkin",
+      "market": "Anytime Goal",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 225,
+      "actual": 0.0,
+      "result": "loss"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "~+335",
+      "result": "loss"
+    },
+    {
+      "legs": 3,
+      "odds": "+232",
+      "result": "win"
+    }
+  ],
+  "unresolved": []
+}
