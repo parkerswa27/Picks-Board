@@ -6588,6 +6588,177 @@
           "units": 1.16
         }
       ]
+    },
+    {
+      "date": "2026-10-18",
+      "betting_model": {
+        "wins": 3,
+        "losses": 4,
+        "pushes": 0,
+        "units": -0.8,
+        "picks": [
+          {
+            "sport": "NFL",
+            "matchup": "Arizona Cardinals @ Los Angeles Rams",
+            "market": "Spread",
+            "pick": "Arizona Cardinals +12.5 (-108)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -108,
+            "result": "win",
+            "note": "nfl_eff model \u2014 below breakeven in backtest (documented exception); confidence is market-implied (DK no-vig), not a model probability",
+            "basis": "coverage floor \u2014 confidence is market-implied (DK no-vig)",
+            "model_gap_pts": 0.6
+          },
+          {
+            "sport": "NFL",
+            "matchup": "New Orleans Saints @ New York Giants",
+            "market": "Spread",
+            "pick": "New York Giants -1.5 (-102)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -102,
+            "result": "loss",
+            "note": "nfl_eff model \u2014 below breakeven in backtest (documented exception); confidence is market-implied (DK no-vig), not a model probability",
+            "basis": "coverage floor \u2014 confidence is market-implied (DK no-vig)",
+            "model_gap_pts": 0.7
+          },
+          {
+            "sport": "NFL",
+            "matchup": "Los Angeles Chargers @ Kansas City Chiefs",
+            "market": "Spread",
+            "pick": "Kansas City Chiefs -7.5 (-105)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -105,
+            "result": "win",
+            "note": "nfl_eff model \u2014 below breakeven in backtest (documented exception); confidence is market-implied (DK no-vig), not a model probability",
+            "basis": "coverage floor \u2014 confidence is market-implied (DK no-vig)",
+            "model_gap_pts": 0.7
+          },
+          {
+            "sport": "NFL",
+            "matchup": "Buffalo Bills @ Las Vegas Raiders",
+            "market": "Spread",
+            "pick": "Buffalo Bills -5.5 (-108)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -108,
+            "result": "loss",
+            "note": "nfl_eff model \u2014 below breakeven in backtest (documented exception); confidence is market-implied (DK no-vig), not a model probability",
+            "basis": "coverage floor \u2014 confidence is market-implied (DK no-vig)",
+            "model_gap_pts": 0.9
+          },
+          {
+            "sport": "NFL",
+            "matchup": "Tennessee Titans @ Indianapolis Colts",
+            "market": "Spread",
+            "pick": "Indianapolis Colts -6.5 (-105)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -105,
+            "result": "loss",
+            "note": "nfl_eff model \u2014 below breakeven in backtest (documented exception); confidence is market-implied (DK no-vig), not a model probability",
+            "basis": "coverage floor \u2014 confidence is market-implied (DK no-vig)",
+            "model_gap_pts": 1.5
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Columbus Blue Jackets @ Minnesota Wild",
+            "market": "Moneyline",
+            "pick": "Minnesota Wild -192",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -192,
+            "result": "win",
+            "note": "goalies projected, not confirmed: MIN Filip Gustavsson (proj., GSAx/60 +0.10, 210 GP 21-26); CBJ Jet Greaves (proj., GSAx/60 +0.28, 76 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Carolina Hurricanes @ Calgary Flames",
+            "market": "Moneyline",
+            "pick": "Carolina Hurricanes -218",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -218,
+            "result": "loss",
+            "note": "goalies projected, not confirmed: CGY Dustin Wolf (proj., GSAx/60 +0.02, 128 GP 21-26); CAR Brandon Bussi (proj., GSAx/60 +0.03, 39 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          }
+        ]
+      },
+      "player_props": {
+        "wins": 3,
+        "losses": 3,
+        "pushes": 0,
+        "units": -0.24,
+        "picks": [
+          {
+            "player": "D. Metcalf",
+            "market": "Receiving Yards O/U 50.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -114,
+            "result": "loss"
+          },
+          {
+            "player": "D. Goedert",
+            "market": "Receiving Yards O/U 36.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "loss"
+          },
+          {
+            "player": "G. Pickens",
+            "market": "Receiving Yards O/U 70.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -111,
+            "result": "win"
+          },
+          {
+            "player": "T. Kelce",
+            "market": "Receiving Yards O/U 55.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -114,
+            "result": "win"
+          },
+          {
+            "player": "D. London",
+            "market": "Receiving Yards O/U 90.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -111,
+            "result": "win"
+          },
+          {
+            "player": "H. Fannin Jr.",
+            "market": "Anytime TD",
+            "pick": "Yes",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 230,
+            "result": "loss"
+          }
+        ]
+      },
+      "parlays": [
+        {
+          "legs": 3,
+          "odds": "+567",
+          "result": "loss",
+          "stake": 0.5,
+          "units": -0.5
+        }
+      ]
     }
   ]
 }
