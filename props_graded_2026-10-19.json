@@ -1,0 +1,234 @@
+{
+  "date": "2026-10-19",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "P. Dorofeyev",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -245,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "C. McCaffrey",
+      "market": "Anytime TD",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -265,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "M. Celebrini",
+      "market": "Points O/U 1.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -190,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "A. Lee",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -160,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "B. Nelson",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -170,
+      "actual": 3.0,
+      "result": "win"
+    },
+    {
+      "player": "C. DeLauter",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -186,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "A. Lehkonen",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -145,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "B. Sennecke",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -135,
+      "actual": 4.0,
+      "result": "loss"
+    },
+    {
+      "player": "N. Schmaltz",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -130,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Ramirez",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -173,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "M. Sergachev",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -115,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "G. Kittle",
+      "market": "Anytime TD",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 105,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "B. Rocchio",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "medium",
+      "stake": 1.0,
+      "odds": -118,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "T. Bazzana",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -126,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "S. Diggs",
+      "market": "Receiving Yards O/U 40.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -112,
+      "actual": 44.0,
+      "result": "win"
+    },
+    {
+      "player": "R. White",
+      "market": "Receiving Yards O/U 14.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -114,
+      "actual": 30.0,
+      "result": "loss"
+    },
+    {
+      "player": "S. Crosby",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 115,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "P. Bailey",
+      "market": "Hits O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "G. Landeskog",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 125,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "S. Diggs",
+      "market": "Anytime TD",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 240,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Daniels",
+      "market": "Anytime TD",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 240,
+      "actual": 0.0,
+      "result": "loss"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "~+363",
+      "result": "loss"
+    },
+    {
+      "legs": 3,
+      "odds": "~+779",
+      "result": "loss"
+    },
+    {
+      "legs": 3,
+      "odds": "+249",
+      "result": "loss"
+    }
+  ],
+  "unresolved": []
+}

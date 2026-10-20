@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-19",
+  "fully_graded": true,
+  "picks": [
+    {
+      "matchup": "Washington Commanders @ San Francisco 49ers",
+      "market": "Spread",
+      "pick": "San Francisco 49ers -7.5 (-108)",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -108,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception); confidence is market-implied (DK no-vig), not a model probability",
+      "sport": "NFL",
+      "model_gap_pts": 5.9
+    },
+    {
+      "matchup": "San Jose Sharks @ Toronto Maple Leafs",
+      "market": "Moneyline",
+      "pick": "Toronto Maple Leafs -135",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -135,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: TOR Sergei Bobrovsky (proj., GSAx/60 +0.04, 268 GP 21-26); SJS Yaroslav Askarov (proj., GSAx/60 -0.20, 63 GP 21-26)"
+    },
+    {
+      "matchup": "Anaheim Ducks @ New York Rangers",
+      "market": "Moneyline",
+      "pick": "New York Rangers -142",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -142,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: NYR Igor Shesterkin (proj., GSAx/60 +0.36, 278 GP 21-26); ANA Lukas Dostal (proj., GSAx/60 +0.03, 177 GP 21-26)"
+    },
+    {
+      "matchup": "Colorado Avalanche @ Philadelphia Flyers",
+      "market": "Moneyline",
+      "pick": "Colorado Avalanche -238",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -238,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: PHI Dan Vladar (proj., GSAx/60 +0.06, 152 GP 21-26); COL Scott Wedgewood (proj., GSAx/60 +0.23, 159 GP 21-26)"
+    }
+  ],
+  "ungraded": [],
+  "ungraded_reasons": {}
+}

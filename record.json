@@ -6759,6 +6759,285 @@
           "units": -0.5
         }
       ]
+    },
+    {
+      "date": "2026-10-19",
+      "betting_model": {
+        "wins": 2,
+        "losses": 2,
+        "pushes": 0,
+        "units": -0.28,
+        "picks": [
+          {
+            "sport": "NFL",
+            "matchup": "Washington Commanders @ San Francisco 49ers",
+            "market": "Spread",
+            "pick": "San Francisco 49ers -7.5 (-108)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -108,
+            "result": "loss",
+            "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception); confidence is market-implied (DK no-vig), not a model probability",
+            "model_gap_pts": 5.9
+          },
+          {
+            "sport": "NHL",
+            "matchup": "San Jose Sharks @ Toronto Maple Leafs",
+            "market": "Moneyline",
+            "pick": "Toronto Maple Leafs -135",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -135,
+            "result": "win",
+            "note": "goalies projected, not confirmed: TOR Sergei Bobrovsky (proj., GSAx/60 +0.04, 268 GP 21-26); SJS Yaroslav Askarov (proj., GSAx/60 -0.20, 63 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Anaheim Ducks @ New York Rangers",
+            "market": "Moneyline",
+            "pick": "New York Rangers -142",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -142,
+            "result": "win",
+            "note": "goalies projected, not confirmed: NYR Igor Shesterkin (proj., GSAx/60 +0.36, 278 GP 21-26); ANA Lukas Dostal (proj., GSAx/60 +0.03, 177 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Colorado Avalanche @ Philadelphia Flyers",
+            "market": "Moneyline",
+            "pick": "Colorado Avalanche -238",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -238,
+            "result": "loss",
+            "note": "goalies projected, not confirmed: PHI Dan Vladar (proj., GSAx/60 +0.06, 152 GP 21-26); COL Scott Wedgewood (proj., GSAx/60 +0.23, 159 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          }
+        ]
+      },
+      "player_props": {
+        "wins": 10,
+        "losses": 11,
+        "pushes": 0,
+        "units": -1.64,
+        "picks": [
+          {
+            "player": "P. Dorofeyev",
+            "market": "Assists O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -245,
+            "result": "loss"
+          },
+          {
+            "player": "C. McCaffrey",
+            "market": "Anytime TD",
+            "pick": "Yes",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -265,
+            "result": "win"
+          },
+          {
+            "player": "M. Celebrini",
+            "market": "Points O/U 1.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -190,
+            "result": "win"
+          },
+          {
+            "player": "A. Lee",
+            "market": "Shots on Goal O/U 1.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -160,
+            "result": "loss"
+          },
+          {
+            "player": "B. Nelson",
+            "market": "Shots on Goal O/U 1.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -170,
+            "result": "win"
+          },
+          {
+            "player": "C. DeLauter",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -186,
+            "result": "win"
+          },
+          {
+            "player": "A. Lehkonen",
+            "market": "Shots on Goal O/U 1.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -145,
+            "result": "win"
+          },
+          {
+            "player": "B. Sennecke",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -135,
+            "result": "loss"
+          },
+          {
+            "player": "N. Schmaltz",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -130,
+            "result": "win"
+          },
+          {
+            "player": "J. Ramirez",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -173,
+            "result": "loss"
+          },
+          {
+            "player": "M. Sergachev",
+            "market": "Assists O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "loss"
+          },
+          {
+            "player": "G. Kittle",
+            "market": "Anytime TD",
+            "pick": "Yes",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 105,
+            "result": "win"
+          },
+          {
+            "player": "B. Rocchio",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -118,
+            "result": "win"
+          },
+          {
+            "player": "T. Bazzana",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -126,
+            "result": "loss"
+          },
+          {
+            "player": "S. Diggs",
+            "market": "Receiving Yards O/U 40.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -112,
+            "result": "win"
+          },
+          {
+            "player": "R. White",
+            "market": "Receiving Yards O/U 14.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -114,
+            "result": "loss"
+          },
+          {
+            "player": "S. Crosby",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 115,
+            "result": "loss"
+          },
+          {
+            "player": "P. Bailey",
+            "market": "Hits O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -110,
+            "result": "loss"
+          },
+          {
+            "player": "G. Landeskog",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 125,
+            "result": "loss"
+          },
+          {
+            "player": "S. Diggs",
+            "market": "Anytime TD",
+            "pick": "Yes",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 240,
+            "result": "win"
+          },
+          {
+            "player": "J. Daniels",
+            "market": "Anytime TD",
+            "pick": "Yes",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 240,
+            "result": "loss"
+          }
+        ]
+      },
+      "parlays": [
+        {
+          "legs": 3,
+          "odds": "~+363",
+          "result": "loss",
+          "stake": 0.5,
+          "units": 0.0
+        },
+        {
+          "legs": 3,
+          "odds": "~+779",
+          "result": "loss",
+          "stake": 0.5,
+          "units": 0.0
+        },
+        {
+          "legs": 3,
+          "odds": "+249",
+          "result": "loss",
+          "stake": 0.5,
+          "units": -0.5
+        }
+      ]
     }
   ]
 }
