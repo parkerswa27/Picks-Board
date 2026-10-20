@@ -1,9 +1,32 @@
 {
   "2026-09-24": [
-    {"sport": "CFB", "game": "Liberty @ Coastal Carolina"}
+    {
+      "sport": "CFB",
+      "game": "Liberty @ Coastal Carolina"
+    }
   ],
   "2026-09-25": [
-    {"sport": "CFB", "game": "Clemson @ California"},
-    {"sport": "CFB", "game": "Northwestern @ Indiana"}
+    {
+      "sport": "CFB",
+      "game": "Clemson @ California"
+    },
+    {
+      "sport": "CFB",
+      "game": "Northwestern @ Indiana"
+    }
+  ],
+  "2026-10-20": [
+    {
+      "sport": "NBA",
+      "game": "Boston Celtics @ Detroit Pistons",
+      "side": "Detroit Pistons",
+      "basis": "NBA v2 cover model (odds_comparison.py) side, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)"
+    },
+    {
+      "sport": "NBA",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "side": "Philadelphia 76ers",
+      "basis": "NBA v2 cover model (odds_comparison.py) side, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)"
+    }
   ]
 }

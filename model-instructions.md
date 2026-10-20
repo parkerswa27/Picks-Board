@@ -257,7 +257,8 @@ games in `requested_games.json`). Price reads work like this:
   0–3 pts was 49.5–51.2% (TUNE 2015–19) and 47.9–49.1% (TEST 2021–24), below
   52.38%; 16/29 (55%) on live 2026 floor picks is the only support. It is a
   forward test, at 0.5u, and does not change which games fill the floor.
-- NBA has no coverage rule yet, so it publishes nothing until one is set.
+- NBA has no coverage rule yet, so it publishes nothing until one is set — except games
+  requested by name (see "NBA: requested spreads and player props").
 - Published, counted toward coverage, carried forward if started, and graded
   into `record.json` (PropLine final scores, margin + line; exact = push)
   exactly like every other pick.
@@ -464,6 +465,39 @@ way the NFL model is — exists and is validated. That model supersedes it
 entirely. Until then, nobody should read "the board has NHL picks" as "the
 board has an NHL model". As of 9/29/26 no such pipeline exists in either repo;
 it has not been started here.
+
+## NBA: requested spreads and player props (Parker, 10/20/26)
+
+**Spreads.** NBA still has no coverage rule. A game Parker names in `requested_games.json`
+publishes; an entry may carry `"side"` (team name) and `"basis"`, and then that team's DK main
+spread is the pick instead of the shorter price (`requested_side` in `board_betting.py`). Lean,
+0.5u, confidence = DK no-vig, edge 0.0. First use 10/20/26: Pistons +1.5 and 76ers +4.5, the
+sides of `odds_comparison.py`'s NBA v2 cover model (0 graded picks, unvalidated).
+
+**Player props** — `nba_power/nba_props.py`:
+- Data: stats.nba.com player game logs, regular season + playoffs, 2023-24 .. 2025-26.
+- Baseline: recency-weighted share of the player's games over the line (half-life 10 games,
+  chosen on 2024-25 by log loss from 10/20/40/80), shrunk toward a normal with the same
+  weighted moments (8 pseudo-games). Minimum 40 prior games.
+- Calibration: per-stat Platt fit on 2024-25 targets, tested on 2025-26 (out of sample).
+  Lines are SYNTHETIC (the player's prior weighted median floored to .5, ± offsets) because
+  no historical DK prop data exists. TEST reliability: every bucket within 2.4 pts.
+- Season-opener shift: a player's first 5 games of a season run under his history
+  (−3.5 pts on 2024-25, −3.4 on 2025-26; games 6+ +0.0). One logit shift (−0.18), fit on
+  2024-25 openers; on 2025-26 openers it moves mean P 0.412 → 0.377 vs a 0.378 hit rate.
+- What this does NOT show: that a gap to DK's no-vig price is an edge. That is untested.
+  Large gaps (15+ pts) on opening night were roster/role changes the logs can't see
+  (traded stars, young players' growth) — treat them as the market knowing something.
+- Exclusions: injury list (Out/Doubtful/Questionable/Day-to-day), players whose last logged
+  team differs from their 2026-27 roster team (role unknown), < 40 games, no 2025-26 games.
+- Publishing: ONLY the props named for the date in `prop_overrides.json` `"nba"`;
+  confidence = min(calibrated, raw) (calibration only haircuts), edge = conf − DK no-vig,
+  Lean 0.75u, basis says "edge vs DK untested; requested by Parker". No NBA parlay.
+- Forward test: every priced candidate (both sides) is logged to props.db
+  `nba_prop_candidates` and graded from stats.nba.com box scores by `board_props.py --grade`
+  (DNP while his team has a box line = void). Observation only.
+- Not in the scheduled daily run yet: `nba_props.py --date T --write` must run before
+  `board_props.py` for NBA props to publish.
 
 ## Lean-tier picks
 
