@@ -61,25 +61,5 @@
         "reason": "BAL @ NYY 9/27 cancelled (rain), no makeup; no 9/27 game log, box score 0 batters (verified 9/28)"
       }
     ]
-  },
-  "2026-10-20": {
-    "nba": [
-      {
-        "player": "Duncan Robinson",
-        "market": "points",
-        "side": "Over"
-      },
-      {
-        "player": "Julian Champagnie",
-        "market": "rebounds",
-        "side": "Over"
-      },
-      {
-        "player": "Jayson Tatum",
-        "market": "rebounds",
-        "side": "Over"
-      }
-    ],
-    "note": "Parker 10/20: first NBA props, hand-picked from nba_props.py candidates (veteran, gap 6-9 pts, context supports side)"
   }
 }
