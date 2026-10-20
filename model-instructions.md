@@ -490,14 +490,17 @@ sides of `odds_comparison.py`'s NBA v2 cover model (0 graded picks, unvalidated)
   (traded stars, young players' growth) — treat them as the market knowing something.
 - Exclusions: injury list (Out/Doubtful/Questionable/Day-to-day), players whose last logged
   team differs from their 2026-27 roster team (role unknown), < 40 games, no 2025-26 games.
-- Publishing: ONLY the props named for the date in `prop_overrides.json` `"nba"`;
+- Publishing (Parker 10/20/26, "just find the best"): top 6 by edge, one prop per player,
+  edge >= 3 pts, gap (calibrated − no-vig) <= 10 pts (bigger gaps were roster/role changes),
+  price no longer than −200, started games skipped. Props named for the date in
+  `prop_overrides.json` `"nba"` replace the automatic pick when present.
   confidence = min(calibrated, raw) (calibration only haircuts), edge = conf − DK no-vig,
-  Lean 0.75u, basis says "edge vs DK untested; requested by Parker". No NBA parlay.
+  Lean 0.75u, basis says "edge vs DK untested". No NBA parlay.
 - Forward test: every priced candidate (both sides) is logged to props.db
   `nba_prop_candidates` and graded from stats.nba.com box scores by `board_props.py --grade`
   (DNP while his team has a box line = void). Observation only.
-- Not in the scheduled daily run yet: `nba_props.py --date T --write` must run before
-  `board_props.py` for NBA props to publish.
+- Daily run: step 6c `nba_props.py --date T --write` (non-blocking) refreshes this season's
+  logs, DK props and injuries before `board_props.py`.
 
 ## Lean-tier picks
 
