@@ -28,5 +28,43 @@
       "side": "Philadelphia 76ers",
       "basis": "NBA v2 cover model (odds_comparison.py) side, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)"
     }
+  ],
+  "2026-10-21": [
+    {
+      "sport": "NBA",
+      "game": "Chicago Bulls @ Toronto Raptors",
+      "side": "Chicago Bulls",
+      "basis": "NBA v2 cover model (odds_comparison.py) side, edge >= 3 pts, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)"
+    },
+    {
+      "sport": "NBA",
+      "game": "Dallas Mavericks @ Houston Rockets",
+      "side": "Dallas Mavericks",
+      "basis": "NBA v2 cover model (odds_comparison.py) side, edge >= 3 pts, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)"
+    },
+    {
+      "sport": "NBA",
+      "game": "Milwaukee Bucks @ Washington Wizards",
+      "side": "Milwaukee Bucks",
+      "basis": "NBA v2 cover model (odds_comparison.py) side, edge >= 3 pts, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)"
+    },
+    {
+      "sport": "NBA",
+      "game": "Indiana Pacers @ New Orleans Pelicans",
+      "side": "New Orleans Pelicans",
+      "basis": "NBA v2 cover model (odds_comparison.py) side, edge >= 3 pts, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)"
+    },
+    {
+      "sport": "NBA",
+      "game": "Golden State Warriors @ Los Angeles Lakers",
+      "side": "Golden State Warriors",
+      "basis": "NBA v2 cover model (odds_comparison.py) side, edge >= 3 pts, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)"
+    },
+    {
+      "sport": "NBA",
+      "game": "Phoenix Suns @ Portland Trail Blazers",
+      "side": "Phoenix Suns",
+      "basis": "NBA v2 cover model (odds_comparison.py) side, edge >= 3 pts, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)"
+    }
   ]
 }
