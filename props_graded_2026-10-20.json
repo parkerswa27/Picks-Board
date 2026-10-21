@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-20",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "J. Chatfield",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -285,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "D. Mateychuk",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -270,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "C. Perfetti",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -190,
+      "actual": 5.0,
+      "result": "loss"
+    },
+    {
+      "player": "B. Point",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -185,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "L. Stankoven",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -150,
+      "actual": 5.0,
+      "result": "loss"
+    },
+    {
+      "player": "A. Lehkonen",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -135,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "T. Meier",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -135,
+      "actual": 8.0,
+      "result": "win"
+    },
+    {
+      "player": "A. Ovechkin",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -125,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Champagnie",
+      "market": "Rebounds O/U 4.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -129,
+      "actual": 3.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Tatum",
+      "market": "Rebounds O/U 8.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -115,
+      "actual": 4.0,
+      "result": "loss"
+    },
+    {
+      "player": "T. Maxey",
+      "market": "Pts+Reb+Ast O/U 30.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -106,
+      "actual": 37.0,
+      "result": "win"
+    },
+    {
+      "player": "E. Finnie",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -105,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "D. Robinson",
+      "market": "Points O/U 10.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -108,
+      "actual": 21.0,
+      "result": "win"
+    },
+    {
+      "player": "V. Edgecombe",
+      "market": "Rebounds O/U 5.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 109,
+      "actual": 4.0,
+      "result": "loss"
+    },
+    {
+      "player": "B. Clarke",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 130,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "D. Jenkins",
+      "market": "Rebounds O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 141,
+      "actual": 2.0,
+      "result": "loss"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "+183",
+      "result": "loss"
+    }
+  ],
+  "unresolved": []
+}
