@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-21",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "J. Drysdale",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -255,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Quinn",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -185,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "A. Horford",
+      "market": "Assists O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -177,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "T. Zegras",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -180,
+      "actual": 4.0,
+      "result": "loss"
+    },
+    {
+      "player": "N. Marshall",
+      "market": "Points O/U 11.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -113,
+      "actual": 16.0,
+      "result": "win"
+    },
+    {
+      "player": "Z. Benson",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -115,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "C. Dvorak",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -125,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "M. Tkachuk",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -125,
+      "actual": 3.0,
+      "result": "win"
+    },
+    {
+      "player": "K. Durant",
+      "market": "Points O/U 23.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -109,
+      "actual": 30.0,
+      "result": "win"
+    },
+    {
+      "player": "C. Giroux",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -120,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "S. Jones",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 3.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Holiday",
+      "market": "Points O/U 12.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -101,
+      "actual": 8.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Norris",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 105,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Walker",
+      "market": "3-Pointers Made O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 110,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "S. Couturier",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 110,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "A. Green",
+      "market": "3-Pointers Made O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 138,
+      "actual": 2.0,
+      "result": "loss"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "~+234",
+      "result": "loss"
+    }
+  ],
+  "unresolved": []
+}

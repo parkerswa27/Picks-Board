@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-21",
+  "fully_graded": true,
+  "picks": [
+    {
+      "matchup": "New Mexico State @ Sam Houston",
+      "market": "Spread",
+      "pick": "Sam Houston +2.5 (-105)",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -105,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "CFB model side (model-vs-line gap <= 3 pts) \u2014 unvalidated, below breakeven in backtest; confidence is market-implied (DK no-vig), not a model probability",
+      "sport": "CFB",
+      "model_gap_pts": 0.7
+    },
+    {
+      "matchup": "Chicago Bulls @ Toronto Raptors",
+      "market": "Spread",
+      "pick": "Chicago Bulls +10.5 (-115)",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -115,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "NBA v2 cover model (odds_comparison.py) side, edge >= 3 pts, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)",
+      "sport": "NBA"
+    },
+    {
+      "matchup": "Dallas Mavericks @ Houston Rockets",
+      "market": "Spread",
+      "pick": "Dallas Mavericks +10.5 (-112)",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -112,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "NBA v2 cover model (odds_comparison.py) side, edge >= 3 pts, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)",
+      "sport": "NBA"
+    },
+    {
+      "matchup": "Milwaukee Bucks @ Washington Wizards",
+      "market": "Spread",
+      "pick": "Milwaukee Bucks +4.5 (-115)",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -115,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "NBA v2 cover model (odds_comparison.py) side, edge >= 3 pts, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)",
+      "sport": "NBA"
+    },
+    {
+      "matchup": "Indiana Pacers @ New Orleans Pelicans",
+      "market": "Spread",
+      "pick": "New Orleans Pelicans +3.5 (-112)",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -112,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "NBA v2 cover model (odds_comparison.py) side, edge >= 3 pts, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)",
+      "sport": "NBA"
+    },
+    {
+      "matchup": "Golden State Warriors @ Los Angeles Lakers",
+      "market": "Spread",
+      "pick": "Golden State Warriors +6.5 (-110)",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -110,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "NBA v2 cover model (odds_comparison.py) side, edge >= 3 pts, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)",
+      "sport": "NBA"
+    },
+    {
+      "matchup": "Phoenix Suns @ Portland Trail Blazers",
+      "market": "Spread",
+      "pick": "Phoenix Suns +2.5 (-105)",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -105,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "NBA v2 cover model (odds_comparison.py) side, edge >= 3 pts, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)",
+      "sport": "NBA"
+    },
+    {
+      "matchup": "Philadelphia Flyers @ Buffalo Sabres",
+      "market": "Moneyline",
+      "pick": "Buffalo Sabres -185",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -185,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: BUF Alex Lyon (proj., GSAx/60 +0.18, 127 GP 21-26); PHI Dan Vladar (proj., GSAx/60 +0.06, 152 GP 21-26)"
+    },
+    {
+      "matchup": "Florida Panthers @ Ottawa Senators",
+      "market": "Moneyline",
+      "pick": "Ottawa Senators -108",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -108,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "same-day composite \u2014 unvalidated, no backtest",
+      "sport": "NHL",
+      "note": "goalies projected, not confirmed: OTT Linus Ullmark (proj., GSAx/60 +0.10, 223 GP 21-26); FLA Jacob Markstrom (proj., GSAx/60 -0.02, 263 GP 21-26)"
+    }
+  ],
+  "ungraded": [],
+  "ungraded_reasons": {}
+}

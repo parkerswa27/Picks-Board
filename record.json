@@ -7340,6 +7340,280 @@
           "units": -0.5
         }
       ]
+    },
+    {
+      "date": "2026-10-21",
+      "betting_model": {
+        "wins": 2,
+        "losses": 7,
+        "pushes": 0,
+        "units": -2.59,
+        "picks": [
+          {
+            "sport": "CFB",
+            "matchup": "New Mexico State @ Sam Houston",
+            "market": "Spread",
+            "pick": "Sam Houston +2.5 (-105)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -105,
+            "result": "loss",
+            "basis": "CFB model side (model-vs-line gap <= 3 pts) \u2014 unvalidated, below breakeven in backtest; confidence is market-implied (DK no-vig), not a model probability",
+            "model_gap_pts": 0.7
+          },
+          {
+            "sport": "NBA",
+            "matchup": "Chicago Bulls @ Toronto Raptors",
+            "market": "Spread",
+            "pick": "Chicago Bulls +10.5 (-115)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -115,
+            "result": "loss",
+            "basis": "NBA v2 cover model (odds_comparison.py) side, edge >= 3 pts, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)"
+          },
+          {
+            "sport": "NBA",
+            "matchup": "Dallas Mavericks @ Houston Rockets",
+            "market": "Spread",
+            "pick": "Dallas Mavericks +10.5 (-112)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -112,
+            "result": "loss",
+            "basis": "NBA v2 cover model (odds_comparison.py) side, edge >= 3 pts, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)"
+          },
+          {
+            "sport": "NBA",
+            "matchup": "Milwaukee Bucks @ Washington Wizards",
+            "market": "Spread",
+            "pick": "Milwaukee Bucks +4.5 (-115)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -115,
+            "result": "loss",
+            "basis": "NBA v2 cover model (odds_comparison.py) side, edge >= 3 pts, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)"
+          },
+          {
+            "sport": "NBA",
+            "matchup": "Indiana Pacers @ New Orleans Pelicans",
+            "market": "Spread",
+            "pick": "New Orleans Pelicans +3.5 (-112)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -112,
+            "result": "win",
+            "basis": "NBA v2 cover model (odds_comparison.py) side, edge >= 3 pts, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)"
+          },
+          {
+            "sport": "NBA",
+            "matchup": "Golden State Warriors @ Los Angeles Lakers",
+            "market": "Spread",
+            "pick": "Golden State Warriors +6.5 (-110)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -110,
+            "result": "loss",
+            "basis": "NBA v2 cover model (odds_comparison.py) side, edge >= 3 pts, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)"
+          },
+          {
+            "sport": "NBA",
+            "matchup": "Phoenix Suns @ Portland Trail Blazers",
+            "market": "Spread",
+            "pick": "Phoenix Suns +2.5 (-105)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -105,
+            "result": "loss",
+            "basis": "NBA v2 cover model (odds_comparison.py) side, edge >= 3 pts, requested by Parker \u2014 unvalidated, 0 graded; confidence is market-implied (DK no-vig)"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Philadelphia Flyers @ Buffalo Sabres",
+            "market": "Moneyline",
+            "pick": "Buffalo Sabres -185",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -185,
+            "result": "loss",
+            "note": "goalies projected, not confirmed: BUF Alex Lyon (proj., GSAx/60 +0.18, 127 GP 21-26); PHI Dan Vladar (proj., GSAx/60 +0.06, 152 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Florida Panthers @ Ottawa Senators",
+            "market": "Moneyline",
+            "pick": "Ottawa Senators -108",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -108,
+            "result": "win",
+            "note": "goalies projected, not confirmed: OTT Linus Ullmark (proj., GSAx/60 +0.10, 223 GP 21-26); FLA Jacob Markstrom (proj., GSAx/60 -0.02, 263 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          }
+        ]
+      },
+      "player_props": {
+        "wins": 8,
+        "losses": 8,
+        "pushes": 0,
+        "units": -1.07,
+        "picks": [
+          {
+            "player": "J. Drysdale",
+            "market": "Assists O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -255,
+            "result": "loss"
+          },
+          {
+            "player": "J. Quinn",
+            "market": "Assists O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -185,
+            "result": "loss"
+          },
+          {
+            "player": "A. Horford",
+            "market": "Assists O/U 1.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -177,
+            "result": "win"
+          },
+          {
+            "player": "T. Zegras",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -180,
+            "result": "loss"
+          },
+          {
+            "player": "N. Marshall",
+            "market": "Points O/U 11.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -113,
+            "result": "win"
+          },
+          {
+            "player": "Z. Benson",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "win"
+          },
+          {
+            "player": "C. Dvorak",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -125,
+            "result": "win"
+          },
+          {
+            "player": "M. Tkachuk",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -125,
+            "result": "win"
+          },
+          {
+            "player": "K. Durant",
+            "market": "Points O/U 23.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -109,
+            "result": "win"
+          },
+          {
+            "player": "C. Giroux",
+            "market": "Shots on Goal O/U 1.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -120,
+            "result": "win"
+          },
+          {
+            "player": "S. Jones",
+            "market": "Shots on Goal O/U 1.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -110,
+            "result": "win"
+          },
+          {
+            "player": "J. Holiday",
+            "market": "Points O/U 12.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -101,
+            "result": "loss"
+          },
+          {
+            "player": "J. Norris",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 105,
+            "result": "loss"
+          },
+          {
+            "player": "J. Walker",
+            "market": "3-Pointers Made O/U 1.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 110,
+            "result": "loss"
+          },
+          {
+            "player": "S. Couturier",
+            "market": "Shots on Goal O/U 1.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 110,
+            "result": "loss"
+          },
+          {
+            "player": "A. Green",
+            "market": "3-Pointers Made O/U 2.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 138,
+            "result": "loss"
+          }
+        ]
+      },
+      "parlays": [
+        {
+          "legs": 3,
+          "odds": "~+234",
+          "result": "loss",
+          "stake": 0.5,
+          "units": 0.0
+        }
+      ]
     }
   ]
 }
