@@ -7614,6 +7614,362 @@
           "units": 0.0
         }
       ]
+    },
+    {
+      "date": "2026-10-22",
+      "betting_model": {
+        "wins": 6,
+        "losses": 5,
+        "pushes": 0,
+        "units": -0.32,
+        "picks": [
+          {
+            "sport": "NFL",
+            "matchup": "New England Patriots @ Chicago Bears",
+            "market": "Spread",
+            "pick": "New England Patriots +3 (-118)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -118,
+            "result": "loss",
+            "basis": "nfl_eff model \u2014 below breakeven in backtest (documented exception); confidence is market-implied (DK no-vig), not a model probability",
+            "model_gap_pts": 1.5
+          },
+          {
+            "sport": "CFB",
+            "matchup": "East Carolina @ Memphis",
+            "market": "Spread",
+            "pick": "East Carolina +10.5 (-112)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -112,
+            "result": "win",
+            "basis": "CFB model side (model-vs-line gap <= 3 pts) \u2014 unvalidated, below breakeven in backtest; confidence is market-implied (DK no-vig), not a model probability",
+            "model_gap_pts": 0.2
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Liberty @ Kennesaw State",
+            "market": "Spread",
+            "pick": "Liberty -9.5 (-110)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -110,
+            "result": "win",
+            "basis": "price read \u2014 no model edge",
+            "model_gap_pts": 4.2
+          },
+          {
+            "sport": "NHL",
+            "matchup": "San Jose Sharks @ Ottawa Senators",
+            "market": "Moneyline",
+            "pick": "Ottawa Senators -135",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -135,
+            "result": "loss",
+            "note": "goalies projected, not confirmed: OTT Linus Ullmark (proj., GSAx/60 +0.10, 223 GP 21-26); SJS Yaroslav Askarov (proj., GSAx/60 -0.20, 63 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Anaheim Ducks @ New Jersey Devils",
+            "market": "Moneyline",
+            "pick": "New Jersey Devils -218",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -218,
+            "result": "win",
+            "note": "goalies projected, not confirmed: NJD Jake Allen (proj., GSAx/60 +0.15, 179 GP 21-26); ANA Lukas Dostal (proj., GSAx/60 +0.03, 177 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Nashville Predators @ Boston Bruins",
+            "market": "Moneyline",
+            "pick": "Boston Bruins -148",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -148,
+            "result": "win",
+            "note": "goalies projected, not confirmed: BOS Jeremy Swayman (proj., GSAx/60 +0.26, 235 GP 21-26); NSH Juuse Saros (proj., GSAx/60 +0.01, 312 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Winnipeg Jets @ Dallas Stars",
+            "market": "Moneyline",
+            "pick": "Dallas Stars -205",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -205,
+            "result": "win",
+            "note": "goalies projected, not confirmed: DAL Jake Oettinger (proj., GSAx/60 +0.11, 276 GP 21-26); WPG Connor Hellebuyck (proj., GSAx/60 +0.32, 310 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Utah Mammoth @ Seattle Kraken",
+            "market": "Moneyline",
+            "pick": "Utah Mammoth -170",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -170,
+            "result": "loss",
+            "note": "goalies projected, not confirmed: SEA Joey Daccord (proj., GSAx/60 +0.05, 164 GP 21-26); UTA Karel Vejmelka (proj., GSAx/60 +0.07, 262 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Minnesota Wild @ Calgary Flames",
+            "market": "Moneyline",
+            "pick": "Minnesota Wild -205",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -205,
+            "result": "loss",
+            "note": "goalies projected, not confirmed: CGY Dustin Wolf (proj., GSAx/60 +0.02, 128 GP 21-26); MIN Filip Gustavsson (proj., GSAx/60 +0.10, 210 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Vegas Golden Knights @ St. Louis Blues",
+            "market": "Moneyline",
+            "pick": "Vegas Golden Knights -125",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -125,
+            "result": "loss",
+            "note": "goalies projected, not confirmed: STL Joel Hofer (proj., GSAx/60 +0.13, 115 GP 21-26); VGK Adin Hill (proj., GSAx/60 -0.04, 164 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "New York Rangers @ Toronto Maple Leafs",
+            "market": "Moneyline",
+            "pick": "Toronto Maple Leafs -108",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -108,
+            "result": "win",
+            "note": "goalies projected, not confirmed: TOR Sergei Bobrovsky (proj., GSAx/60 +0.04, 268 GP 21-26); NYR Igor Shesterkin (proj., GSAx/60 +0.36, 278 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          }
+        ]
+      },
+      "player_props": {
+        "wins": 8,
+        "losses": 13,
+        "pushes": 0,
+        "units": -4.37,
+        "picks": [
+          {
+            "player": "J. Blake",
+            "market": "Assists O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -210,
+            "result": "win"
+          },
+          {
+            "player": "P. Broberg",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -165,
+            "result": "win"
+          },
+          {
+            "player": "E. Finnie",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -155,
+            "result": "loss"
+          },
+          {
+            "player": "K. Caldwell-Pope",
+            "market": "Points O/U 5.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -130,
+            "result": "loss"
+          },
+          {
+            "player": "J. Farabee",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -130,
+            "result": "loss"
+          },
+          {
+            "player": "J. Embiid",
+            "market": "Assists O/U 3.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -120,
+            "result": "loss"
+          },
+          {
+            "player": "V. Edgecombe",
+            "market": "Points O/U 10.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -116,
+            "result": "win"
+          },
+          {
+            "player": "A. Laferriere",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "loss"
+          },
+          {
+            "player": "M. Tkachuk",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "loss"
+          },
+          {
+            "player": "H. Henry",
+            "market": "Receiving Yards O/U 35.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -110,
+            "result": "win"
+          },
+          {
+            "player": "S. Gilgeous-Alexander",
+            "market": "Assists O/U 6.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -109,
+            "result": "loss"
+          },
+          {
+            "player": "L. Evangelista",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 100,
+            "result": "loss"
+          },
+          {
+            "player": "D. Hamilton",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 110,
+            "result": "loss"
+          },
+          {
+            "player": "A. Brown",
+            "market": "Receiving Yards O/U 69.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -112,
+            "result": "win"
+          },
+          {
+            "player": "A. Gordon",
+            "market": "Assists O/U 2.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 111,
+            "result": "loss"
+          },
+          {
+            "player": "J. Murray",
+            "market": "Rebounds O/U 4.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 118,
+            "result": "win"
+          },
+          {
+            "player": "R. Odunze",
+            "market": "Receiving Yards O/U 44.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -110,
+            "result": "loss"
+          },
+          {
+            "player": "R. Stevenson",
+            "market": "Receiving Yards O/U 18.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -111,
+            "result": "win"
+          },
+          {
+            "player": "J. Marchessault",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 135,
+            "result": "win"
+          },
+          {
+            "player": "K. Connor",
+            "market": "Assists O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 150,
+            "result": "loss"
+          },
+          {
+            "player": "H. Henry",
+            "market": "Anytime TD",
+            "pick": "Yes",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 230,
+            "result": "loss"
+          }
+        ]
+      },
+      "parlays": [
+        {
+          "legs": 3,
+          "odds": "~+1092",
+          "result": "loss",
+          "stake": 0.5,
+          "units": 0.0
+        },
+        {
+          "legs": 3,
+          "odds": "+290",
+          "result": "loss",
+          "stake": 0.5,
+          "units": -0.5
+        }
+      ]
     }
   ]
 }

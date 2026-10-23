@@ -1,0 +1,229 @@
+{
+  "date": "2026-10-22",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "J. Blake",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -210,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "P. Broberg",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -165,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "E. Finnie",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -155,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "K. Caldwell-Pope",
+      "market": "Points O/U 5.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -130,
+      "actual": 3.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Farabee",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -130,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Embiid",
+      "market": "Assists O/U 3.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -120,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "V. Edgecombe",
+      "market": "Points O/U 10.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -116,
+      "actual": 11.0,
+      "result": "win"
+    },
+    {
+      "player": "A. Laferriere",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -115,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "M. Tkachuk",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -115,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "H. Henry",
+      "market": "Receiving Yards O/U 35.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 71.0,
+      "result": "win"
+    },
+    {
+      "player": "S. Gilgeous-Alexander",
+      "market": "Assists O/U 6.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -109,
+      "actual": 3.0,
+      "result": "loss"
+    },
+    {
+      "player": "L. Evangelista",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 100,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "D. Hamilton",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 110,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "A. Brown",
+      "market": "Receiving Yards O/U 69.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -112,
+      "actual": 48.0,
+      "result": "win"
+    },
+    {
+      "player": "A. Gordon",
+      "market": "Assists O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 111,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "J. Murray",
+      "market": "Rebounds O/U 4.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 118,
+      "actual": 10.0,
+      "result": "win"
+    },
+    {
+      "player": "R. Odunze",
+      "market": "Receiving Yards O/U 44.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -110,
+      "actual": 69.0,
+      "result": "loss"
+    },
+    {
+      "player": "R. Stevenson",
+      "market": "Receiving Yards O/U 18.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -111,
+      "actual": 93.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Marchessault",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 135,
+      "actual": 3.0,
+      "result": "win"
+    },
+    {
+      "player": "K. Connor",
+      "market": "Assists O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 150,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "H. Henry",
+      "market": "Anytime TD",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 230,
+      "actual": 0.0,
+      "result": "loss"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "~+1092",
+      "result": "loss"
+    },
+    {
+      "legs": 3,
+      "odds": "+290",
+      "result": "loss"
+    }
+  ],
+  "unresolved": []
+}
