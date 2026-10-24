@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-23",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "C. Kreider",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -255,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "T. Teravainen",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -195,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Guentzel",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -180,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "A. Horford",
+      "market": "Rebounds O/U 3.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -156,
+      "actual": 5.0,
+      "result": "win"
+    },
+    {
+      "player": "P. Larsson",
+      "market": "Rebounds O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -148,
+      "actual": 2.0,
+      "result": "loss"
+    },
+    {
+      "player": "B. Point",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -140,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Landale",
+      "market": "Points O/U 6.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -125,
+      "actual": 8.0,
+      "result": "win"
+    },
+    {
+      "player": "K. Durant",
+      "market": "Points O/U 23.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -118,
+      "actual": 20.0,
+      "result": "loss"
+    },
+    {
+      "player": "N. Dobson",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -115,
+      "actual": 2.0,
+      "result": "win"
+    },
+    {
+      "player": "N. Kadri",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -120,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "T. Johnson",
+      "market": "Points O/U 9.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -106,
+      "actual": 20.0,
+      "result": "win"
+    },
+    {
+      "player": "B. Nelson",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -105,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "B. Portis",
+      "market": "3-Pointers Made O/U 1.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 106,
+      "actual": 3.0,
+      "result": "win"
+    },
+    {
+      "player": "G. Landeskog",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 120,
+      "actual": 1.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Slafkovsky",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 140,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "M. Necas",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 130,
+      "actual": 1.0,
+      "result": "loss"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "~+228",
+      "result": "win"
+    }
+  ],
+  "unresolved": []
+}

@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-23",
+  "fully_graded": true,
+  "picks": [
+    {
+      "matchup": "UMass @ UConn",
+      "market": "Spread",
+      "pick": "UConn -14.5 (-105)",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -105,
+      "result": "win",
+      "source": "PropLine final score",
+      "basis": "CFB model side (model-vs-line gap <= 3 pts) \u2014 unvalidated, below breakeven in backtest; confidence is market-implied (DK no-vig), not a model probability",
+      "sport": "CFB",
+      "model_gap_pts": 0.7
+    },
+    {
+      "matchup": "NC State @ Stanford",
+      "market": "Spread",
+      "pick": "NC State -7.5 (-105)",
+      "tier": "lean",
+      "stake": 0.5,
+      "odds": -105,
+      "result": "loss",
+      "source": "PropLine final score",
+      "basis": "CFB model side (model-vs-line gap <= 3 pts) \u2014 unvalidated, below breakeven in backtest; confidence is market-implied (DK no-vig), not a model probability",
+      "sport": "CFB",
+      "model_gap_pts": 0.4
+    }
+  ],
+  "ungraded": [],
+  "ungraded_reasons": {}
+}
