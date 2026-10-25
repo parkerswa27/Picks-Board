@@ -8166,6 +8166,553 @@
           "units": 0.0
         }
       ]
+    },
+    {
+      "date": "2026-10-24",
+      "betting_model": {
+        "wins": 18,
+        "losses": 14,
+        "pushes": 0,
+        "units": 0.78,
+        "picks": [
+          {
+            "matchup": "TB @ MIL",
+            "market": "Moneyline",
+            "pick": "MIL -120",
+            "tier": "medium",
+            "stake": 1.0,
+            "odds": -120,
+            "result": "win"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Houston @ Utah",
+            "market": "Spread",
+            "pick": "Utah -6.5 (-120)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -120,
+            "result": "win",
+            "basis": "CFB model side (model-vs-line gap <= 3 pts) \u2014 unvalidated, below breakeven in backtest; confidence is market-implied (DK no-vig), not a model probability",
+            "model_gap_pts": 3.0
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Hawai'i @ Northern Illinois",
+            "market": "Spread",
+            "pick": "Hawai'i -3.5 (-102)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -102,
+            "result": "win",
+            "basis": "CFB model side (model-vs-line gap <= 3 pts) \u2014 unvalidated, below breakeven in backtest; confidence is market-implied (DK no-vig), not a model probability",
+            "model_gap_pts": 0.6
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Utah State @ Texas State",
+            "market": "Spread",
+            "pick": "Texas State -13.5 (-118)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -118,
+            "result": "loss",
+            "basis": "CFB model side (model-vs-line gap <= 3 pts) \u2014 unvalidated, below breakeven in backtest; confidence is market-implied (DK no-vig), not a model probability",
+            "model_gap_pts": 0.8
+          },
+          {
+            "sport": "CFB",
+            "matchup": "USC @ Wisconsin",
+            "market": "Spread",
+            "pick": "USC -3 (-102)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -102,
+            "result": "loss",
+            "basis": "CFB model side (model-vs-line gap <= 3 pts) \u2014 unvalidated, below breakeven in backtest; confidence is market-implied (DK no-vig), not a model probability",
+            "model_gap_pts": 1.7
+          },
+          {
+            "sport": "CFB",
+            "matchup": "BYU @ UCF",
+            "market": "Spread",
+            "pick": "UCF +7.5 (-122)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -122,
+            "result": "win",
+            "basis": "price read \u2014 no model edge",
+            "model_gap_pts": 4.4
+          },
+          {
+            "sport": "CFB",
+            "matchup": "North Texas @ NAVY",
+            "market": "Spread",
+            "pick": "North Texas -3 (-115)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -115,
+            "result": "win",
+            "basis": "CFB model side (model-vs-line gap <= 3 pts) \u2014 unvalidated, below breakeven in backtest; confidence is market-implied (DK no-vig), not a model probability",
+            "model_gap_pts": 0.4
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Iowa @ Minnesota",
+            "market": "Spread",
+            "pick": "Minnesota +7.5 (-115)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -115,
+            "result": "win",
+            "basis": "price read \u2014 no model edge",
+            "model_gap_pts": 3.5
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Kansas ST @ Arizona St.",
+            "market": "Spread",
+            "pick": "Arizona St. +1.5 (-115)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -115,
+            "result": "win",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Eastern Michigan @ Ohio",
+            "market": "Spread",
+            "pick": "Ohio -9.5 (-115)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -115,
+            "result": "loss",
+            "basis": "price read \u2014 no model edge",
+            "model_gap_pts": 7.0
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Boise St. @ Washington St.",
+            "market": "Spread",
+            "pick": "Washington St. +14.5 (-115)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -115,
+            "result": "loss",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "San Diego State @ Colorado State",
+            "market": "Spread",
+            "pick": "Colorado State +1.5 (-115)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -115,
+            "result": "win",
+            "basis": "CFB model side (model-vs-line gap <= 3 pts) \u2014 unvalidated, below breakeven in backtest; confidence is market-implied (DK no-vig), not a model probability",
+            "model_gap_pts": 0.3
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Georgia State @ Arkansas State",
+            "market": "Spread",
+            "pick": "Arkansas State +2.5 (-105)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -105,
+            "result": "win",
+            "basis": "CFB model side (model-vs-line gap <= 3 pts) \u2014 unvalidated, below breakeven in backtest; confidence is market-implied (DK no-vig), not a model probability",
+            "model_gap_pts": 2.4
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Ole Miss @ Texas",
+            "market": "Spread",
+            "pick": "Ole Miss +3 (-105)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -105,
+            "result": "loss",
+            "basis": "CFB model side (model-vs-line gap <= 3 pts) \u2014 unvalidated, below breakeven in backtest; confidence is market-implied (DK no-vig), not a model probability",
+            "model_gap_pts": 0.3
+          },
+          {
+            "sport": "CFB",
+            "matchup": "UTSA @ Tulane",
+            "market": "Spread",
+            "pick": "Tulane +3 (-115)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -115,
+            "result": "loss",
+            "basis": "CFB model side (model-vs-line gap <= 3 pts) \u2014 unvalidated, below breakeven in backtest; confidence is market-implied (DK no-vig), not a model probability",
+            "model_gap_pts": 2.6
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Old Dominion @ Louisiana Tech",
+            "market": "Spread",
+            "pick": "Louisiana Tech -13.5 (-120)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -120,
+            "result": "win",
+            "basis": "price read \u2014 no model edge",
+            "model_gap_pts": 3.3
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Sacramento St. @ Ball St.",
+            "market": "Spread",
+            "pick": "Sacramento St. +14.5 (-112)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -112,
+            "result": "loss",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Bowling Green @ Buffalo",
+            "market": "Spread",
+            "pick": "Bowling Green +3 (-112)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -112,
+            "result": "loss",
+            "basis": "price read \u2014 no model edge",
+            "model_gap_pts": 3.2
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Texas A&M @ Alabama",
+            "market": "Spread",
+            "pick": "Alabama -13.5 (-112)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -112,
+            "result": "loss",
+            "basis": "CFB model side (model-vs-line gap <= 3 pts) \u2014 unvalidated, below breakeven in backtest; confidence is market-implied (DK no-vig), not a model probability",
+            "model_gap_pts": 2.3
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Michigan St. @ UCLA",
+            "market": "Spread",
+            "pick": "Michigan St. +16.5 (-112)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -112,
+            "result": "loss",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Boston College @ Georgia Tech",
+            "market": "Spread",
+            "pick": "Georgia Tech -6.5 (-108)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -108,
+            "result": "loss",
+            "basis": "CFB model side (model-vs-line gap <= 3 pts) \u2014 unvalidated, below breakeven in backtest; confidence is market-implied (DK no-vig), not a model probability",
+            "model_gap_pts": 2.5
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Oklahoma @ Mississippi St.",
+            "market": "Spread",
+            "pick": "Oklahoma -1.5 (-112)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -112,
+            "result": "win",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "Louisiana-Monroe @ TROY",
+            "market": "Spread",
+            "pick": "TROY -12.5 (-112)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -112,
+            "result": "loss",
+            "basis": "price read \u2014 no model edge"
+          },
+          {
+            "sport": "CFB",
+            "matchup": "San Jose State @ Nevada",
+            "market": "Spread",
+            "pick": "Nevada -5.5 (-112)",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -112,
+            "result": "win",
+            "basis": "CFB model side (model-vs-line gap <= 3 pts) \u2014 unvalidated, below breakeven in backtest; confidence is market-implied (DK no-vig), not a model probability",
+            "model_gap_pts": 0.3
+          },
+          {
+            "sport": "NHL",
+            "matchup": "San Jose Sharks @ Boston Bruins",
+            "market": "Moneyline",
+            "pick": "Boston Bruins -192",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -192,
+            "result": "win",
+            "note": "goalies projected, not confirmed: BOS Jeremy Swayman (proj., GSAx/60 +0.26, 235 GP 21-26); SJS Yaroslav Askarov (proj., GSAx/60 -0.20, 63 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Toronto Maple Leafs @ Edmonton Oilers",
+            "market": "Moneyline",
+            "pick": "Edmonton Oilers -166",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -166,
+            "result": "loss",
+            "note": "goalies projected, not confirmed: EDM Frederik Andersen (proj., GSAx/60 +0.14, 159 GP 21-26); TOR Sergei Bobrovsky (proj., GSAx/60 +0.04, 268 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Carolina Hurricanes @ St. Louis Blues",
+            "market": "Moneyline",
+            "pick": "Carolina Hurricanes -155",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -155,
+            "result": "win",
+            "note": "goalies projected, not confirmed: STL Joel Hofer (proj., GSAx/60 +0.13, 115 GP 21-26); CAR Brandon Bussi (proj., GSAx/60 +0.03, 39 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Anaheim Ducks @ Philadelphia Flyers",
+            "market": "Moneyline",
+            "pick": "Philadelphia Flyers -122",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -122,
+            "result": "loss",
+            "note": "goalies projected, not confirmed: PHI Dan Vladar (proj., GSAx/60 +0.06, 152 GP 21-26); ANA Lukas Dostal (proj., GSAx/60 +0.03, 177 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Buffalo Sabres @ Washington Capitals",
+            "market": "Moneyline",
+            "pick": "Washington Capitals -125",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -125,
+            "result": "win",
+            "note": "goalies projected, not confirmed: WSH Logan Thompson (proj., GSAx/60 +0.35, 203 GP 21-26); BUF Alex Lyon (proj., GSAx/60 +0.18, 127 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Minnesota Wild @ Seattle Kraken",
+            "market": "Moneyline",
+            "pick": "Minnesota Wild -155",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -155,
+            "result": "win",
+            "note": "goalies projected, not confirmed: SEA Joey Daccord (proj., GSAx/60 +0.05, 164 GP 21-26); MIN Filip Gustavsson (proj., GSAx/60 +0.10, 210 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "Nashville Predators @ Pittsburgh Penguins",
+            "market": "Moneyline",
+            "pick": "Pittsburgh Penguins -125",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -125,
+            "result": "win",
+            "note": "goalies projected, not confirmed: PIT Arturs Silovs (proj., GSAx/60 -0.24, 58 GP 21-26); NSH Juuse Saros (proj., GSAx/60 +0.01, 312 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          },
+          {
+            "sport": "NHL",
+            "matchup": "New York Rangers @ Ottawa Senators",
+            "market": "Moneyline",
+            "pick": "Ottawa Senators -125",
+            "tier": "lean",
+            "stake": 0.5,
+            "odds": -125,
+            "result": "win",
+            "note": "goalies projected, not confirmed: OTT Linus Ullmark (proj., GSAx/60 +0.10, 223 GP 21-26); NYR Igor Shesterkin (proj., GSAx/60 +0.36, 278 GP 21-26)",
+            "basis": "same-day composite \u2014 unvalidated, no backtest"
+          }
+        ]
+      },
+      "player_props": {
+        "wins": 6,
+        "losses": 10,
+        "pushes": 0,
+        "units": -2.77,
+        "picks": [
+          {
+            "player": "V. Arvidsson",
+            "market": "Assists O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -190,
+            "result": "win"
+          },
+          {
+            "player": "D. Cozens",
+            "market": "Assists O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -185,
+            "result": "loss"
+          },
+          {
+            "player": "B. Clarke",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -155,
+            "result": "win"
+          },
+          {
+            "player": "V. Edgecombe",
+            "market": "Assists O/U 2.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -154,
+            "result": "loss"
+          },
+          {
+            "player": "W. Smith",
+            "market": "Shots on Goal O/U 2.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -135,
+            "result": "loss"
+          },
+          {
+            "player": "K. Johnson",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -130,
+            "result": "loss"
+          },
+          {
+            "player": "T. Murphy III",
+            "market": "Points O/U 15.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -119,
+            "result": "win"
+          },
+          {
+            "player": "Z. Benson",
+            "market": "Points O/U 0.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -115,
+            "result": "loss"
+          },
+          {
+            "player": "D. Daniels",
+            "market": "Pts+Reb+Ast O/U 22.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -104,
+            "result": "win"
+          },
+          {
+            "player": "J. Jaquez Jr.",
+            "market": "Points O/U 14.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": -102,
+            "result": "win"
+          },
+          {
+            "player": "J. Murray",
+            "market": "Rebounds O/U 4.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 110,
+            "result": "loss"
+          },
+          {
+            "player": "K. Durant",
+            "market": "Assists O/U 4.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 114,
+            "result": "loss"
+          },
+          {
+            "player": "P. Buchnevich",
+            "market": "Points O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 115,
+            "result": "loss"
+          },
+          {
+            "player": "T. Novak",
+            "market": "Shots on Goal O/U 1.5",
+            "pick": "Under",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 120,
+            "result": "loss"
+          },
+          {
+            "player": "M. Zuccarello",
+            "market": "Assists O/U 0.5",
+            "pick": "Over",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 145,
+            "result": "loss"
+          },
+          {
+            "player": "B. Point",
+            "market": "Anytime Goal",
+            "pick": "Yes",
+            "tier": "lean",
+            "stake": 0.75,
+            "odds": 235,
+            "result": "win"
+          }
+        ]
+      },
+      "parlays": [
+        {
+          "legs": 3,
+          "odds": "+287",
+          "result": "loss",
+          "stake": 0.5,
+          "units": -0.5
+        }
+      ]
     }
   ]
 }

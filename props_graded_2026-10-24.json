@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-24",
+  "fully_graded": true,
+  "picks": [
+    {
+      "player": "V. Arvidsson",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -190,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "D. Cozens",
+      "market": "Assists O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -185,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "B. Clarke",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -155,
+      "actual": 0.0,
+      "result": "win"
+    },
+    {
+      "player": "V. Edgecombe",
+      "market": "Assists O/U 2.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -154,
+      "actual": 2.0,
+      "result": "loss"
+    },
+    {
+      "player": "W. Smith",
+      "market": "Shots on Goal O/U 2.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -135,
+      "actual": 5.0,
+      "result": "loss"
+    },
+    {
+      "player": "K. Johnson",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -130,
+      "actual": 2.0,
+      "result": "loss"
+    },
+    {
+      "player": "T. Murphy III",
+      "market": "Points O/U 15.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -119,
+      "actual": 26.0,
+      "result": "win"
+    },
+    {
+      "player": "Z. Benson",
+      "market": "Points O/U 0.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -115,
+      "actual": 1.0,
+      "result": "loss"
+    },
+    {
+      "player": "D. Daniels",
+      "market": "Pts+Reb+Ast O/U 22.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -104,
+      "actual": 29.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Jaquez Jr.",
+      "market": "Points O/U 14.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": -102,
+      "actual": 21.0,
+      "result": "win"
+    },
+    {
+      "player": "J. Murray",
+      "market": "Rebounds O/U 4.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 110,
+      "actual": 3.0,
+      "result": "loss"
+    },
+    {
+      "player": "K. Durant",
+      "market": "Assists O/U 4.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 114,
+      "actual": 2.0,
+      "result": "loss"
+    },
+    {
+      "player": "P. Buchnevich",
+      "market": "Points O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 115,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "T. Novak",
+      "market": "Shots on Goal O/U 1.5",
+      "pick": "Under",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 120,
+      "actual": 2.0,
+      "result": "loss"
+    },
+    {
+      "player": "M. Zuccarello",
+      "market": "Assists O/U 0.5",
+      "pick": "Over",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 145,
+      "actual": 0.0,
+      "result": "loss"
+    },
+    {
+      "player": "B. Point",
+      "market": "Anytime Goal",
+      "pick": "Yes",
+      "tier": "lean",
+      "stake": 0.75,
+      "odds": 235,
+      "actual": 1.0,
+      "result": "win"
+    }
+  ],
+  "parlays": [
+    {
+      "legs": 3,
+      "odds": "+287",
+      "result": "loss"
+    }
+  ],
+  "unresolved": []
+}
